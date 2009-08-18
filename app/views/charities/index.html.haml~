@@ -1,0 +1,97 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+			    <li class="active"><a href="#">NonProfits</a></li>
+			    <li><a href="#">Fundraisers</a></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+				<h3 class="center">Search Nonprofits:</h3>
+				<form action="" method="post" class="simple-search">
+					<div class="cl">&nbsp;</div>
+					<input type="text" class="field" />
+					<input type="submit" class="button" value="Go" />
+					<div class="cl">&nbsp;</div>
+				</form>
+				<!-- Find Friends -->
+				<div class="shbox" style="margin-top: 5px;">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg bg-blue">
+							<h3>Filter Nonprofits:</h3>
+							<div class="filters">
+								<ul>
+								    <li class="t">Rating</li>
+								    <li class="left"><label><input type="checkbox" class="check" />5</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />4</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />3</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />2</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />1</label></li>
+								</ul>
+								<div class="cl">&nbsp;</div>
+								<ul>
+								    <li class="t">Cause</li>
+								    <li><label><input type="checkbox" class="check" />Arts, Culture...</label></li>
+								    <li><label><input type="checkbox" class="check" />Education...</label></li>
+								    <li><label><input type="checkbox" class="check" />Youth...</label></li>
+								</ul>
+								<ul>
+								    <li>
+								    	<strong>Proximity</strong>
+								    	<input type="text" class="field" />
+								    	<input type="button" class="button" value="Go" />
+								    </li>
+								    <li class="left"><label><input type="checkbox" class="check" />5mi. </label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />10mi. </label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />20mi. </label></li>
+								</ul>
+								<div class="cl">&nbsp;</div>
+								<ul>
+								    <li class="t">Program Scope</li>
+								    <li><label><input type="checkbox" class="check" />International</label></li>
+								    <li><label><input type="checkbox" class="check" />National</label></li>
+								    <li><label><input type="checkbox" class="check" />Regional</label></li>
+								</ul>
+								<ul>
+								    <li class="t">Organizational Income</li>
+								    <li class="left"><label><input type="checkbox" class="check" />&lt;250K</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />250K-1MIL</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />1-5MIL</label></li>
+								    <li class="left"><label><input type="checkbox" class="check" />&gt;5MIL</label></li>
+								</ul>
+								<div class="cl">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+			</div>
+			<div class="main-side-a second-main-side" style="width: 500px;">
+				<h3 class="block-title" style="width: 100%; margin-bottom: 5px;"><a href="#" class="rss">rss</a><span class="page-results">1-10 of <%= @charities.length %></span>Browse NonProfits</h3>
+				<p><small>Sort Charities By:<br /> <a href="#">Most Recent Feedback</a> <a href="#">Highest Rated</a> Most Popular: <a href="#">Today</a> <a href="#">This Week</a> <a href="#">This Month</a> <a href="#">All Time</a></small></p>
+				<div class="profile">
+					<div class="cl">&nbsp;</div>
+					  <%= render(:partial => 'browse/charity', :collection => @charities) %>
+					<div class="right-side">
+            <%= render(:partial => 'browse/activity', :collection => @latest_activity %>
+						<!-- END Find Friends -->
+					</div>
+					<div class="cl">&nbsp;</div>
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

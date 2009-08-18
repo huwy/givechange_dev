@@ -1,0 +1,36 @@
+</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- Footer -->
+	<div id="footer">
+		<div class="cl">&nbsp;</div>
+		<ul>
+		    <li><strong>Follow Us</strong></li>
+		    <li><a href="#">Twitter	</a></li>
+		    <li><a href="#">Facebook</a></li>
+		    <li><a href="#">Blog</a></li>
+		</ul>
+		<ul>
+		    <li><strong>Company</strong></li>
+		    <li><a href="#">About</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		    <li><a href="#">Jobs</a></li>
+		    <li><a href="#">Terms &amp; Conditions</a></li>
+		    <li><a href="#">Privacy</a></li>
+		</ul>
+		<ul>
+		    <li><strong>Learn More</strong></li>
+		    <li><a href="#">Press</a></li>
+		    <li><a href="#">FAQ</a></li>
+		</ul>
+		<ul class="last">
+			<li><strong>Charities</strong></li>
+		    <li><a href="#">GiveChange for Charities</a></li>
+		    <li>&nbsp;</li>
+		    <li><a href="#">Venues &amp; Promoters</a></li>
+		    <li><a href="#">GiveChange for Venues &amp; Promoter</a></li>
+		</ul>
+		<div class="cl">&nbsp;</div>
+	</div>
+<!-- END Footer -->

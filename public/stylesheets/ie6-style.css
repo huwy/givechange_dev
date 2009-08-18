@@ -1,0 +1,7 @@
+#logo a { background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/logo.png', sizingMethod='image'); }
+#main-top { background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/main-top.png', sizingMethod='image'); }
+#main-bot { background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/main-bot.png', sizingMethod='image'); }
+#main-cnt { background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/main-cnt.png', sizingMethod='scale'); height: 500px; }
+
+.field { padding: 2px 5px; }
+.filters ul li.left { margin-right: 1px; }

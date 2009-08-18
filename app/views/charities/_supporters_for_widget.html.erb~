@@ -1,0 +1,5 @@
+<% donors = charity.findRandomDonors(5) %>
+<% for donor in donors %>
+  <%= image_tag(donor.avatar_photo_url, :size => "150x150") %>
+<% end %>
+

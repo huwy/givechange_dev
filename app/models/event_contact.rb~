@@ -1,0 +1,5 @@
+class EventContact < Contact
+
+  Belongs_to :Event
+
+end

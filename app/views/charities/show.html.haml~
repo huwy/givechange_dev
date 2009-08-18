@@ -1,0 +1,31 @@
+- @section = 'charity'
+
+#yui-main
+  .yui-b.box
+    %h3= @charity.name
+    - if @charity.user.eql?(current_user)
+      = link_to :edit_charity.l, edit_charity_path(@charity)
+      |
+      = link_to(:delete_this_charity.l, charity_path(@charity), {:method => :delete, :confirm => :permanently_delete_this_event.l})
+    %br
+
+    %br
+    = image_tag( @charity.portrait_photo_url(:medium) )
+    %br
+    %p
+    = @charity.mission
+    %p
+    = @charity.programs
+    
+    = link_to :back.l, charities_url
+#yui-b
+  %br
+  %br
+  %br
+  %br
+  = @total_donations_amount
+- form_tag :controller => 'charities', :action => 'donate', :id => @charity, :method => "POST", :multipart =>true, :class => 'MainForm' do
+  %label= :amount.l
+  = text_field :donation, :amount
+  %p= submit_tag :donate.l
+

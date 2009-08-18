@@ -1,0 +1,2 @@
+<h3>Enter Email:</h3>
+<%= text_field_tag 'email' %>

@@ -1,0 +1,9 @@
+<table>
+  <% for cause in @causes %>
+    <tr>
+      <td><%= cause.cause %></td>
+      <td><%= link_to 'Add', :action => 'addCause(cause)' %></td>
+      <td><%= link_to 'Remove', :action => 'removeCause(charity, cause)' %></td>
+    </tr>
+  <% end %>
+</table>

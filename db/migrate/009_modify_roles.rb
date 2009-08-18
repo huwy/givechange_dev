@@ -1,0 +1,21 @@
+class ModifyRoles < ActiveRecord::Migration
+  def self.up
+    drop_table :roles
+    create_table :roles do |t|
+      t.column :name, :string
+    end
+
+    Role.enumeration_model_updates_permitted = true
+    Role.create(:name => 'admin')
+    Role.create(:name => 'moderator')    
+    Role.create(:name => 'charity')
+    Role.create(:name => 'promoter')
+    Role.create(:name => 'member')                 
+    Role.enumeration_model_updates_permitted = false
+
+  end
+
+  def self.down
+    drop_table :roles
+  end
+end

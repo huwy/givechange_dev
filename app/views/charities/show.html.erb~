@@ -1,0 +1,49 @@
+<!-- Main -->
+	<div id="main">
+		<div id="main-top">&nbsp;</div>
+		<div id="main-cnt">
+			<div id="venue-profile">
+				<div class="cl">&nbsp;</div>
+				<h2><%= @charity.name.capitalize %></h2>
+				<div class="cl">&nbsp;</div>
+				<div class="info-side">
+					<div class="holder">&nbsp;</div>
+					<div class="info">
+						<p><%= @charity.address %><br /><%= @charity.city %>, <%= @charity.state %> <%= @charity.zipcode %><br /><%= link_to( truncate(@charity.homepage_url, :length => 24), @charity.homepage_url ) %></p>
+						<a href="#" class="mbutton mbutton-green"><span class="line">&nbsp;</span>Give Now</a>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+				<div class="main-side main-side-tabbed">
+					<div id="maintabs">
+						<div class="cl">&nbsp;</div>
+						<ul>
+						    <li class="active"><%= link_to("General Info", give_non_profit_url(params[:id])) %></li>
+						    <li><%= link_to("Supporters", give_non_profit_supporters_url(:id)) %></li>
+						    <li><%= link_to("Photos/Videos", give_non_profit_media_url(:id)) %></li>
+						    <li><%= link_to("Needs/Offers", give_non_profit_offers_url(:id)) %></li>
+						    <li><%= link_to("Updates", give_non_profit_updates_url(:id)) %></li>
+						</ul>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<div class="top">
+						<h4>Mission:</h4>
+						<p><%= @charity.mission %></p>
+						<br />
+						<h4>Programs:</h4>
+						<p><%= @charity.programs %></p>
+						<br />
+						<h4>Basic Information:</h4>
+						<p>[information]</p>
+						<br /><br />
+						<h4>Key Staff:</h4>
+						<p>[information]</p>
+					</div>
+					<div class="bot">&nbsp;</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+			</div>
+		</div>
+		<div id="main-bot">&nbsp;</div>
+	</div>
+	<!-- END Main -->

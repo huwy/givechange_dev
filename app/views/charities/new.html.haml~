@@ -1,0 +1,29 @@
+<h3> <%= new_charity.l %>
+<% error_messages_for :charity %>
+
+<% form_tag charities_url, :method => "POST", :multipart =>true, :class => 'MainForm' do %>
+  <%= :name.l %>
+  <%= text_field :charity, :name %>
+  
+  <%= :contact_email.l %>
+  <%= text_field :contact, :email %>
+  <%= :contact_position.l %>
+  <%= text_field :contact, :position %>  
+  
+  <%= :choose_a_logo_or_photo_for_your_charity.l %>
+  <%= file_field :portrait, :uploaded_data %>
+
+  <%= :charity_mission.l %>
+  <%= text_area :charity, :mission, :size => "69x10", :class => "rich_text_editor" %>
+
+  <%= :charity_programs.l %>
+  <%= text_area :charity, :programs, :size => "69x10", :class => "rich_text_editor" %>
+  
+  
+  #ajaxWrapper
+  <%= form_tag('javascript:void(0)') 
+          
+  <p>
+  <%= submit_tag :submit_charity.l %>
+
+<%= link_to :back.l, new_charity_path %>

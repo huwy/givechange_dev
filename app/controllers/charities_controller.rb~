@@ -1,0 +1,249 @@
+require 'lib/filters/Filters'
+
+class CharitiesController < BaseController
+
+
+  uses_tiny_mce(:options => AppConfig.default_mce_options, :only => [:new, :edit, :create, :update ])
+    
+  before_filter :charity_required, :only => [:new, :edit, :create, :update]
+  
+  layout 'application_give'
+
+  #sub nav views
+
+  def search_charities
+    max = 50  #max returned charities = 50
+    search = params[:charity_search]
+    charities = Charity.search_by_keyword(search, max)
+  end
+
+  def filter_charities
+    #Collect all params:
+    if (params[:zipcode] != "") && (params[:zipcode].match(/^\d{5}$/))  #if zipcode aint empty, and it's 5 digits long:
+      zipcode = params[:zipcode].to_i
+    else
+      zipcode = 0
+    end
+    if proximity = params[:proximity] 
+      proximity= proximity.collect {|x| x.to_i }.sort {|x,y| y <=> x } #to_i and sorted DESC
+      proximity = proximity[0]
+    else
+      proximity = 0
+    end
+    if scopes = params[:scope]
+      scopes = scopes.collect {|s| s = s.to_i } #turn em into integers
+    else
+      scopes = []
+    end
+    if income = params[:income]
+      income.collect {|x| x.to_i }.sort {|x,y| y <=> x } #to_i and sorted DESC
+      income = income[0].to_i
+    else
+      income = 0
+    end
+    if ratings = params[:rating]
+      #turn strings => ints
+      ratings_int = []      
+      ratings.each {|r| ratings_int << r.to_i}
+      ratings = ratings_int
+    else
+      ratings = []
+    end
+    if categories = params[:category]
+      #turn strings => ints
+      categories_int = []      
+      categories.each {|c| categories_int << c.to_i}
+      categories = categories_int
+    else
+      categories = []
+    end
+    puts "zipcode: #{zipcode}\nproximity: #{proximity}\nscopes: #{scopes.inspect}\nincome: #{income}\nratings: #{ratings.inspect}\ncategories: #{categories.inspect}"
+    @charities = filter_charities_helper(zipcode, proximity, scopes, income, ratings, categories)
+    puts "And the filtered charities are:\n"
+    @charities.each {|c| puts c.name}
+  end
+
+  def index
+    @is_admin_user = (current_user && current_user.admin?)
+    @charities = Charity.find(:all)
+    @latest_activity = Contribution.get_latest_activity(3)   
+    @categories_for_filter = Category.find(:all, :limit => 5)
+    @categories = Category.find(:all) 
+  end
+
+  def charity_updates
+    @charity = Charity.find(params[:id])
+  end
+
+  def needs_offers
+    @charity = Charity.find(params[:id])
+  end
+
+  def supporters
+    @charity = Charity.find(params[:id])
+    @contributors = @charity.get_all_contributors
+  end
+
+  def photos_videos
+    @charity = Charity.find(params[:id])
+    @image_count = CharityImage.find(:all, :conditions=> ['charity_id=?',@charity.id]).length
+    @images = CharityImage.paginate(:conditions => ["charity_id=?",@charity.id], 
+                                    :page => params[:page], 
+                                    :per_page => 12, 
+                                    :order => 'created_at DESC')
+    #TODO add video array    
+  end
+
+  # GET /charities/1
+  # GET /charities/1.xml
+  def show
+    @charity = Charity.find(params[:id])
+  end
+
+  # GET /charities/new
+  # GET /charities/new.xml
+  def new
+    @user = current_user
+    @causes = Cause.find(:all)
+    @charity = Charity.new
+    @portrait = CharityImage.new
+  end
+
+    # POST /charities
+  # POST /charities.xml
+  def create
+    @user = current_user
+    @charity = Charity.new(params[:charity])
+    @charity.user = @user
+    @charity.portrait = CharityImage.new(params[:portrait])
+    @charity.portrait.charity = @charity
+    @contact = CharityContact.new(params[:contact])
+    @contact.add_attributes(@charity)
+        
+    respond_to do |format|
+      if @charity.save
+       flash[:notice] = 'Charity was successfully created.'
+       format.html { redirect_to charity_url(@charity) }
+      else
+        format.html { render :action => "new" }
+      end
+    end
+
+  end
+  
+  # GET /charities/1/edit
+  def edit
+    @charity = Charity.find(params[:id])
+    @contacts = @charity.contacts
+  end
+
+  # PUT /charities/1
+  # PUT /charities/1.xml
+  def update
+    @charity = Charity.find(params[:id])
+    
+    if params[:portrait]
+      @portrait= CharityImage.new(params[:portrait])
+      @portrait.charity  = @charity
+      @charity.portrait  = @portrait if @portrait.save
+    end   
+
+    respond_to do |format|    
+      if @charity.update_attributes(params[:charity])
+        flash[:notice] = 'Charity was successfully updated.'
+        format.html{ redirect_to charity_url(@charity) }
+      else
+        format.html { render :action => "edit" }
+      end
+   end
+  end
+      
+  def destroy
+    @charity = Charity.find(params[:id])
+    @charity.destroy
+
+    respond_to do |format|
+      flash[:notice] = 'Event was successfully deleted.'
+      format.html { redirect_to charities_url }
+    end
+  end
+
+  def filter_charities_helper(zipcode, proximity, scopes, income, ratings, categories)
+    filtered = FALSE
+    results = []    
+  ####ANY ZIPCODE TO FILTER?####
+    if zipcode != 0
+      filtered = TRUE
+      unless results.empty? #unless the results array is empty, filter the array
+        results = Filters.filter_for_zipcode(results, zipcode, proximity)
+      else #results array is empty, so filter all venues
+        results = Filters.filter_for_zipcode(Charity.find(:all), zipcode, proximity)
+      end
+    end
+  ####ANY SCOPES TO FILTER?####
+    if !scopes.empty?  
+      filtered = TRUE
+      unless results.empty? #unless the results array is empty, filter the array
+        results = Filters.filter_charities_by_scope(scopes, results) 
+      else #results array is empty, so filter all charities
+        results = Filters.filter_charities_by_scope(scopes, []) 
+      end
+    end
+  ####FILTER BY INCOME?#####
+    if income != 0
+      filtered = TRUE
+      case income
+        when 1
+          unless results.empty? #unless the results array is empty, filter the array
+            results = Filters.filter_charities_by_organizational_income(results, 250000)
+          else #results array is empty, so filter all venues
+            results = Filters.filter_charities_by_organizational_income(Charity.find(:all), 250000)
+          end
+        when 2
+          unless results.empty? #unless the results array is empty, filter the array
+            results = Filters.filter_charities_by_organizational_income(results, 1000000)
+          else #results array is empty, so filter all venues
+            results = Filters.filter_charities_by_organizational_income(Charity.find(:all), 1000000)   
+          end
+        when 3
+          unless results.empty? #unless the results array is empty, filter the array
+            results = Filters.filter_charities_by_organizational_income(results, 5000000)
+          else #results array is empty, so filter all venues
+            results = Filters.filter_charities_by_organizational_income(Charity.find(:all), 5000000)
+          end   
+        else
+          unless results.empty? #unless the results array is empty, filter the array
+            results = Filters.return_array_of_similar_elements(Charity.find(:all), results)
+          else #results array is empty, so filter all venues
+            results = Charity.find(:all)  
+          end
+      end
+    end
+    ####FILTER BY RATINGS?####
+    if !ratings.empty? 
+      filtered = TRUE
+      unless results.empty? #unless the results array is empty, filter the array
+        results = Filters.filter_charities_by_rating(results, ratings)
+      else #results array is empty, so filter all venues
+        results = Filters.filter_charities_by_rating([], ratings)
+      end
+    end
+    ####FILTER BY CATEGORIES####
+    if !categories.empty?
+      filtered = TRUE
+      unless results.empty? #unless the results array is empty, filter the array
+        results = Filters.filter_charities_by_category(results, categories)
+      else #results array is empty, so filter all venues
+        results = Filters.filter_charities_by_category([], categories)
+      end
+    end      
+    #in the case that nothing is filtered, return all charities
+    if filtered == FALSE
+      return Charity.find(:all)
+    end
+    results
+  end
+  
+
+end
+

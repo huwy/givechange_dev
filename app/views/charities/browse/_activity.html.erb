@@ -1,0 +1,32 @@
+<!-- Find Friends -->
+<div class="shbox lact" style="margin: 0;">
+	<div class="bg">
+		<h4>Latest Bay Area Activity</h4>
+		<div class="cl">&nbsp;</div>
+		<div class="usr">
+			<div class="holder">&nbsp;</div>
+			<p><%= get_contribution_user(activity[0]).first_name %></p>
+		</div>
+		<div class="separator">
+			<p><%= format_time(activity[0]) %></p>
+		</div>
+		<div class="usr">
+			<div class="holder">&nbsp;</div>
+			<p><%= get_contribution_charity(activity[0]).name %></p>
+		</div>
+		<div class="cl">&nbsp;</div>
+		<div class="usr">
+			<div class="holder">&nbsp;</div>
+			<p><%= get_contribution_user(activity[1]).first_name %></p>
+		</div>
+		<div class="separator">
+			<p><%= format_time(activity[1]) %></p>
+		</div>
+		<div class="usr">
+			<div class="holder">&nbsp;</div>
+			<p><%= get_contribution_charity(activity[1]).name %></p>
+		</div>
+		<div class="cl">&nbsp;</div>
+		<br /><br /><br /><br />
+	</div>
+</div>

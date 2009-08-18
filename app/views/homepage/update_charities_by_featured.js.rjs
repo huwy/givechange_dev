@@ -1,0 +1,1 @@
+page.replace_html("charity_list", :partial=> 'charities/charity', :collection => @charities)

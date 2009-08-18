@@ -1,0 +1,137 @@
+class CausesController < ApplicationController
+
+
+  # GET /causes
+  # GET /causes.xml
+  
+  def index
+    list
+    render :action => 'list'
+  end
+  
+  def list
+    @search = ""
+    @causes = Cause.find(:all,
+                         :page)
+  end
+  
+  def refresh_list
+    @causes = Cause.find(:all, 
+                         :page)
+    render(:partial => 'users')
+  end
+
+  # GET /causes/1
+  # GET /causes/1.xml
+  def show
+    @cause = Cause.find(params[:id])
+    #@charities = @cause.charities.find(:all)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @cause }
+    end
+  end
+
+  # GET /causes/new
+  # GET /causes/new.xml
+  def new
+    @cause = Cause.new
+
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @cause }
+    end
+  end
+
+  # GET /causes/1/edit
+  def edit
+    @cause = Cause.find(params[:id])
+  end
+
+  # POST /causes
+  # POST /causes.xml
+  def create
+    @cause = Cause.new(params[:cause])
+    respond_to do |format|
+      if @cause.save
+        flash[:notice] = 'Cause was successfully created.'
+        format.html { redirect_to(causes_url) }
+      else
+        format.html { render :action => "new" }
+      end
+    end
+  end
+
+  # PUT /causes/1
+  # PUT /causes/1.xml
+  def update
+    @cause = Cause.find(params[:id])
+
+    respond_to do |format|
+      if @cause.update_attributes(params[:cause])
+        flash[:notice] = 'Cause was successfully updated.'
+        format.html { redirect_to(@cause) }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @cause.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /causes/1
+  # DELETE /causes/1.xml
+  def destroy
+    @cause = Cause.find(params[:id])
+    @cause.destroy
+
+    respond_to do |format|
+      format.html { redirect_to(causes_url) }
+      format.xml  { head :ok }
+    end
+  end
+  
+  def search
+    unless params[:search].blank?
+      @causes= Cause.find(:all,
+                          :page,
+                          :order => order_from_params,
+                          :conditions => Cause.conditions_by_like(params[:search])
+                          )
+    else
+      puts "in search method, but params blank"
+      list
+    end
+    render :partial=> 'search', :layout => false 
+  end
+  
+  def searchDemo
+    list
+  end
+  
+  def conditions_by_like(value, *columns)
+    columns = self.user_columns if columns.size==0
+    columns = columns[0] if columns[0].kind_of?(Array)
+    conditions = columns.map {|c|
+      c = c.name if c.kind_of? ActiveRecord::ConnectionAdapters::Column
+      "`#{c}` LIKE " + ActiveRecord::Base.connection.quote("%#{value}%")
+    }.join(" OR ")
+  end
+  
+  private
+  
+  def order_from_params
+    if params[:form_sort] && params[:form_sort].size > 0
+      params[:form_sort].downcase.split(",").map { |x| 
+        x.tr(" ", "_")
+      }.join(" ")
+    else
+      "cause"
+    end
+  end
+  
+
+  
+end

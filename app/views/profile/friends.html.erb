@@ -1,0 +1,104 @@
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+				    <li><%= link_to("general", profile_url(params[:id]) %></li>
+				    <li><%= link_to("charity updates", profile_nonprofit_updates_url(params[:id]) %></li>
+				    <li><%= link_to("account history", profile_account_history_url(params[:id]) %></li>
+				    <li class="active"><%= link_to("friends", profile_friends_url(params[:id]) %></li>
+				    <li><%= link_to("venues", profile_venues_url(params[:id]) %></li>
+				    <li><%= link_to("inbox", profile_inbox_url(params[:id]) %></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+        <% if @friends.empty? %>        
+  			  <h3 class="block-title" style="margin-bottom: 10px;"><span class="page-results">No Friends to Display</span>My Friends</h3>
+        <% elsif @friends.length > 10 %>
+  			  <h3 class="block-title" style="margin-bottom: 10px;"><span class="page-results">1-10 of <%= @friends.length %></span>My Friends</h3>
+        <% else %>
+  			  <h3 class="block-title" style="margin-bottom: 10px;"><span class="page-results">1-<%= @friends.length %> of <%= @friends.length %></span>My Friends</h3>
+        <% end %>
+			<div class="main-side-a first-main-side">
+				<% if @friends.empty? %>
+          <div class="simple-article">
+					  <div class="cl">&nbsp;</div>
+					  <div class="content">
+					    <div class="cl">&nbsp;</div>
+            </div>
+					  <div class="cl">&nbsp;</div>
+					</div>
+          <%= render(:partial=> 'shared/empty_main_side_a_first_main_side') %>
+        <% else %>
+          <%= render(:partial=> 'friend', :collection=> @friends) %>
+        <% end %>
+			</div>
+			<div class="main-side-b">
+				<!-- Find Friends -->
+				<div class="shbox findfriends">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg">
+							<p>Are your friends already<br /> on GiveChange?</p>
+							<form action="" method="post">
+								<div class="cl">&nbsp;</div>
+								<label>Your Email:</label>
+								<input type="text" class="field" />
+								<div class="cl">&nbsp;</div>
+								<label>Password:</label>
+								<input type="text" class="field" />
+								<input type="submit" class="button" value="Find Friends" />
+								<div class="cl">&nbsp;</div>
+							</form>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->
+				<!-- Find Friends -->
+				<div class="shbox peoplelikeme">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg">
+							<h3>People Like Me</h3>
+							<div class="article">
+								<div class="cl">&nbsp;</div>
+								<div class="holder image">&nbsp;</div>
+								<div class="info">
+									<p>[information]</p>
+								</div>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<div class="article">
+								<div class="cl">&nbsp;</div>
+								<div class="holder image">&nbsp;</div>
+								<div class="info">
+									<p>[information]</p>
+								</div>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<div class="article">
+								<div class="cl">&nbsp;</div>
+								<div class="holder image">&nbsp;</div>
+								<div class="info">
+									<p>[information]</p>
+								</div>
+								<div class="cl">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

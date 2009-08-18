@@ -1,0 +1,37 @@
+<% form_tag charity_url(@charity), :method => 'put', :multipart =>true, :class => 'MainForm' do %>
+<p><%= submit_tag :update.l %> </p>
+#yui-b
+  <p>
+  #profile_details.box
+    <h3><%= :charity_image.l %>
+    <% = image_tag( @charity.portrait_photo_url(:medium) ) %>
+    <label><%= :change_the_image_for_your_charity.l %></label>
+    <%= file_field :portrait, :uploaded_data, :size => "20" %>
+  %label = :contact_email.l
+  = text_field :contact, :email
+  %label = :contact_position.l
+  = text_field :contact, :position  
+
+.box
+  %h3= :edit_charity_info.l
+  = error_messages_for :event
+
+  = link_to(:delete_this_charity.l, charity_url(@charity), {:method => :delete, :confirm => :permanently_delete_this_charity.l})
+    
+    %label= :name.l
+    = text_field :charity, :name
+    %label= :charity_mission.l
+    = text_area :charity, :mission, :size => "69x10", :class => "rich_text_editor"
+
+    %label= :charity_programs.l
+    = text_area :charity, :programs, :size => "69x10", :class => "rich_text_editor"
+    
+      <label><h3>Add this charity to Causes:</h3></label>
+  <% form_tag('javascript:void(0)') do %>
+  <div id='ajaxWrapper'>
+    <%= render :partial => 'searchCauses' %>
+  </div>
+    
+    %p= submit_tag :update.l
+
+    = link_to :back.l, charity_path

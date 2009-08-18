@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html>
+<head>
+  	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  	<title>archive | <%= yield(:head_title) || "#{h controller.controller_name.capitalize}: #{controller.action_name}" %>
+  	</title>
+
+	<%= javascript_include_tag :defaults %>
+	<%= javascript_include_tag '/yui/build/yahoo-dom-event/yahoo-dom-event' %>
+
+	<%= stylesheet_link_tag '/yui/build/reset-fonts-grids/reset-fonts-grids.css' %>
+	<%= stylesheet_link_tag 'widget_cleaned_up' %>
+	<%= stylesheet_link_tag 'application' %>
+
+	<!-- <%= yield :head %> -->
+</head>
+<!--<body class="yui-skin-sam"> -->
+<div id="doc">
+	<%= yield  %>
+</div>
+
+<!-- <%= yield :js %> -->
+
+</body>
+</html>
+

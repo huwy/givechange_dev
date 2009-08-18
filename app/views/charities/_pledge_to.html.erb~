@@ -1,0 +1,6 @@
+<h1> Pledge to: </h1>
+<%= check_box_tag 'volunteer', ' ' %> 
+</br>
+</br>
+<%= check_box_tag 'pledgeOneDollar', ' ' %>
+

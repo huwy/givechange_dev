@@ -1,0 +1,43 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="venue-profile">
+			<div class="cl">&nbsp;</div>
+			<div class="quote">
+				<p>“<%= @venue.quotation %>”</p>
+			</div>
+			<h2><%= @venue.name %></h2>
+			<div class="cl">&nbsp;</div>
+        <%= render(:partial => 'info', :object => @venue) %>
+			<div class="main-side">
+				<div class="top">
+					<h3>Photos &amp; Videos</h3>
+					<h4>Photos (9):</h4>
+					<div class="multimedia-list">
+						<div class="cl">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="cl">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="cl">&nbsp;</div>
+						<div class="holder">&nbsp;</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<h4>Videos (1):</h4>
+					<div class="multimedia-list">
+						<div class="holder video-holder">&nbsp;</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>

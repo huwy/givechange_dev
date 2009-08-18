@@ -1,0 +1,11 @@
+class CharityImage < ClassImage
+
+  belongs_to :charity
+  
+  def self.connect_portrait_to_charity(charity_to_connect)
+    self.charity = charity_to_connect
+  end
+    
+    
+  
+end

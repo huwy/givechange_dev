@@ -1,0 +1,14 @@
+<% case tab = @tab %>
+  <% when "give" %>
+    <% render(:partial => 'layouts/header_give' ) %>
+  <% when "profile" %>
+    <% render(:partial => 'layouts/header_profile' ) %>
+  <% when "community" %>
+    <% render(:partial => 'layouts/header_community' ) %>
+  <% when "news" %>
+    <% render(:partial => 'layouts/header_news' ) %>
+  <% when "about" %>
+    <% render(:partial => 'layouts/header_about' ) %>
+  <% else %>
+    <% render(:partial => 'layouts/header_home' ) %>
+<% end %>

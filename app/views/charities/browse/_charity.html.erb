@@ -1,0 +1,26 @@
+<div class="left-side">
+	<div class="image-side">
+		<div class="holder">&nbsp;</div>
+		<p style="color: #ff4000;">$<%= charity.donation_total_amount %></p>
+		<br />
+		<a href="#" class="mbutton mbutton-green"><span class="line">&nbsp;</span>Give Now</a>
+	</div>
+	<div class="info-side">
+		<h3><%= charity.name %></h3> 
+		<p><small><%= cascade_categories(charity) %></small></p>
+		<br />
+		<p style="padding-bottom: 4px; border-bottom: solid 1px #000; margin-bottom: 6px;"><%= charity.city %>, <%= charity.state %>	Regional</p>
+		<p style="padding-bottom: 4px; border-bottom: solid 1px #000; margin-bottom: 6px;">Mission: <%= charity.mission %><br /><br /><br /></p>
+		<!-- <p>Recent Feedback: 7/16</p> -->
+		<div class="slider video-slider">
+			<div class="buttons">
+				<a href="#" class="prev">prev</a>
+				<a href="#" class="next">next</a>
+			</div>
+			<div class="holder">&nbsp;</div>
+		</div>
+		<p><small><%= charity.supporter_count %> Supporters  •  0 Fundraisers </small></p>
+	</div>
+	<div class="cl">&nbsp;</div>
+	<br /><br /><br />
+</div>

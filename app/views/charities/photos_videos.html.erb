@@ -1,0 +1,48 @@
+<!-- Main -->
+	<div id="main">
+		<div id="main-top">&nbsp;</div>
+		<div id="main-cnt">
+			<div id="venue-profile">
+				<div class="cl">&nbsp;</div>
+				<h2><%= @charity.name.capitalize %></h2>
+				<div class="cl">&nbsp;</div>
+				<%= render ( :partial => "charities/info_sidebar", :object => @charity ) %>
+				<div class="main-side main-side-tabbed">
+					<div id="maintabs">
+						<div class="cl">&nbsp;</div>
+						<ul>
+						    <li><a href="#">general info</a></li>
+						    <li><a href="#">supporters</a></li>
+						    <li class="active"><a href="#">Photos/Videos</a></li>
+						    <li><a href="#">Needs/Offers</a></li>
+						    <li><a href="#">Updates</a></li>
+						</ul>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<div class="top">
+            <h4 class="block-title" style="margin-bottom: 10px;"><span class="page-results"><%= will_paginate @images %>
+</span>Photos (<%= @image_count %>)</h4>
+            <br />
+            <% if !@images.empty? %>
+              <h4 class="block-title" style="margin-bottom: 10px;"><span class="page-results">1-10 of 80</span>Videos (80)</h4>
+              <%= render(:partial => 'shared/image_rows', @object => @images) %>
+            <% else %>
+              <h4 class="block-title" style="margin-bottom: 10px;"><span class="page-results"> </span>Videos (0)</h4>
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+						<% end %>
+            <br />
+            <!--
+						<div class="multimedia-list">
+							<div class="holder video-holder">&nbsp;</div>
+							<div class="cl">&nbsp;</div>
+						</div>
+            -->
+					</div>
+          <div class="bot">&nbsp;</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+			</div>
+		</div>
+		<div id="main-bot">&nbsp;</div>
+	</div>
+	<!-- END Main -->

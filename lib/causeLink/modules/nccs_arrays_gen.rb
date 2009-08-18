@@ -1,0 +1,133 @@
+module Nccs_arrays
+
+require 'lib/causeLink/csv_gen.rb'
+
+  ##create headlines and subheadlines arrays
+  def self.create_headlines_and_subheadlines_arrays
+    #create stop_words and boring_words arrays
+    temp = Nccs_arrays.create_stop_words_and_boring_words_arrays("stop_words")
+    stop_words = temp[0]
+    boring_words = temp[1]
+    #create categories array (includes every cat/subcat)
+    categories = Nccs_arrays.read_nccs_file_into_array("nccs_levels")
+    #create headlines array
+    headlines = Nccs_arrays.create_headline_array(categories, stop_words, boring_words)
+    #create subheadlines array
+    subheadlines = Nccs_arrays.create_subheadline_array(categories, stop_words, boring_words)
+    #create csv files for headline and subheadline reference (located in lib/causeLink)
+    CSVGen.create_headlines_csv(headlines)
+    CSVGen.create_subheadlines_csv(subheadlines)
+    [headlines, subheadlines]
+  end
+
+  ##read in stop words from Stop Words file
+  def self.create_stop_words_and_boring_words_arrays(file_name)
+    stop_words = []
+    stop_words_file = File.open(RAILS_ROOT + "/lib/causeLink/#{file_name}").each do |line|
+      if ( line =~ /\w/ )
+        stop_words << line.scan(/\w+/).to_s
+      end
+    end
+    ##these words were created by eyeballing the hierarchy  
+    boring_words = %w{general other programs program services service related provision gifts support case & areas action}
+    array = [stop_words, boring_words]
+  end
+
+  def self.read_nccs_file_into_array(file_name)
+    categories = []
+    categories = File.readlines(RAILS_ROOT + "/lib/causeLink/#{file_name}")
+    #get rid of "\n"
+    count = 0
+    temp_array=[]
+    while count < categories.length
+      temp_array << categories[count].gsub(/\s$/, "")
+      count +=1
+    end
+    categories = temp_array
+  end
+
+  def self.create_headline_array(categories, stop_words, boring_words)
+    #create headlines array for every index in categories with a '.'
+    headlines = categories.select { |line| line =~ /\./ }
+
+    #Clean up headlines_array
+    temp_array = []
+    #for each array in headlines
+    headlines.each do |line|
+      #get rid of punctuation
+      phrase = line.scan(/\w+/)
+      #for each word in phrase, if it isn't included in stop_words or boring_words, select it 
+      temp_array_phrase = []
+      phrase.each do |word|
+        word = word.downcase
+        if !(stop_words.include?(word) || boring_words.include?(word))
+          #add cleaned up phrase to temp_array
+          temp_array_phrase << word
+        end
+      end
+      temp_array << temp_array_phrase
+    end 
+    headlines = temp_array
+    #hack to include stop_words "a" and "i"
+    headlines[0].insert(0,"a")
+    headlines[8].insert(0,"i")
+    #return headlines array
+    headlines
+  end
+
+  def self.create_subheadline_array(categories, stop_words, boring_words)
+    #create subHeadlines array for every index that does not include a '.'
+    subHeadlines = categories.select { |line| !(line =~ /\./) }
+
+    #split subHeadlines array into arrays of subheadlines with corresponding letters[[A......],[B.....],...]
+    letters = %w{A B C D E F G H I J K L M N O P Q R S T U V W X Y Z}
+    count = 0
+    subHeadlines_array = []
+    #create array (subheadlines_array) of arrays for each letter
+    ##create a temp_array for each letter, counting up subHeadlines index
+    ##when subHeadline's index doesn't include the chosen letter, subheadlines_array is appended with temp_array, 
+    ##the next letter is chosen, and temp_array is cleared and populated again.
+    for letter in letters do
+      temp_array = []
+      temp_count = 0
+      while ( subHeadlines[count] =~ /^#{letter}/ ) && ( count < subHeadlines.length )
+        temp_array[temp_count] = subHeadlines[count]
+        count +=1
+        temp_count +=1
+      end
+      subHeadlines_array << temp_array
+    end
+    subHeadlines = []
+    subHeadlines = subHeadlines_array
+
+    #Clean up subheadlines_array (remove punctuation, stop words, boring words)
+    temp_array_by_letter = []
+    subHeadlines.each do |array|
+      temp_array_within_letter = []
+      array.each do |line|  
+        #get rid of punctuation
+        phrase = line.scan(/\w+/)
+        clean_phrase = []
+        phrase.each do |word|
+          word = word.downcase
+          if !stop_words.include?(word) && !boring_words.include?(word)
+            #add cleaned up phrase to temp_array
+            clean_phrase << word
+          end
+        end
+        #add cleaned up phrase to temp_array
+        temp_array_within_letter << clean_phrase
+      end
+      temp_array_by_letter << temp_array_within_letter
+    end
+    subHeadlines = temp_array_by_letter
+  end
+
+  def self.turn_keywords_to_string_without_category(array)
+    keywords = array.join(" ")
+    #get rid of subcat letters and space
+    keywords = keywords.gsub(/\A\w+/, "")
+    keywords = keywords.gsub(/\A./, "")
+  end
+
+end

@@ -1,0 +1,11 @@
+<% case rating when 0 %>
+    <%= image_tag("/images/0star.jpg", :size => "75x20") %>
+  <% when 1 %>
+    <%= image_tag("/images/1star.jpg", :size => "75x20") %>
+  <% when 2 %>
+    <%= image_tag("/images/2star.jpg", :size => "75x20") %>
+  <% when 3 %>
+    <%= image_tag("/images/3star.jpg", :size => "75x20") %>
+  <% else %>
+    <%= image_tag("/images/4star.jpg", :size => "75x20") %>
+<% end %>

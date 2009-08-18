@@ -1,0 +1,1186 @@
+<!-- Some GC Notes:
+      added the js function win1() to the header
+      altered the print link to open the /widget?url=... (search for: <a href="javascript:win1()">giveChange</a>)
+      messed with the "keyword" content tags to include our causes (search for: name="keywords" content=)
+      -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<!--                                Givechange addition                                -->
+<script type="text/javascript" language="javascript">
+function win1() {
+// TODO eventually replace http://localhost:3000/ with http://www.igivechange.org/
+	window.open("http://localhost:3000/widget?url=" + location.href, "Window", "menubar=no,width=430,height=360,toolbar=no");
+}
+</script>
+<!--                               end of Givechange Addition                          -->
+
+<script src="swineFlue_files/common.js" type="text/javascript"></script><script src="swineFlue_files/preloader.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/config.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/cookie.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/console.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/urilist.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/marginfix.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><link rel="stylesheet" type="text/css" href="swineFlue_files/styles.css"><style>html body {padding-top:51px;}</style>
+<script src="swineFlue_files/articleShare.js" type="text/javascript"></script><script src="swineFlue_files/prototype.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/effects.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/articleShareController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/articleShareLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/sendToPhone.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<script src="swineFlue_files/Tacoda_AMS_DDC_Header.js" type="text/javascript"></script>
+<script src="swineFlue_files/fileit.js"></script>
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/DropDown.js"></script>
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/modifyNavigationDisplay.js"></script>
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/altClickToSearch.js"></script>
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/tooltip.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="swineFlue_files/global.css">
+<style type="text/css">
+			@import url(http://graphics8.nytimes.com/css/common/screen/article.css);
+			
+		</style>
+<!--[if IE 7]>
+		<style type="text/css">
+			@import url(http://graphics8.nytimes.com/css/common/screen/ie7.css); 
+			
+		</style>
+		<![endif]-->
+
+
+<title>U.S. Declares Public Health Emergency Over Swine Flu - NYTimes.com</title>
+<meta name="description" content="U.S. health officials said that they had confirmed 20 cases of swine flu in the country and expected to see more as investigators track the path of the outbreak.">
+
+<meta name="keywords" content="">
+
+<meta name="misspelling" content="">
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<meta name="ROBOTS" content="NOARCHIVE">
+
+<meta name="DISPLAYDATE" content="April 27, 2009">
+
+<meta name="hdl" content="U.S. Declares Public Health Emergency Over Swine Flu">
+
+<meta name="hdl_p" content="U.S. Declares Public Health Emergency Over Swine Flu">
+ 
+<meta name="byl" content="By JACK HEALY and SHERYL GAY STOLBERG">
+
+<meta name="lp" content="U.S. health officials said that they had confirmed 20 cases of swine flu in the country and expected to see more as investigators track the path of the outbreak.">
+
+<meta name="cre" content="The New York Times">
+
+<meta name="edt" content="The New York Times on the Web">
+
+<meta name="pdate" content="20090427">
+
+<meta name="ttl" content="">
+ 
+<meta name="virtloc" content="">
+
+<meta name="des" content="Influenza;Pigs;Travel and Vacations">
+
+<meta name="per" content="Napolitano, Janet">
+
+<meta name="org" content="Centers for Disease Control and Prevention">
+
+<meta name="geo" content="United States;Mexico;Hong Kong;New Zealand">
+
+<meta name="ticker" content="Boeing Co|BA|NYSE">
+
+<meta name="dat" content="April 27, 2009">
+
+<meta name="tom" content="News">
+
+<meta name="cat" content="">
+
+<meta name="col" content="">
+
+<meta name="dsk" content="World">
+
+<meta name="articleid" content="1194839804872">
+
+<meta name="CG" content="world">
+
+<meta name="SCG" content="">
+
+<meta name="PT" content="Article">
+
+<meta name="PST" content="">
+
+<meta name="hdr_img" content="/images/article/header/sect_world.gif">
+
+<meta name="thumbnail" content="images/2009/04/27/world/27flu.751.jpg">
+
+<meta name="thumbnail_height" content="75">
+
+<meta name="thumbnail_width" content="75">
+
+
+
+
+
+
+
+<meta name="xlarge" content="images/2009/04/27/world/27flu.xlarge1.jpg">
+
+<meta name="xlarge_height" content="360">
+
+<meta name="xlarge_width" content="600">
+
+<meta name="ARTICLE_TEMPLATE_VERSION" content="600">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="sec" content="">
+
+<meta name="pg" content="">
+
+<link rel="canonical" href="http://www.nytimes.com/2009/04/27/world/27flu.html">
+
+<script type="text/JavaScript">
+	var google_hints = "Influenza,Pigs,Travel+and+Vacations,United+States,Mexico";
+	var google_ad_channel = "ar_world";
+</script>
+
+<link rel="alternate" media="handheld" href="http://mobile.nytimes.com/2009/04/27/world/27flu.xml">
+<link rel="alternate" type="application/rss+xml" title="NYTimes.com World RSS" href="http://www.nytimes.com/services/xml/rss/nyt/World.xml">
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/crnrXHR.js"></script>
+<script type="text/javascript" language="JavaScript" src="swineFlue_files/articleCommentManager.js"></script>
+<script src="swineFlue_files/controller_v1.js" type="text/javascript" language="javascript"></script><script src="swineFlue_files/gw.js" type="text/javascript" language="javascript"></script><script src="swineFlue_files/revenuescience.js" type="text/javascript" language="javascript"></script><meta content="World" name="WT.cg_n" id="WT.cg_n"><meta content="Article" name="WT.z_gpt" id="WT.z_gpt"><meta content="The New York Times" name="WT.cre" id="WT.cre"><meta content="0M88S8tFXBHA3DXrmvxADeHwjyeuneAnTadeFz9JchiAJYOVLIKocjgsV.Ynx4rkFI" name="WT.z_nyts" id="WT.z_nyts"><meta content="101.000000000CBt030b0kDZyl1vD2X/0xB3Gh0xUMvw0hAYOg1bBIrZ@8e6a3540/83aee4e7" name="WT.z_nytd" id="WT.z_nytd"><meta content="082a38d73e2749690c47abc4" name="WT.z_rmid" id="WT.z_rmid"><meta content="nytimes.com" name="WT.z_ref" id="WT.z_ref"><meta content="0" name="WT.rv" id="WT.rv"><meta content="News" name="WT.z_gpst" id="WT.z_gpst"><meta content="U.S. Declares Public Health Emergency Over Swine Flu" name="WT.z_hdl" id="WT.z_hdl"><meta content="1194839804872" name="WT.z_aid" id="WT.z_aid"><meta content="20090427" name="WT.z_pud" id="WT.z_pud"><meta content="web" name="WT.z_put" id="WT.z_put"><meta content="web" name="WT.z.gsg" id="WT.z.gsg"><meta content="free" name="WT.z_pua" id="WT.z_pua"><meta content="JACK HEALY;SHERYL GAY STOLBERG" name="WT.z_clmst" id="WT.z_clmst"><meta content="Normal" name="WT.z_puv" id="WT.z_puv"><meta content="Tomorrow" name="WT.z_pudr" id="WT.z_pudr"><meta content="2009" name="WT.z_pyr" id="WT.z_pyr"><script src="swineFlue_files/wtinit.js" type="text/javascript" language="javascriptcontent"></script><script src="swineFlue_files/wtbase.js" type="text/javascript" language="javascriptcontent"></script></head>
+
+<body>     <div style="position: absolute; top: 0%;" id="TP_container" class="TP_env">       <div id="TP_inner">         <div id="TP_people" class="toggleTab firstrun"><button id="TP_get_started_button" class="appButtonSmall"><span>Get Started</span></button>&nbsp;&nbsp;<a id="TP_minimize_button_guest" class="toolbar_button">No, thanks</a></div>         <div id="TP_user" class="toggleTab"><h4>Welcome to TimesPeople</h4><a id="TP_infolink" class="toolbar_button" onclick="return false">What&#8217;s this?</a></div>         <div id="TP_feed_tab" class="toggleTab" style="display: none;">           <div class="tp_tile_ad_container"></div>           <h4>Latest Activity</h4>         </div>         <div class="timespeople_panel" id="TP_feed" style="">           <div id="TP_feed_content" class="TP_feed_content"><table>    <tbody><tr>      <td class="TP_avatar_cell">        <a href="http://timespeople.nytimes.com/view/user/0"><img class="TP_avatar" src="swineFlue_files/none.png" width="20" height="20"></a>      </td>      <td>        <span class="TP_story"><a href="http://timespeople.nytimes.com/view/user/0"></a>    </span>        <span class="TP_object"><a origin="tp" href="http://timespeople.nytimes.com/home/about/" title="TimesPeople Lets You Share and Discover the Best of NYTimes.com">TimesPeople Lets You Share and Discover the Best of NY...</a></span>      </td>      <td class="timestamp">4:43 pm</td>    </tr>    </tbody></table></div>           <div id="TP_feed_handle">             <div class="TP_groove"></div>           </div>         </div>         <div id="TP_feed_toggle"></div>         <div style="display: none;" id="TP_spinner">           <object data="swineFlue_files/spinner.swf" type="application/x-shockwave-flash" width="24" height="24">             <param value="http://graphics8.nytimes.com/images/apps/timespeople/spinner.swf" name="movie">             <param value="Transparent" name="WMode">           </object>         </div>       </div>     </div>     <div style="position: absolute; top: 30px;" id="TP_container_shadow" class="s_shadow"></div><script src="swineFlue_files/949342782.js" type="text/javascript"></script>
+
+
+<a name="top"></a>
+<!--Hat -->
+<nyt_header>
+
+</nyt_header>
+<a href="#articleBodyLink" class="jumpLink">Skip to article</a>
+<!--New call for topnav stuff. -->
+<div id="shell" class="">
+
+<div id="login">
+<ul id="memberTools">
+
+<!-- ADXINFO classification="text_ad" campaign="nyt2009-circ-mar-bar1_textlink-34J3J-homepage"--><li><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Bar1&amp;sn2=65b4e14f/9a6abe52&amp;sn1=69fb3ebd/cf82486a&amp;camp=nyt2009-circ-mar-bar1_textlink-34J3J-homepage&amp;ad=010109&amp;goto=https%3A%2F%2Fwww%2Enytimesathome%2Ecom%2Fsplitter%5Fcp%2Findex%2Ephp%3FSPTR%5FID%3DhdNYT%26MediaCode%3DW47AF%26CMP%3D34J3J" target="_blank">Get Home Delivery </a></li>
+
+			<li><a href="http://www.nytimes.com/auth/login?URI=http://">Log In</a></li> 
+			<li><a href="http://www.nytimes.com/gst/regi.html">Register Now</a></li>
+			
+
+
+<li id="TP_restore_button" style="display: none;"><a>TimesPeople</a></li></ul>
+<ul class="tabs">
+<li><a href="http://www.nytimes.com/">Home Page</a></li>
+<!--<li><a href="http://my.nytimes.com">My Times</a></li> -->
+<li><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li><a href="http://www.nytimes.com/video">Video</a></li>
+<li><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+<li><a href="http://topics.nytimes.com/top/reference/timestopics/">Times Topics</a></li>
+</ul>
+</div>
+
+<div id="page">
+
+<div id="masthead">
+
+<form id="searchForm" name="searchForm" method="get" action="http://query.nytimes.com/search/sitesearch" enctype="application/x-www-form-urlencoded">
+<div id="nytSearchWidget">
+<label for="searchQuery">Search All NYTimes.com</label>
+<input name="query" id="searchQuery" type="text">
+<input id="searchSubmit" title="Search" alt="Go" src="swineFlue_files/go.gif" type="image">
+<input id="searchAll" name="type" value="nyt" type="hidden">
+</div>
+</form>
+<div id="branding">
+<a href="http://www.nytimes.com/"><img src="swineFlue_files/nytlogo152x23.gif" alt="New York Times" id="NYTLogo"></a>
+</div><!--#branding-->
+<div id="Bar3">
+
+</div>
+<div id="date">
+</div>
+
+<h1>
+
+<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</h1>
+
+</div>
+
+
+<div id="navigation">
+<ul class="tabs">
+<li id="navWorld" class="selected"><a href="http://www.nytimes.com/pages/world/index.html">World</a>
+
+</li>
+<li id="navUS"><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li id="navNYRegion"><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li id="navBusiness"><a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li id="navTechnology"><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li id="navScience"><a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li id="navHealth"><a href="http://health.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li id="navSports"><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li id="navOpinion"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li id="navArts"><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>
+<li id="navStyle"><a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li id="navTravel"><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li id="navJobs"><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li id="navRealestate"><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li id="navAutos"><a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+</ul>
+<div id="subNavigation"><ul id="subnavWorld">
+<li><a href="http://www.nytimes.com/pages/world/africa/index.html">Africa</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/world/americas/index.html">Americas</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/world/asia/index.html">Asia Pacific</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/world/europe/index.html">Europe</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/world/middleeast/index.html">Middle East</a>
+</li>
+</ul></div></div><!--#navigation -->
+<script type="text/javascript">modifyNavigationDisplay();</script>
+
+<!--space holder for tool bar -->
+<div id="adxLeaderboard"><!-- ADXINFO classification="leaderboard_728" campaign="RightMedia_APRIL_World2c_nyt15"--><div class="clearfix"><script type="text/javascript" src="swineFlue_files/st.js"></script><iframe marginwidth="0" marginheight="0" src="swineFlue_files/iframe3.html" scrolling="no" width="728" frameborder="0" height="90"></iframe><div style="font-family: Arial; font-size: 10px; color: rgb(0, 66, 118); float: right; margin-right: 125px;"><a href="http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>
+
+</div>
+<a name="articleBodyLink"></a>
+<div id="main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="aColumn">
+<div id="article">
+<!--google_ad_section_start -->
+
+<h1>
+<nyt_headline version="1.0" type=" ">
+U.S. Declares Public Health Emergency Over Swine Flu
+</nyt_headline>
+</h1>
+ 
+<div class="image" id="wideImage">
+<img src="swineFlue_files/27flu.jpg" alt="" width="600" border="0" height="360">
+<div class="credit">Adriana Zehbrauskas for The New York Times</div>
+<p class="caption">
+Tourists on an almost empty tour bus in Mexico City on Sunday. Swine flu has killed more than 80 people in Mexico.
+<a href="http://www.nytimes.com/slideshow/2009/04/26/world/20090426-SWINEFLU_index.html" onclick="javascript:s_code_linktrack('Article-MorePhotos');">More Photos &gt;</a>
+</p>
+</div>
+ 
+
+
+<script language="JavaScript" type="text/JavaScript">function getSharePasskey() { return 'ex=1398484800&en=136ab20d197371ed&ei=5124';}</script>
+<script language="JavaScript" type="text/JavaScript">
+function getShareURL() {
+	return encodeURIComponent('http://www.nytimes.com/2009/04/27/world/27flu.html');
+}
+function getShareHeadline() {
+	return encodeURIComponent('U.S. Declares Public Health Emergency Over Swine Flu');
+}
+function getShareDescription() { 
+
+	return encodeURIComponent('U.S. health officials said that they had confirmed 20 cases of swine flu in the country and expected to see more as investigators track the path of the outbreak.');
+}
+function getShareKeywords() {
+	return encodeURIComponent('Influenza,Pigs,Travel and Vacations,United States,Mexico,Hong Kong,New Zealand,Centers for Disease Control and Prevention,Janet Napolitano');
+}
+function getShareSection() {
+	return encodeURIComponent('world');
+}
+function getShareSectionDisplay() {
+
+	return encodeURIComponent('World');
+}
+function getShareSubSection() {
+	return encodeURIComponent('');
+}
+function getShareByline() {
+	return encodeURIComponent('By JACK HEALY and SHERYL GAY STOLBERG');
+}
+function getSharePubdate() {
+	return encodeURIComponent('April 27, 2009');
+}
+</script>
+<div id="toolsRight">
+<nyt_reprints_form>
+
+<script language="javascript">
+			<!-- 
+			function submitCCCForm(){
+				PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+				this.document.cccform.submit();
+			}
+			// -->
+			</script>
+<form name="cccform" action="https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon"><input name="Title" value="U.S. Declares Public Health Emergency Over Swine Flu" type="hidden"><input name="Author" value="By JACK HEALY and SHERYL GAY STOLBERG" type="hidden"><input name="ContentID" value="http://www.nytimes.com/2009/04/27/world/27flu.html" type="hidden"><input name="FormatType" value="default" type="hidden"><input name="PublicationDate" value="APR 27 2009" type="hidden"><input name="PublisherName" value="The New York Times" type="hidden"><input name="Publication" value="nytimes.com" type="hidden"><input name="wordCount" value="1293" type="hidden"></form>
+</nyt_reprints_form>
+<div class="articleTools">
+<div class="toolsContainer">
+<ul class="toolsList" id="toolsList">
+<li class="comments"><a href="http://community.nytimes.com/article/comments/2009/04/27/world/27flu.html" onclick="javascript:dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-tools.html','WT.ti','Article Comments View Tools','WT.z_aca','Tools-View','WT.gcom','Com');">comments</a> <span id="commentCount">(144)</span></li>
+<li class="email">
+
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/2009/04/27/world/27flu.html">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="javascript:win1()">giveChange</a>
+</li>
+
+<a href="http://www.nytimes.com/2009/04/27/world/27flu.html?_r=1&amp;hp=&amp;pagewanted=all"></a>
+
+<li class="reprints"><a href="#" onclick="javascript:submitCCCForm();">Reprints</a></li>
+<li style="width: 168px;" id="shareMenu" class="closed"><a class="shareButton" href="#">Share</a><a style="opacity: 0;" class="hidden" href="#">Close</a><ul style="opacity: 0;" class="hidden" id="shareList"><li class="linkedin"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/linkedin.gif);" href="#">Linkedin</a></li><li class="digg"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/digg.gif);" href="#">Digg</a></li><li class="facebook"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/facebook.gif);" href="#">Facebook</a></li><li class="mixx"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/mixx.gif);" href="#">Mixx</a></li><li class="myspace"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/myspace.gif);" href="#">MySpace</a></li><li class="yahoobuzz"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/yahoobuzz.gif);" href="#">Yahoo! Buzz</a></li><li class="permalink"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/permalink.gif);" href="#">Permalink</a></li><li id="shareMenuAd"><script src="swineFlue_files/adx_remote.html"></script></li></ul></li></ul>
+<script language="JavaScript" type="text/javascript">writePost();</script>
+<script language="JavaScript" type="text/javascript">if (acm.cc) acm.cc.write();</script>
+<div id="adxToolSponsor"><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Frame4A&amp;sn2=10fb7c07/1628d9ab&amp;sn1=91ea2d57/c0f453b&amp;camp=foxsearch2009_emailtools_1011072c_nyt5&amp;ad=500DOS_120x60_c&amp;goto=http://www.foxsearchlight.com/500daysofsummer" target="_blank">
+<img src="swineFlue_files/article-sponsor.gif" class="label" alt="Article Tools Sponsored By" width="62" border="0" height="20"><img src="swineFlue_files/500days_nytimes_120x60_looping.gif" alt="" width="120" border="0" height="60"></a></div>
+</div>
+</div>
+</div>
+
+<nyt_byline version="1.0" type=" ">
+<div class="byline">By <a href="http://topics.nytimes.com/top/reference/timestopics/people/h/jack_healy/index.html?inline=nyt-per" title="More Articles by Jack Healy">JACK HEALY</a> and <a href="http://topics.nytimes.com/top/reference/timestopics/people/s/sheryl_gay_stolberg/index.html?inline=nyt-per" title="More Articles by Sheryl Gay Stolberg">SHERYL GAY STOLBERG</a></div>
+</nyt_byline>
+<div class="timestamp">Published: April 26, 2009 </div>
+<div id="articleBody">
+
+
+
+<!--NYT_INLINE_IMAGE_POSITION1 -->
+
+
+
+
+<nyt_text>
+
+
+    <p>American health officials on Sunday declared a public health emergency over increasing cases of swine <a href="http://health.nytimes.com/health/guides/disease/the-flu/overview.html?inline=nyt-classifier" title="In-depth reference and news articles about Influenza.">flu</a>,
+saying that they had confirmed 20 cases of the disease in the United
+States and expected to see more as investigators track down the path of
+the outbreak.</p> 
+<div id="articleInline" class="inlineLeft">
+<div id="inlineBox"><a href="#secondParagraph" class="jumpLink">Skip to next paragraph</a>
+  
+  
+<div id="inlineMultimedia">
+<h4>Multimedia</h4>
+<div class="story first">
+
+
+
+
+
+
+
+<a href="http://www.nytimes.com/slideshow/2009/04/26/world/20090426-SWINEFLU_index.html">
+<img src="swineFlue_files/20090426-SWINEFLU-B.jpg" alt="Global Response to Swine Flu" width="190" border="0" height="126"><span class="mediaType photo">Slide Show</span>
+</a>
+
+
+<h2>
+
+<a href="http://www.nytimes.com/slideshow/2009/04/26/world/20090426-SWINEFLU_index.html">Global Response to Swine Flu</a> 
+
+</h2>
+<div class="clear"></div>
+</div>
+</div>
+<div id="sidebarArticles">
+<h4>Related</h4>
+<h2>
+
+
+
+
+<a href="http://www.nytimes.com/2009/04/27/health/27questions.html?ref=world">Flu Outbreak Raises a Set of Questions</a> 
+
+(April 27, 2009)
+</h2>
+<h2>
+
+
+
+
+<a href="http://www.nytimes.com/2009/04/27/world/asia/27kong.html?ref=world">Hong Kong, Minding SARS, Announces Tough Measures in Response to Swine Flu</a> 
+
+(April 27, 2009)
+</h2>
+<h2>
+
+
+
+
+<a href="http://dotearth.blogs.nytimes.com/2009/04/26/contagion-on-a-small-planet/index.html?ref=world">Dot Earth: Contagion on a Small Planet</a> 
+
+(April 26, 2009)
+</h2>
+<h2><a href="http://www.cdc.gov/swineflu/investigation.htm">U.S. Swine Influenza Count From Centers for Disease Control and Prevention</a> (cdc.gov)</h2>
+<div class="doubleRule"></div>
+<h3 class="promo">Swine Flu Cases</h3>
+<script type="text/javascript" src="swineFlue_files/swfobject.js"></script>
+<script type="text/javascript" src="swineFlue_files/NYTFlashEmbed.js"></script>
+<div id="embed699" class="NYTFlashEmbed" style="visibility: hidden;"><embed type="application/x-shockwave-flash" src="swineFlue_files/AS3Multiloader.swf" style="" id="nytSWF" name="nytSWF" bgcolor="#FFFFFF" quality="high" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" base="http://graphics8.nytimes.com/packages/flash/newsgraphics/2009/0426-nat-flu-web/" flashvars="contentPath=http://graphics8.nytimes.com/packages/flash/newsgraphics/2009/0426-nat-flu-web/flu.swf &amp;allowCaching=true" width="190" height="540"></div>
+<script type="text/javascript">
+
+fl = new Object();
+
+fl.id = '699';
+fl.swf = 'http://graphics8.nytimes.com/packages/flash/newsgraphics/2009/0426-nat-flu-web/flu.swf ';
+fl.base = 'http://graphics8.nytimes.com/packages/flash/newsgraphics/2009/0426-nat-flu-web/';
+fl.width = '190';
+fl.height = '540';
+fl.as = '3';
+fl.domain = 'www';
+fl.caching = 'true';
+
+fl.vars = [];
+
+writeNYTFlash(fl);
+
+</script>
+<style>#embed699{visibility:visible !important;}</style>
+</div>
+<!--Article Comments Include-->
+   
+<div class="image">
+<div class="enlargeThis"><a href="javascript:pop_me_up2('http://www.nytimes.com/imagepages/2009/04/26/us/27flu.2.inline.ready.html',%20'27flu_2_inline_ready',%20'width=720,height=600,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
+<a href="javascript:pop_me_up2('http://www.nytimes.com/imagepages/2009/04/26/us/27flu.2.inline.ready.html',%20'27flu_2_inline_ready',%20'width=720,height=600,scrollbars=yes,toolbars=no,resizable=yes')">
+<img src="swineFlue_files/27flu2_190.jpg" alt="" width="190" border="0" height="159">
+</a>
+<div class="credit">Mandel Ngan/Agence France-Presse &#8212; Getty Images</div>
+<p class="caption">
+Homeland Security Secretary Janet Napolitano spoke during a press
+briefing on the swine flu outbreak in the White House on Sunday. <a href="http://www.nytimes.com/slideshow/2009/04/26/world/20090426-SWINEFLU_index.html" onclick="javascript:s_code_linktrack('Article-MorePhotos');">More Photos �</a>
+</p>
+</div>
+   
+</div>
+</div><a name="secondParagraph"></a>
+<div id="readerscomment" class="inlineLeft"><h3>Readers' Comments</h3><div class="content"><blockquote>Share your thoughts.</blockquote><ul class="more"><li><a href="http://community.nytimes.com/article/comments/2009/04/27/world/27flu.html#postComment" onclick="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/post-promo2.html','WT.ti','Article Comments Post Promo2','WT.z_aca','Promo2-Post','WT.gcom','Com')">Post a Comment �</a></li><li><a href="http://community.nytimes.com/article/comments/2009/04/27/world/27flu.html" onclick="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-promo3.html','WT.ti','Article Comments View Promo3','WT.z_aca','Promo3-View','WT.gcom','Com')">Read All Comments (144) �</a></li></ul></div></div>  
+<script type="text/JavaScript" language="JavaScript">if (acm.rc) acm.rc.write();</script>   
+ <p>&#8220;We are seeing more cases of swine flu,&#8221; Dr. Richard Besser, acting director of the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/centers_for_disease_control_and_prevention/index.html?inline=nyt-org" title="More articles about the Centers for Disease Control and Prevention.">Centers for Disease Control</a>,
+said in a news conference in Washington. &#8220;We expect to see more cases
+of swine flu. As we continue to look for cases, I expect we&#8217;re going to
+find them.&#8221;</p><p>&#8220;This is moving fast,&#8221; Dr. Besser said, &#8220;but we want you to understand that we view this more as a marathon.&#8221;</p><p>Although
+officials said most of the cases have been mild and urged Americans not
+to panic, the emergency declaration intensifies the government&#8217;s
+response to the infections, freeing resources to be used toward
+diagnosing or preventing additional cases and releasing money for more
+antiviral drugs.</p><p>Homeland Security Secretary <a href="http://topics.nytimes.com/top/reference/timestopics/people/n/janet_napolitano/index.html?inline=nyt-per" title="More articles about Janet Napolitano.">Janet Napolitano</a>,
+speaking at the same news conference called the emergency declaration
+&#8220;standard operating procedure,&#8221; and said it should be considered a
+&#8220;declaration of emergency preparedness.&#8221;</p><p>&#8220;Really that&#8217;s what
+we&#8217;re doing right now,&#8221; she said. &#8220;We&#8217;re preparing in an environment
+where we really don&#8217;t know ultimately what the size of seriousness of
+this outbreak is going to be.&#8221;</p><p>Officials said they had confirmed
+eight cases in New York, seven in California, two in Kansas, two in
+Texas and one in Ohio. Health officials in New York said on Sunday that
+the cases there were from the same strain of swine flu that has killed
+more than 80 people in <a href="http://topics.nytimes.com/top/news/international/countriesandterritories/mexico/index.html?inline=nyt-geo" title="More news and information about Mexico.">Mexico</a> and infected 1,300 more, The Associated Press reported.</p><p>So
+far, there have been no deaths from swine flu in the United States, and
+only one of the people who tested positive for the disease has been
+hospitalized, officials said. </p><p>Still, officials said they expect more severe cases as reports of infection multiply.</p><p>&#8220;You
+don&#8217;t know how much it&#8217;s spread, but you&#8217;ve got to at least make the
+assumption that there&#8217;s a lot more virus in this country than is seen
+at the moment,&#8221; Jeffrey Koplan, the C.D.C. director from 1998 to 2002,
+said in a telephone interview.</p><p> Governments around the world
+stepped up their response to the outbreak, racing to contain the
+infection amid reports of potential new cases from <a href="http://topics.nytimes.com/top/news/international/countriesandterritories/newzealand/index.html?inline=nyt-geo" title="More news and information about New Zealand.">New Zealand</a> to Spain, raising concerns about the potential for a global pandemic.</p><p> Canada also confirmed six cases of <a href="http://health.nytimes.com/health/guides/disease/the-flu/overview.html?inline=nyt-classifier" title="In-depth reference and news articles about The flu.">the flu</a> on Sunday, all of them linked to people who had traveled to Mexico. </p><p>On
+the eastern coast of Canada, health officials in Nova Scotia said four
+students who attend the same school had tested positive for swine flu
+and apparently contracted the disease from classmates who had visited
+Mexico. All of the cases were mild.</p><p>Health officials in the
+western province of British Columbia reported that two people who went
+to Mexico recently had also tested positive.</p><p>Travelers from
+Mexico who appear to have flu symptoms will be stopped at the border
+and isolated, Ms. Napolitano said. (Symptoms of swine flu, which are
+similar to regular cases of the flu, include <a href="http://health.nytimes.com/health/guides/symptoms/fever/overview.html?inline=nyt-classifier" title="In-depth reference and news articles about Fever.">fever</a>, tiredness and coughing, and sometimes <a href="http://health.nytimes.com/health/guides/symptoms/nausea-and-vomiting/overview.html?inline=nyt-classifier" title="In-depth reference and news articles about Nausea and vomiting.">vomiting</a> and <a href="http://health.nytimes.com/health/guides/symptoms/diarrhea/overview.html?inline=nyt-classifier" title="In-depth reference and news articles about Diarrhea.">diarrhea</a>.) </p><p>But
+unlike some other countries, the American government is not yet taking
+the more aggressive step of testing all travelers for the new flu
+strain. Rather, the screening will be &#8220;passive,&#8221; Ms. Napolitano said,
+with customs officials questioning travelers about whether they feel
+ill or have been sick.</p><p>The officials urged Americans to take
+precautions of their own, by washing their hands frequently and staying
+home if they are sick. Dr. Besser conceded there is much the
+authorities still do not know, including why flu victims in Mexico are
+dying while Americans are recovering.</p><p>&#8220;That&#8217;s a critical question,&#8221; he said.</p><p>Other
+governments issued travel advisories urging people not to visit Mexico,
+the apparent origin of the outbreak. The government of <a href="http://topics.nytimes.com/top/news/international/countriesandterritories/hongkong/index.html?inline=nyt-geo" title="More news and information about Hong Kong.">Hong Kong</a>,
+announcing some of the toughest measures of any jurisdiction, urged
+residents not to travel to Mexico and ordered the immediate detention
+at a hospital of anyone who arrives with a fever and symptoms of a
+respiratory illness after traveling in the previous seven days through
+a city with a laboratory-confirmed outbreak.</p><p>China, Russia and
+others set up quarantines for anyone possibly infected. Some countries
+banned pork imports from Mexico, even though there is no link between
+food products and the flu, and others were screening air travelers for
+signs of the disease.</p><p>The <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/w/world_health_organization/index.html?inline=nyt-org" title="More articles about World Health Organization">World Health Organization</a>
+reiterated that it considered the outbreak &#8220;a public health emergency
+of international concern&#8221; but said it would put off until Tuesday a
+decision on whether to raise the pandemic alert level. </p><p> Raising
+it to level 4 &#8220;would be a very serious signal that countries ought to
+be dusting off pandemic plans,&#8221; said Dr. Keiji Fukuda, deputy director
+general of the W.H.O. </p><p>The W.H.O. is historically reluctant to declare pandemics in sensitive member countries.</p><p>In
+the United States, the C.D.C. confirmed that eight students of a high
+school in Queens had been infected with swine flu, the first confirmed
+cases in New York City, Mayor <a href="http://topics.nytimes.com/top/reference/timestopics/people/b/michael_r_bloomberg/index.html?inline=nyt-per" title="More articles about Michael R. Bloomberg.">Michael Bloomberg</a> said at a news conference on Sunday. Mr. Bloomberg said that all of the cases had been mild and <a href="http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/hospitals/index.html?inline=nyt-classifier" title="Recent and archival health news about hospitals.">hospitals</a> in the city had not seen more patients with severe lung infections. </p><p>&#8220;So
+far there does not seem to be any outbreak,&#8221; Mr. Bloomberg said. &#8220;We
+don&#8217;t know if the spread will be sustained. What&#8217;s heartening is the
+people who tested positive have only mild illnesses.&#8221;</p><p>About 100
+students at St. Francis Preparatory School in Fresh Meadows, Queens,
+became sick in the last few days, and some family members have also
+taken ill. Mr. Bloomberg said the school would be closed on Monday, and
+that officials would then reassess whether to reopen the school.</p><p>Other New York City schools will be open as usual on Monday, Mr. Bloomberg said. </p><p>Other
+cases of possible infection in New York turned about to be false
+alarms. Five of six children at a day-care center in the Tremont
+section of the Bronx who had shown some flu-like symptoms tested
+negative for swine flu, said Thomas Frieden, the city&#8217;s health
+commissioner.</p><p>Ms. Napolitano, the Homeland Security secretary,
+said that the government intends to release one quarter of its 50
+million-dose stockpile of Tamiflu and Relenza, two antiviral
+medications to which the new flu strain might be susceptible. Most of
+the medicine will go to affected states. The Department of Defense has
+a stockpile of an additional 7 million doses, she said, although those
+medicines are typically reserved for military personnel.</p><p>But
+whether the drugs will prove effective against the new swine flu virus
+remains unclear. Dr. Besser said the new strain is not resistant to the
+medicines, but he did not know whether either drug would shorten the
+course of the illness, as the medicines do with more commonplace
+strains of flu.</p><p>The outbreak in the United States comes before <a href="http://topics.nytimes.com/top/reference/timestopics/people/o/barack_obama/index.html?inline=nyt-per" title="More articles about Barack Obama.">President Obama</a> has his full health team in place. His nominee for health secretary, <a href="http://topics.nytimes.com/top/reference/timestopics/people/s/kathleen_sebelius/index.html?inline=nyt-per" title="More articles about Kathleen Sebelius.">Kathleen Sebelius</a>, has not yet been confirmed by the Senate, nor has the woman he selected to <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/f/food_and_drug_administration/index.html?inline=nyt-org" title="More articles about the U.S. Food And Drug Administration.">Food and Drug Administration</a>,
+Margaret Hamburg, a former New York City health commissioner. Mr. Obama
+has not yet named anyone to run the Centers for Disease Control or the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/n/national_institutes_of_health/index.html?inline=nyt-org" title="More articles about National Institutes of Health, U.S.">National Institutes of Health</a>.</p><p>But <a href="http://topics.nytimes.com/top/reference/timestopics/people/g/robert_gibbs/index.html?inline=nyt-per" title="More articles about Robert Gibbs.">Robert Gibbs</a>, the White House press secretary, said the administration is prepared.</p><p> &#8220;I want to be very clear,&#8221; Mr. Gibbs said. &#8220;There is a team in place, and part of the team is standing behind me.&#8221;</p><nyt_author_id><div id="authorId"><p>Sheryl
+Gay Stolberg reported from Washington and Jack Healy from New York.
+Contributing reporting were Keith Bradsher from Hong Kong and Donald G.
+McNeil Jr. from New York.</p></div></nyt_author_id><nyt_update_bottom>
+</nyt_update_bottom>
+</nyt_text>
+<div class="nextArticleLink clearfix">
+<a title="Mexico Takes Powers to Isolate Cases of Swine Flu" onclick="s_code_linktrack('Article-NextArticleBottom');" href="http://www.nytimes.com/2009/04/26/world/americas/26mexico.html">Next Article in 
+		  	World (1 of 
+		  	37)  �</a>
+</div>		
+</div>
+</div>
+<!--google_ad_section_end -->
+<!--story end -->
+<div id="articleExtras">
+
+<div id="adxCircBottom"><!-- ADXINFO classification="text_ad" campaign="nyt2009-circ-mar-ee-articles_footer-textlink-all"--><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Bottom1&amp;sn2=233823c5/837e525e&amp;sn1=b6b8067e/37fccf9a&amp;camp=nyt2009-circ-mar-ee-articles_footer-textlink-all&amp;ad=030109-ee-footer&amp;goto=https%3A%2F%2Fwww%2Enytimesee%2Ecom%2Foffer%2Ephp%3Fid%3D15%26MediaCode%3DInternal%26CampaignName%3Dnytimes" target="_blank">Read the complete New York Times Electronic Edition on computer, just as it appears in print. </a>
+</div>
+
+
+<!--Google ads placeholder -->
+<div id="adxSponLink"><table style="border: 1px solid rgb(157, 163, 173); width: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="">
+<tbody><tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top"><table style="width: 100%; height: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+<tbody><tr>
+ <td style="background-color: rgb(157, 163, 173); width: 70%; height: 20px; padding-top: 2px; padding-left: 11px; padding-bottom: 2px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="70%" bgcolor="#9da3ad" height="20"><span style="font-size: 12px; font-weight: normal; color: rgb(255, 255, 255);">Ads by Google</span></td>
+<td style="padding-top: 2px; padding-bottom: 2px; width: 30%; height: 20px; background-color: rgb(157, 163, 173); font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="30%" align="right" bgcolor="#9da3ad" height="20"><span><a style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" target="popupad">what's this?</a></span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style="height: 110px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top" height="110"><table style="padding: 4px; height: 100%; width: 100%; background-color: rgb(248, 248, 249);" width="100%" bgcolor="#f8f8f9" border="0" cellpadding="4" cellspacing="0" height="100%">
+<tbody><tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw0" onfocus="ss('go to www.BlogginMomma.org','aw0')" onmouseover="ss('go to www.BlogginMomma.org','aw0')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw0" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BarTqmvH0SeeiGYfOrAOqraVFw7ODjwGJt5LqCsCNtwHAqQcQARgBIJzz-AEoAzgAUKDN-ZL9_____wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgC8cTyCqgDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=1&amp;sig=AGiWqtxTOCdnn31dQWircK0xjmgUBhINTA&amp;client=ca-nytimes_article_var&amp;adurl=http://www.blogginmomma.org/teeth/index3.html%3Fppc%3DGoogleContent%26ad%3DSHYT%26ag%3DSwineFlu%26kwd%3Dswine%2520flu" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.BlogginMomma.org','aw0')" onclick="ha('aw0')" onmouseover="return ss('go to www.BlogginMomma.org','aw0')" onmouseout="cs()">"She Had Yellow Teeth"</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BarTqmvH0SeeiGYfOrAOqraVFw7ODjwGJt5LqCsCNtwHAqQcQARgBIJzz-AEoAzgAUKDN-ZL9_____wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgC8cTyCqgDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=1&amp;sig=AGiWqtxTOCdnn31dQWircK0xjmgUBhINTA&amp;client=ca-nytimes_article_var&amp;adurl=http://www.blogginmomma.org/teeth/index3.html%3Fppc%3DGoogleContent%26ad%3DSHYT%26ag%3DSwineFlu%26kwd%3Dswine%2520flu" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Learn how a mom combined 2 products to get rid of her yellow teeth...</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BarTqmvH0SeeiGYfOrAOqraVFw7ODjwGJt5LqCsCNtwHAqQcQARgBIJzz-AEoAzgAUKDN-ZL9_____wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgC8cTyCqgDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=1&amp;sig=AGiWqtxTOCdnn31dQWircK0xjmgUBhINTA&amp;client=ca-nytimes_article_var&amp;adurl=http://www.blogginmomma.org/teeth/index3.html%3Fppc%3DGoogleContent%26ad%3DSHYT%26ag%3DSwineFlu%26kwd%3Dswine%2520flu" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.BlogginMomma.org</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw1" onfocus="ss('go to www.bottomlinesecrets.com','aw1')" onmouseover="ss('go to www.bottomlinesecrets.com','aw1')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw1" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BpJpXmvH0SeeiGYfOrAOqraVF-vajfpbO-cQMwI23AcCpBxACGAIgnPP4ASgDOABQx9Ky1f7_____AWDJ9viGyKOgGaAB-Jqt-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgCvt74B6gDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=2&amp;sig=AGiWqtyvkhuhZSH_YblagC7JIisxkjXdxg&amp;client=ca-nytimes_article_var&amp;adurl=http://roia.biz/im/r/1152/a/100657/l/f51yp6" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.bottomlinesecrets.com','aw1')" onclick="ha('aw1')" onmouseover="return ss('go to www.bottomlinesecrets.com','aw1')" onmouseout="cs()">Artery Clearing Secret</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BpJpXmvH0SeeiGYfOrAOqraVF-vajfpbO-cQMwI23AcCpBxACGAIgnPP4ASgDOABQx9Ky1f7_____AWDJ9viGyKOgGaAB-Jqt-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgCvt74B6gDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=2&amp;sig=AGiWqtyvkhuhZSH_YblagC7JIisxkjXdxg&amp;client=ca-nytimes_article_var&amp;adurl=http://roia.biz/im/r/1152/a/100657/l/f51yp6" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Hugh Downs reports on breakthrough from Nobel Prize Winning Doctor</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BpJpXmvH0SeeiGYfOrAOqraVF-vajfpbO-cQMwI23AcCpBxACGAIgnPP4ASgDOABQx9Ky1f7_____AWDJ9viGyKOgGaAB-Jqt-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbMgCvt74B6gDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=2&amp;sig=AGiWqtyvkhuhZSH_YblagC7JIisxkjXdxg&amp;client=ca-nytimes_article_var&amp;adurl=http://roia.biz/im/r/1152/a/100657/l/f51yp6" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.bottomlinesecrets.com</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw2" onfocus="ss('go to www.FluArmour.com','aw2')" onmouseover="ss('go to www.FluArmour.com','aw2')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw2" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B3JhSmvH0SeeiGYfOrAOqraVF_sPlbYjprr0KwI23AeDFCBADGAMgnPP4ASgDOABQgsTf2wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbIACAdACAagDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=3&amp;sig=AGiWqtyKx4qvxH2OJmdL7RcnxV80EdEHkg&amp;client=ca-nytimes_article_var&amp;adurl=http://fluarmour.com/order.php" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.FluArmour.com','aw2')" onclick="ha('aw2')" onmouseover="return ss('go to www.FluArmour.com','aw2')" onmouseout="cs()">Supplies for Flu Outbreak</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B3JhSmvH0SeeiGYfOrAOqraVF_sPlbYjprr0KwI23AeDFCBADGAMgnPP4ASgDOABQgsTf2wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbIACAdACAagDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=3&amp;sig=AGiWqtyKx4qvxH2OJmdL7RcnxV80EdEHkg&amp;client=ca-nytimes_article_var&amp;adurl=http://fluarmour.com/order.php" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Medical Grade Infection Control Buy Online, BBB Certified</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B3JhSmvH0SeeiGYfOrAOqraVF_sPlbYjprr0KwI23AeDFCBADGAMgnPP4ASgDOABQgsTf2wFgyfb4hsijoBmyAQ93d3cubnl0aW1lcy5jb23IAQHaATJodHRwOi8vd3d3Lm55dGltZXMuY29tLzIwMDkvMDQvMjcvd29ybGQvMjdmbHUuaHRtbIACAdACAagDAegD-AToAxPoA_UE9QMABAAE9QMkAAAA&amp;num=3&amp;sig=AGiWqtyKx4qvxH2OJmdL7RcnxV80EdEHkg&amp;client=ca-nytimes_article_var&amp;adurl=http://fluarmour.com/order.php" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.FluArmour.com</a></div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></div>
+
+<div id="relatedArticles" class="list"><h3>Past Coverage</h3><ul><li><span class="headlineWrapper"><a onclick="s_code_linktrack('Article-RelatedArticles-searchFree');" href="http://www.nytimes.com/2009/04/25/world/americas/25mexico.html?fta=y">Fighting Deadly Flu, Mexico Shuts Schools</a></span>&nbsp;(April 25, 2009)</li><li><span class="headlineWrapper"><a onclick="s_code_linktrack('Article-RelatedArticles-searchFree');" href="http://www.nytimes.com/2009/04/24/us/24flu.html?fta=y">Unusual Strain of Swine Flu Is Found in People in 2 States</a></span>&nbsp;(April 24, 2009)</li><li><span class="headlineWrapper"><a onclick="s_code_linktrack('Article-RelatedArticles-searchFree');" href="http://www.nytimes.com/2004/09/30/international/asia/30flu.html?fta=y">Experts Confront Major Obstacles In Containing Virulent Bird Flu</a></span>&nbsp;(September 30, 2004)</li><li><span class="headlineWrapper"><a onclick="s_code_linktrack('Article-RelatedArticles-searchFree');" href="http://www.nytimes.com/2004/08/21/world/lethal-strain-of-avian-flu-is-reported-found-in-pigs-in-china.html?fta=y">Lethal Strain of Avian Flu Is Reported Found in Pigs in China</a></span>&nbsp;(August 21, 2004)</li></ul></div>
+<!--related blogs promo -->
+<!--related blogs promo end -->
+
+<div id="relatedTopics">
+<h3>Related Searches</h3>
+<form action="/mem/tnt.html" method="get" enctype="application/x-www-form-urlencoded">
+<ul>
+<input name="retA" value="http://www.nytimes.com2009/04/27/world/27flu.html" type="hidden">
+<input name="retT" value="U.S. Declares Public Health Emergency Over Swine Flu" type="hidden">
+<input name="module" value="call" type="hidden">
+<input name="alert_context" value="1" type="hidden">	    
+<input name="topic1" value="Influenza" type="hidden">
+<input name="topic_field1" value="des" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=INFLUENZA&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=INFLUENZA&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Influenza</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=INFLUENZA&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic2" value="Pigs" type="hidden">
+<input name="topic_field2" value="des" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=PIGS&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=PIGS&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Pigs</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=PIGS&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic3" value="United States" type="hidden">
+<input name="topic_field3" value="nyt_geo" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=geo&amp;v1=UNITED+STATES&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=UNITED+STATES&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">United States</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=UNITED+STATES&amp;topic_field1=geo&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic4" value="Centers for Disease Control and Prevention" type="hidden">
+<input name="topic_field4" value="nyt_org_all" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=org&amp;v1=CENTERS+FOR+DISEASE+CONTROL+AND+PREVENTION&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=CENTERS+FOR+DISEASE+CONTROL+AND+PREVENTION&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Centers for Disease Control and Prevention</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=CENTERS+FOR+DISEASE+CONTROL+AND+PREVENTION&amp;topic_field1=org&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+Get E-Mail Alerts</a>
+</span>
+</li>
+</ul>
+</form>
+</div>
+
+</div>
+<div class="clear"></div>
+</div>
+<div id="bColumn">
+<div class="columnGroup">
+<div class="nextArticleLink"><a title="Mexico Takes Powers to Isolate Cases of Swine Flu" onclick="s_code_linktrack('Article-NextArticleTop');" href="http://www.nytimes.com/2009/04/26/world/americas/26mexico.html">Next Article in 
+		  	World (1 of 
+		  	37)  �</a></div>
+</div>
+
+
+<div class="columnGroup"><!-- ADXINFO classification="feature_squares" campaign="regilite-P1-politics-hardnews"--><iframe title="regilite" src="swineFlue_files/litesub_insert.html" marginheight="0" marginwidth="0" vspace="0" hspace="0" scrolling="no" width="336" frameborder="0" height="90"></iframe> </div>
+
+
+<div id="adxBigAd" class="columnGroup"><!-- ADXINFO classification="bigad" campaign="RightMedia_APRIL_World2a_nyt15"--><div class="clearfix"><script type="text/javascript" src="swineFlue_files/st_002.js"></script><iframe marginwidth="0" marginheight="0" src="swineFlue_files/iframe3_002.html" scrolling="no" width="336" frameborder="0" height="280"></iframe>
+<div style="font-family: Arial; font-size: 10px; color: rgb(0, 66, 118); float: right; margin-right: 9px;"><a href="http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>
+
+</div>
+
+
+
+<div class="columnGroup" id="mostPopWidget">
+
+      <!-- MOST POPULAR MODULE STARTS -->
+      <h4>MOST POPULAR</h4>
+         <div id="tabsContainer">
+         <ul class="tabs">
+            <li class="selected"><a href="#">E-Mailed</a></li>
+            <li><a href="#">Blogged</a></li>
+            <li><a href="#">Searched</a></li>
+            
+         </ul>
+         </div>
+            
+<div class="tabContent tabContentActive" id="mostEmailed">
+<ol>
+<li><a href="http://travel.nytimes.com/2009/04/26/travel/26hour.html?em" title="Click to go to this article">36 Hours in Barcelona</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/business/26corner.html?em" title="Click to go to this article">Corner Office:&nbsp;He Wants Subjects, Verbs and Objects</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/magazine/26zen-t.html?em" title="Click to go to this article">Enlightenment Therapy</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/fashion/26looks.html?em" title="Click to go to this article">Yes, Looks Do Matter</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/world/americas/26flu.html?em" title="Click to go to this article">Students Fall Ill in New York, and Swine Flu Is Likely Cause</a></li>
+<li><a href="http://www.nytimes.com/2009/04/27/world/27flu.html?em" title="Click to go to this article">U.S. Declares Public Health Emergency Over Swine Flu</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/magazine/26buckley-t.html?em" title="Click to go to this article">Growing Up Buckley</a></li>
+<li><a href="http://kalman.blogs.nytimes.com/2009/04/23/may-it-please-the-court/?em" title="Click to go to this article">And the Pursuit of Happiness: May It Please the Court</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/opinion/26rich.html?em" title="Click to go to this article">Frank&nbsp;Rich:&nbsp;The Banality of Bush White House Evil</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/business/26pay.html?em" title="Click to go to this article">After Off Year, Wall Street Pay Is Bouncing Back</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostemailed.html">Go to Complete List �</a>
+</div><!-- #most emailed top10 -->
+
+            <div class="tabContent" id="mostBlogged">
+<ol>
+<li><a href="http://www.nytimes.com/2009/04/24/opinion/24krugman.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Reclaiming America's Soul</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/opinion/26rich.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">The Banality of Bush White House Evil</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/world/americas/26flu.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Health Agencies Warily Monitor Swine Flu Strain</a></li>
+<li><a href="http://www.nytimes.com/2009/04/25/us/politics/25budget.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Democrats in Congress Make Tentative Deal on Budget</a></li>
+<li><a href="http://www.nytimes.com/2009/04/25/world/americas/25mexico.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Mexico Shuts Schools Amid Deadly Flu Outbreak</a></li>
+<li><a href="http://www.nytimes.com/2009/04/25/world/middleeast/25iraq.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Two Suicide Bombers Kill at Least 40 in Baghdad</a></li>
+<li><a href="http://www.nytimes.com/2009/04/24/opinion/24brooks.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Yanks in Crisis</a></li>
+<li><a href="http://www.nytimes.com/2009/04/26/fashion/26kindle.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">With Kindle, Can You Tell It's Proust?</a></li>
+<li><a href="http://www.nytimes.com/2009/04/27/world/27flu.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Worldwide, Nations Rush to Keep Swine Flu Contained</a></li>
+<li><a href="http://www.nytimes.com/2009/04/25/world/middleeast/25diplo.html?bl&amp;ex=1240891200&amp;en=ce91d53e13153eed&amp;ei=5087%0A" title="Click to go to this article">Clinton, in Iraq, Blames 'Rejectionists' for Violence</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostblogged.html">Go to Complete List �</a>
+</div><!-- #most blogged top10 -->
+
+            <div class="tabContent" id="mostSearched">
+<ol>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=health&amp;date_select=full&amp;type=nyt">health</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=modern%20love&amp;date_select=full&amp;type=nyt">modern love</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=cancer&amp;date_select=full&amp;type=nyt">cancer</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=swine%20flu&amp;date_select=full&amp;type=nyt">swine flu</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=obama&amp;date_select=full&amp;type=nyt">obama</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=april%201,%202009&amp;date_select=full&amp;type=nyt">april 1, 2009</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=china&amp;date_select=full&amp;type=nyt">china</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=krugman&amp;date_select=full&amp;type=nyt">krugman</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=korea&amp;date_select=full&amp;type=nyt">korea</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=immigration&amp;date_select=full&amp;type=nyt">immigration</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostsearched.html">Go to Complete List �</a>
+</div><!-- #most searched top10 -->
+
+            
+         <script type="text/javascript">new Accordian("mostPopWidget");</script>
+      <!-- MOST POPULAR MODULE ENDS -->
+   
+
+</div>
+<div id="adxMiddle" class="columnGroup"><!-- ADXINFO classification="bigad" campaign="NYT2009_marketingmodule"--><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Box1&amp;sn2=1ef4d912/61cc1eb0&amp;sn1=c5b443a4/2e8ab750&amp;camp=NYT2009_marketingmodule&amp;ad=fashion_designers_ros&amp;goto=http%3A%2F%2Fwww%2Esundaywiththemagazine%2Ecom" target="_blank">
+<img src="swineFlue_files/336X280_Banner_v4a_fashion_designers.jpg" width="336" border="0" height="280"></a>
+</div>
+
+
+<div class="columnGroup advertisementColumnGroup">
+<h4>Advertisements</h4>
+<table cellpadding="0" cellspacing="0"><tbody><tr><td class="cColumn">
+<div class="cColumn-TextAdsBox">
+
+
+<div class="cColumn-TextAdsRight"><!-- ADXINFO classification="box_86x60" campaign="NYT2009-AdEx-Boston-Kennedy-Last_Lion-S4D-HP-ROS"--><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Bottom3&amp;sn2=233823c7/833e525e&amp;sn1=8f21bb93/8d6c6eab&amp;camp=NYT2009-AdEx-Boston-Kennedy-Last_Lion-S4D-HP-ROS&amp;ad=kennedy_86x60_siteforday.gif&amp;goto=http%3A%2F%2Fwww%2Ebostonglobestore%2Ecom%2Fkennedy" target="_blank">
+<img src="swineFlue_files/86x60_siteforday.gif" width="86" border="0" height="60"></a>
+</div>
+
+</div>
+</td></tr></tbody></table>
+</div>
+
+<div id="adxMiddle5" class="columnGroup"><!-- ADXINFO classification="bigad" campaign="NYT2009-Mktg-ChoiceBlog-336x79-ROS"--><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/yr/mo/day/world&amp;pos=Middle5&amp;sn2=a0c27d51/d2c5fad5&amp;sn1=1b73692d/8951b350&amp;camp=NYT2009-Mktg-ChoiceBlog-336x79-ROS&amp;ad=GN-D-I-NYT-AD-FP-TCB-ROS-0409-NA&amp;goto=http%3A%2F%2Fthechoice%2Eblogs%2Enytimes%2Ecom%3FWT%2Emc%5Fid%3DGN%2DD%2DI%2DNYT%2DAD%2DFP%2DTCB%2DROS%2D0409%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank">
+<img src="swineFlue_files/09-0460_nytimes.gif" width="336" border="0" height="79"></a>
+</div>
+
+
+<br>
+<!--Google ads placeholder -->
+<div id="adxSponLink2" class="columnGroup"><table style="border: 1px solid rgb(157, 163, 173); width: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="">
+<tbody><tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top"><table style="width: 100%; height: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+<tbody><tr>
+ <td style="background-color: rgb(157, 163, 173); width: 70%; height: 20px; padding-top: 2px; padding-left: 11px; padding-bottom: 2px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="70%" bgcolor="#9da3ad" height="20"><span style="font-size: 12px; font-weight: normal; color: rgb(255, 255, 255);">Ads by Google</span></td>
+<td style="padding-top: 2px; padding-bottom: 2px; width: 30%; height: 20px; background-color: rgb(157, 163, 173); font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="30%" align="right" bgcolor="#9da3ad" height="20"><span><a style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" target="popupad">what's this?</a></span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style="height: 110px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top" height="110"><table style="padding: 4px; height: 100%; width: 100%; background-color: rgb(248, 248, 249);" width="100%" bgcolor="#f8f8f9" border="0" cellpadding="4" cellspacing="0" height="100%">
+<tbody><tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw0" onfocus="ss('go to www.make-solar-panel-now.com','aw0')" onmouseover="ss('go to www.make-solar-panel-now.com','aw0')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw0" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BM1GomvH0SZ2gAZ6kqAP4j5ThAaWikW6PxdXYCfeBgLcPsMwLEAEYBCCc8_gBKAM4AFC9t9SDB2DJ9viGyKOgGbIBD3d3dy5ueXRpbWVzLmNvbcgBAdoBMmh0dHA6Ly93d3cubnl0aW1lcy5jb20vMjAwOS8wNC8yNy93b3JsZC8yN2ZsdS5odG1swAIBqAMB6AP4BOgDE-gD9QT1AwAEAAT1AyQAAAA&amp;num=4&amp;sig=AGiWqtwfPvm-lZl5KtcmsINqniNsQvimcw&amp;client=ca-nytimes_article_var&amp;adurl=http://www.make-solar-panel-now.com" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.make-solar-panel-now.com','aw0')" onclick="ha('aw0')" onmouseover="return ss('go to www.make-solar-panel-now.com','aw0')" onmouseout="cs()">Free Home Electricity</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BM1GomvH0SZ2gAZ6kqAP4j5ThAaWikW6PxdXYCfeBgLcPsMwLEAEYBCCc8_gBKAM4AFC9t9SDB2DJ9viGyKOgGbIBD3d3dy5ueXRpbWVzLmNvbcgBAdoBMmh0dHA6Ly93d3cubnl0aW1lcy5jb20vMjAwOS8wNC8yNy93b3JsZC8yN2ZsdS5odG1swAIBqAMB6AP4BOgDE-gD9QT1AwAEAAT1AyQAAAA&amp;num=4&amp;sig=AGiWqtwfPvm-lZl5KtcmsINqniNsQvimcw&amp;client=ca-nytimes_article_var&amp;adurl=http://www.make-solar-panel-now.com" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">How to Make Low Cost Solar Panels. Reduce Your Electricity Bill by 90%</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BM1GomvH0SZ2gAZ6kqAP4j5ThAaWikW6PxdXYCfeBgLcPsMwLEAEYBCCc8_gBKAM4AFC9t9SDB2DJ9viGyKOgGbIBD3d3dy5ueXRpbWVzLmNvbcgBAdoBMmh0dHA6Ly93d3cubnl0aW1lcy5jb20vMjAwOS8wNC8yNy93b3JsZC8yN2ZsdS5odG1swAIBqAMB6AP4BOgDE-gD9QT1AwAEAAT1AyQAAAA&amp;num=4&amp;sig=AGiWqtwfPvm-lZl5KtcmsINqniNsQvimcw&amp;client=ca-nytimes_article_var&amp;adurl=http://www.make-solar-panel-now.com" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.make-solar-panel-now.com</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw1" onfocus="ss('go to www.hult.edu','aw1')" onmouseover="ss('go to www.hult.edu','aw1')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw1" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BsZqXmvH0SZ2gAZ6kqAP4j5ThAZ6X5mWI0_3bCsCNtwGQqTYQAhgFIJzz-AEoAzgAULGW0-j______wFgyfb4hsijoBmgAbj3-u8DsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyAAgHIAsTaugeoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=5&amp;sig=AGiWqtw8pj1ukOUjbi4ryyH0sNp8nCMhfg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hult.edu/lp/v04/mba_usa%3Flng%3Den-US%26partner%3Dgg" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.hult.edu','aw1')" onclick="ha('aw1')" onmouseover="return ss('go to www.hult.edu','aw1')" onmouseout="cs()">Top-Ranked One-Year MBA</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BsZqXmvH0SZ2gAZ6kqAP4j5ThAZ6X5mWI0_3bCsCNtwGQqTYQAhgFIJzz-AEoAzgAULGW0-j______wFgyfb4hsijoBmgAbj3-u8DsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyAAgHIAsTaugeoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=5&amp;sig=AGiWqtw8pj1ukOUjbi4ryyH0sNp8nCMhfg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hult.edu/lp/v04/mba_usa%3Flng%3Den-US%26partner%3Dgg" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Ranked 16th in U.S. by Economist Next Admission Deadline - April 30!</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BsZqXmvH0SZ2gAZ6kqAP4j5ThAZ6X5mWI0_3bCsCNtwGQqTYQAhgFIJzz-AEoAzgAULGW0-j______wFgyfb4hsijoBmgAbj3-u8DsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyAAgHIAsTaugeoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=5&amp;sig=AGiWqtw8pj1ukOUjbi4ryyH0sNp8nCMhfg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hult.edu/lp/v04/mba_usa%3Flng%3Den-US%26partner%3Dgg" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.hult.edu</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw2" onfocus="ss('go to www.Navy.TogetherWeServed.com','aw2')" onmouseover="ss('go to www.Navy.TogetherWeServed.com','aw2')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw2" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BOhWcmvH0SZ2gAZ6kqAP4j5ThAempppYBz5qCqQ3AjbcBgMQTEAMYBiCc8_gBKAM4AFDUi56f-P____8BYMn2-IbIo6AZsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=6&amp;sig=AGiWqtxRJZpppiL-VxfgvCRS3b-u4Mc7EA&amp;client=ca-nytimes_article_var&amp;adurl=http://navy.togetherweserved.com" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.Navy.TogetherWeServed.com','aw2')" onclick="ha('aw2')" onmouseover="return ss('go to www.Navy.TogetherWeServed.com','aw2')" onmouseout="cs()">Served In The US Navy?</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BOhWcmvH0SZ2gAZ6kqAP4j5ThAempppYBz5qCqQ3AjbcBgMQTEAMYBiCc8_gBKAM4AFDUi56f-P____8BYMn2-IbIo6AZsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=6&amp;sig=AGiWqtxRJZpppiL-VxfgvCRS3b-u4Mc7EA&amp;client=ca-nytimes_article_var&amp;adurl=http://navy.togetherweserved.com" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Find Sailors You Served With. View Their Photos. Share Memories.</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BOhWcmvH0SZ2gAZ6kqAP4j5ThAempppYBz5qCqQ3AjbcBgMQTEAMYBiCc8_gBKAM4AFDUi56f-P____8BYMn2-IbIo6AZsgEPd3d3Lm55dGltZXMuY29tyAEB2gEyaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDA5LzA0LzI3L3dvcmxkLzI3Zmx1Lmh0bWyoAwHoA_gE6AMT6AP1BPUDAAQABPUDJAAAAA&amp;num=6&amp;sig=AGiWqtxRJZpppiL-VxfgvCRS3b-u4Mc7EA&amp;client=ca-nytimes_article_var&amp;adurl=http://navy.togetherweserved.com" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.Navy.TogetherWeServed.com</a></div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></div>
+<script language="JavaScript" type="text/javascript">
+<!--
+if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_google_ad_channel = google_ad_channel; }
+if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }
+if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }
+function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}
+ 
+function google_ad_request_done(ads) {
+	var s = "";
+ 
+	if (ads.length == 0) {
+		return;
+	} else if (google_ad.bidtype == "CPM" && ads[0].type != 'image') {
+		google_ad_section_line_height = "22px";
+		google_ad_section_padding_left = "12px";
+		google_title_link_font_size = "18px";
+		google_ad_text_font_size = "14px";
+		google_visible_url_font_size = "14px";
+		google_target_div = 'adxSponLink2';
+	} else if (ads[0].type != 'image') {
+		google_ad_section_line_height = "14px";
+		google_ad_section_padding_left = "7px";
+		google_title_link_font_size = "12px";
+		google_ad_text_font_size = "11px";
+		google_visible_url_font_size = "10px";
+		google_target_div = 'adxSponLink2';
+	}
+	s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';
+	for (i = 0; i < ads.length; ++i) {
+		s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';
+	}
+	s += '</table>\n</td>\n</tr>\n</table>';
+	document.getElementById(google_target_div).innerHTML = s;
+	return;
+}
+google_ad_output = 'js';
+google_max_num_ads = '3';
+google_ad_client = 'nytimes_article_var';
+google_safe = 'high';
+google_hints = nyt_google_hints;
+google_ad_channel = nyt_google_ad_channel;
+if (window.nyt_google_count) { google_skip = parseInt(nyt_google_count)+3; } else { google_skip = 3; }
+// -->
+</script>
+
+<script type="text/javascript" language="JavaScript" src="iframe3_data/show_ads.js"></script><script src="iframe3_data/test_domain.js"></script><script>window.google_render_ad();</script><script language="JavaScript1.1" src="swineFlue_files/ads"></script>
+
+
+<br>
+<!--Google ads placeholder -->
+<div id="adxSponLinkA" class="columnGroup"></div>
+<script language="JavaScript" type="text/javascript">
+<!--
+if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_google_ad_channel = google_ad_channel; }
+if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }
+if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }
+function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}
+function plCh(){var m=document.getElementsByTagName('meta');var x=false;var y='';for(var i in m){if(m[i].name=='WT.z.gsg'&&m[i].content=='Archive'){x=true}if(m[i].name=='WT.z_puv'){y=m[i].content}}if(x){if(y=='Normal'){return', ascii'}if(y=='Abstract'){return', asciiabstract'}}else{return''}}
+ 
+function google_ad_request_done(ads) {
+	var s = "";
+ 
+	if (ads.length == 0) {
+		return;
+	} else if (google_ad.bidtype == "CPM" && ads[0].type != 'image') {
+		google_ad_section_line_height = "22px";
+		google_ad_section_padding_left = "12px";
+		google_title_link_font_size = "18px";
+		google_ad_text_font_size = "14px";
+		google_visible_url_font_size = "14px";
+		google_target_div = 'adxSponLinkA';
+	} else if (ads[0].type != 'image') {
+		google_ad_section_line_height = "14px";
+		google_ad_section_padding_left = "7px";
+		google_title_link_font_size = "12px";
+		google_ad_text_font_size = "11px";
+		google_visible_url_font_size = "10px";
+		google_target_div = 'adxSponLink';
+	}
+	s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';
+	for (i = 0; i < ads.length; ++i) {
+		s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';
+	}
+	s += '</table>\n</td>\n</tr>\n</table>';
+	document.getElementById(google_target_div).innerHTML = s;
+	return;
+}
+if (document.getElementById("adxSponLink2")) { google_targeting = 'content'; }
+google_ad_output = 'js';
+google_max_num_ads = '3';
+google_ad_client = 'nytimes_article_var';
+google_safe = 'high';
+google_hints = nyt_google_hints;
+google_ad_channel = nyt_google_ad_channel+plCh();
+if (window.nyt_google_count) { google_skip = nyt_google_count; }
+// -->
+</script>
+
+<script type="text/javascript" language="JavaScript" src="iframe3_data/show_ads.js"></script><script>window.google_render_ad();</script><script language="JavaScript1.1" src="swineFlue_files/ads_002"></script>
+
+
+</div><!--end #bColumn -->
+
+<!--MOTHS -->
+
+  <!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule">
+            <script language="JavaScript" type="text/javascript" src="swineFlue_files/moth.js"></script><script src="swineFlue_files/effect_scroll.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/mothController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/mothLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+        
+    <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="swineFlue_files/moth_reverse_off.gif"></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="swineFlue_files/moth_forward.gif"></span></div>
+                <h4>
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/nyregion/thecity/index.html">The City �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/nyregion/thecity/26hous.html"><img src="swineFlue_files/26moth_hous.jpg" alt="The House of Much History" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/nyregion/thecity/26hous.html">The House of Much History</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/opinion/26obamadays.html"><img src="swineFlue_files/26moth_oped.jpg" alt="Op-Ed: Obama at 100 Days" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/opinion/26obamadays.html">Op-Ed: Obama at 100 Days</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/fashion/26social.html"><img src="swineFlue_files/26moth_social2a.jpg" alt="Expectant Mother Wants a Drink: Mix It or Nix It?" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/fashion/26social.html">Expectant Mother Wants a Drink: Mix It or Nix It?</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion �</a></h6>
+                <h3><a href="http://www.nytimes.com/2009/04/26/opinion/26sun3.html">Editorial: Health Care Reform</a></h3>
+                <p class="summary">Before battling on health care reform, the Senate should authorize F.D.A. regulation of tobacco products.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/weekinreview/index.html">Week in Review �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/weekinreview/26nordland.html"><img src="swineFlue_files/26moth_nordland.jpg" alt="Iraq&#8217;s False Spring" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/weekinreview/26nordland.html">Iraq&#8217;s False Spring</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/books/index.html">Books �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/books/review/Bissell-t.html"><img src="swineFlue_files/26moth_bissell.jpg" alt="Great and Terrible Truths" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/books/review/Bissell-t.html">Great and Terrible Truths</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/realestate/26cov.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/24/realestate/26moth-cov.jpg" alt="The E-Mail Handshake" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/realestate/26cov.html">The E-Mail Handshake</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/opinion/l26hospitals.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/26/opinion/26moth_letters.jpg" alt="Letters: Avoiding a Second Hospital Trip" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/opinion/l26hospitals.html">Letters: Avoiding a Second Hospital Trip</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/pages/fashion/weddings/index.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/26/fashion/sundaystyles/26moth_vows.jpg" alt="Weddings and Celebrations" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/pages/fashion/weddings/index.html">Weddings and Celebrations</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion �</a></h6>
+                <h3><a href="http://www.nytimes.com/1994/04/28/opinion/essay-rn-off-the-record.html">Op-Classic, 1994: Nixon Off the Record</a></h3>
+                <p class="summary">After
+Richard Nixon&#8217;s death 15 years ago this month, the columnist William
+Safire shared some of the president&#8217;s unpublished comments.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/design/index.html">Art &amp; Design �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/arts/design/26kenn.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/22/arts/design/26moth_kenn.jpg" alt="Stubbornly Practicing Photographic Principles" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/arts/design/26kenn.html">Stubbornly Practicing Photographic Principles</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine �</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/26/magazine/26zen-t.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/26/magazine/26moth_zen.jpg" alt="Enlightenment Therapy" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/26/magazine/26zen-t.html">Enlightenment Therapy</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+
+</div>
+<!--Footer -->
+
+<nyt_footer>	 
+<nyt_copyright>
+
+<div id="footer">
+<div class="footerRow">
+<a href="http://www.nytimes.com/">Home</a>
+<ul>
+<li><a href="http://www.nytimes.com/pages/world/index.html">World</a></li>
+<li><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a></li>
+<li><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a></li>
+<li><a href="http://www.nytimes.com/pages/business/index.html">Business</a></li>
+<li><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a></li>
+<li><a href="http://www.nytimes.com/pages/science/index.html">Science</a></li>
+<li><a href="http://www.nytimes.com/pages/health/index.html">Health</a></li>
+<li><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a></li>
+<li><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></li>
+<li><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a></li>
+<li><a href="http://www.nytimes.com/pages/style/index.html">Style</a></li>
+<li><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a></li>
+<li><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a></li>
+<li><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a></li>
+<li><a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a></li>
+<li><a href="#top">Back to Top</a></li>
+</ul>
+</div>
+<a href="http://www.nytimes.com/ref/membercenter/help/copyright.html">Copyright 2009</a> 
+<a href="http://www.nytco.com/">The New York Times Company</a>
+<ul>
+<li><a href="http://www.nytimes.com/privacy">Privacy Policy</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=&amp;date_select=full&amp;type=nyt">Search</a></li>
+<li><a href="http://www.nytimes.com/corrections.html">Corrections</a></li>
+<li><a href="http://www.nytimes.com/rss" class="rssButton">RSS</a></li>
+<li><a href="http://firstlook.nytimes.com/">First Look</a></li>
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://www.nytco.com/careers/">Work for Us</a></li>
+<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>
+</div>
+
+</nyt_copyright>
+</nyt_footer>  
+
+</div>
+</div>
+
+			
+		<!-- Start UPT call -->
+		<img src="swineFlue_files/a.gif" width="3" border="0" height="1">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="0";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="swineFlue_files/trackingTags_v1.js" type="text/javascript"></script><script src="swineFlue_files/loader.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/builder.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/dragdrop.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/controls.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/template.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/defaultfeed.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="swineFlue_files/build.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+        <noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1"
+src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+
+</noscript>
+   
+
+
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("t_section","World")</script>
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("site","nytimes.com")</script>
+		<script language="JavaScript">Tacoda_AMS_DDC("http://te.nytimes.com/tte/blank.gif","1.0")</script><img src="swineFlue_files/blank_002.gif" id="tacoda" width="1" border="0" height="1">	
+		
+<img src="swineFlue_files/6bdc3be5Q2F15UQ24kQ3EhQ2FkiQ3EiyQ5BUQ2FQ5EQ3EWQ24.html" width="3" height="1">
+
+
+<!-- ADXINFO classification="blank-but-count-imps" campaign="blank-popunderblocker"--><img src="swineFlue_files/blank.gif">
+<script language="javascript" src="swineFlue_files/57.js"></script><script type="text/javascript" language="javascript" src="swineFlue_files/adServer.html"></script>
+<ics:argument name="asset_id" value="1194839804872">
+
+
+
+</ics:argument></body></html>

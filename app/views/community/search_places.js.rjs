@@ -1,0 +1,1 @@
+page.replace_html("person_partial", :partial=> 'person', :collection => @people)

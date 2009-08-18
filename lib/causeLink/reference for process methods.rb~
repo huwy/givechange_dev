@@ -1,0 +1,21 @@
+####  MAKE SURE stop_words and nccs FILES ARE IN /app/causeLink  ####
+
+require 'lib/causeLink/nccs_arrays.rb'
+require 'rubygems'
+require 'fastercsv'
+
+temp = Nccs_arrays.create_stop_words_and_boring_words_arrays("stop_words")
+stop_words = temp[0]
+boring_words = temp[1]
+
+categories = Nccs_arrays.read_nccs_file_into_array("nccs")
+
+headlines = Nccs_arrays.create_headline_array(categories, stop_words, boring_words)
+
+subheadlines = Nccs_arrays.create_subheadline_array(categories, stop_words, boring_words)
+
+#create headlines csv doc (lib/causeLink/headlines_keywords.txt)
+Nccs_arrays.create_headlines_csv(headlines)
+
+#create subheadlines csv doc (lib/causeLink/subheadlines_keywords.txt)
+Nccs_arrays.create_subheadlines_csv(subheadlines)

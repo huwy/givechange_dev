@@ -1,0 +1,40 @@
+<div class="left-side">
+	<div class="image-side">
+		<div class="holder">&nbsp;</div>
+		<a href="#" class="mbutton"><span class="line">&nbsp;</span>Add as a Friend</a>
+		<a href="#" class="mbutton mbutton-orange"><span class="line">&nbsp;</span>Send a Message</a>
+	</div>
+	<div class="info-side">
+		<h3><%= person.first_name %> <%= person.last_name %>,  <span><% if person.age != 0 %><%= person.age %></span><% end %></h3> 
+		<br />
+		<p style="padding-bottom: 4px; border-bottom: solid 1px #000; margin-bottom: 6px;"><%= person.city %>, <%= person.state %><br /> Member Since <%= date_format(person.created_at) %></p>
+		<p><small>Causes: <%= list_causes(person) %></small></p>
+    <div class="slider user-slider">
+			<div class="buttons">
+				<a href="#" class="prev">prev</a>
+				<a href="#" class="next">next</a>
+			</div>
+			<ul>
+			    <li>
+			    	<div class="holder">&nbsp;</div>
+			    	<p>[Info]</p>
+			    </li>
+			    <li>
+			    	<div class="holder">&nbsp;</div>
+			    	<p>[Info]</p>
+			    </li>
+			    <li>
+			    	<div class="holder">&nbsp;</div>
+			    	<p>[Info]</p>
+			    </li>
+			    <li>
+			    	<div class="holder">&nbsp;</div>
+			    	<p>[Info]</p>
+			    </li>
+			</ul>
+		</div>
+		<p>Information</p>
+		<br />
+		<%= person_information_helper(person) %><br />
+	</div>
+</div>

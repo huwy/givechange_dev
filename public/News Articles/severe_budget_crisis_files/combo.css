@@ -1,0 +1,2120 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.3.1
+*/
+/*reset.css*/body{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup,sub{line-height:-1px;vertical-align:text-top;}sub{vertical-align:text-bottom;}input, textarea, select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*fonts.css*/body {font:13px/1.22 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}table {font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:99%;}
+/*grids.css*/body{text-align:center;}#ft{clear:both;}#doc,#doc2,#doc3,#doc4,.yui-t1,.yui-t2,.yui-t3,.yui-t4,.yui-t5,.yui-t6,.yui-t7{margin:auto;text-align:left;width:57.69em;*width:56.301em;min-width:750px;}#doc2{width:73.074em;*width:71.313em;}#doc3{margin:auto 10px;width:auto;}#doc4{width:74.923em;*width:73.117em;}.yui-b{position:relative;}.yui-b{_position:static;}#yui-main .yui-b{position:static;}#yui-main{width:100%;}.yui-t1 #yui-main,.yui-t2 #yui-main,.yui-t3 #yui-main{float:right;margin-left:-25em;}.yui-t4 #yui-main,.yui-t5 #yui-main,.yui-t6 #yui-main{float:left;margin-right:-25em;}.yui-t1 .yui-b{float:left;width:12.3207em;*width:12.0106em;}.yui-t1 #yui-main .yui-b{margin-left:13.3207em;*margin-left:13.0106em;}.yui-t2 .yui-b{float:left;width:13.8456em;*width:13.512em;}.yui-t2 #yui-main .yui-b{margin-left:14.8456em;*margin-left:14.512em;}.yui-t3 .yui-b{float:left;width:23.0759em;*width:22.52em;}.yui-t3 #yui-main .yui-b{margin-left:24.0759em;*margin-left:23.52em;}.yui-t4 .yui-b{float:right;width:13.8456em;*width:13.512em;}.yui-t4 #yui-main .yui-b{margin-right:14.8456em;*margin-right:14.512em;}.yui-t5 .yui-b{float:right;width:18.4608em;*width:18.016em;}.yui-t5 #yui-main .yui-b{margin-right:19.4608em;*margin-right:19.016em;}.yui-t6 .yui-b{float:right;width:23.0759em;*width:22.52em;}.yui-t6 #yui-main .yui-b{margin-right:24.0759em;*margin-right:23.52em;}.yui-t7 #yui-main .yui-b{display:block;margin:0 0 1em 0;}#yui-main .yui-b{float:none;width:auto;}.yui-g .yui-gb .yui-u,.yui-gb .yui-g,.yui-gb .yui-gb,.yui-gb .yui-gc,.yui-gb .yui-gd,.yui-gb .yui-ge,.yui-gb .yui-gf,.yui-gb .yui-u,.yui-gc .yui-u,.yui-gc .yui-g,.yui-gd .yui-u{float:left;margin-left:2%;width:32%;}.yui-gb .yui-gb .yui-u,.yui-gb .yui-gc .yui-u{*margin-left:1.8%;_margin-left:4%;}.yui-g .yui-gb .yui-u{_margin-left:.8%;}.yui-gb .yui-u{float:right;}.yui-gb div.first{margin-left:0;float:left;}.yui-g .yui-gb div.first,.yui-gb .yui-gb div.first{*margin-right:0;*width:32%;_width:31.7%;}.yui-gb .yui-gc div.first,.yui-gb .yui-gd div.first{*margin-right:0;}.yui-gb .yui-gd .yui-u{*width:66%;_width:61.2%;}.yui-gb .yui-gd div.first{*width:31%;_width:29.5%;}.yui-g .yui-gc .yui-u,.yui-gb .yui-gc .yui-u{width:32%;_float:right;margin-right:0;_margin-left:0;}.yui-gb .yui-gc div.first{width:66%;*float:left;*margin-left:0;}.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf .yui-u{margin:0;}.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf,.yui-gc .yui-u,.yui-gd .yui-g,.yui-g .yui-gc .yui-u,.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf .yui-g,.yui-gf .yui-u{float:right;}.yui-g .yui-gc div.first,.yui-g .yui-ge div.first,.yui-g div.first,.yui-gc div.first,.yui-gc div.first div.first,.yui-gd div.first,.yui-ge div.first,.yui-gf div.first{float:left;}.yui-g .yui-g .yui-u,.yui-gb .yui-g .yui-u,.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u,.yui-ge .yui-g .yui-u,.yui-gf .yui-g .yui-u{width:49%;*width:48.1%;*margin-left:0;}.yui-g .yui-g div.first{*margin:0;}.yui-gb .yui-g div.first{*margin-right:4%;_margin-right:1.3%;}.yui-gb .yui-gb .yui-u{_margin-left:.7%;}.yui-gb .yui-g div.first,.yui-gb .yui-gb div.first{*margin-left:0;}.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u{*width:48.1%;*margin-left:0;}.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf{width:49.1%;}.yui-g .yui-gb div.first,.yui-gb div.first,.yui-gc div.first,.yui-gd div.first{margin-left:0;}.yui-g .yui-gc div.first,.yui-gc div.first,.yui-gd .yui-g,.yui-gd .yui-u{width:66%;}.yui-gd div.first,.yui-gb .yui-gd div.first{width:32%;}.yui-g .yui-gd div.first{_width:29.9%;}.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf div.first{width:24%;}.yui-gb .yui-ge div.yui-u,.yui-gb .yui-gf div.yui-u{float:right;}.yui-gb .yui-ge div.first,.yui-gb .yui-gf div.first {float:left;}.yui-ge div.first,.yui-gf .yui-g,.yui-gf .yui-u{width:74.2%;}.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf div.first{*width:24%;_width:20%;}.yui-gb .yui-ge div.first,.yui-gb .yui-gf .yui-u{*width:73.5%;_width:65.5%;}#bd:after,.yui-g:after,.yui-gb:after,.yui-gc:after,.yui-gd:after,.yui-ge:after,.yui-gf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}#bd,.yui-g,.yui-gb,.yui-gc,.yui-gd,.yui-ge,.yui-gf{zoom:1;}.yui-gb .yui-u{float:left;}
+#y-page {
+	width: 951px;
+	padding: 0 9px;
+	margin: 0 auto;
+}
+
+#y-content {
+	width: 641px;
+	float: left;
+	margin-right: 9px;
+}
+
+#y-related {
+	width: 311px;
+	float: left;
+}
+
+#y-foot {
+	clear: both;
+}
+
+#y-banner {
+	margin: 9px 0;
+}
+
+.clear:after {
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+.clear { zoom: 1; }
+
+/*********************************************************************
+*
+* Default column styles
+*
+*********************************************************************/
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8 {
+	margin: 0 0 9px 0;
+}
+
+/**********************************************************************
+*
+* .a44 - Two columns 50/50 split, followed by optional full width column
+*
+**********************************************************************/
+
+.a44 .col1, .a44 .col2 {
+	width: 311px;
+	float: left;
+}
+
+.a44 .col1 {
+	margin-right: 9px;
+}
+
+.a44 .col3 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .a53 - Two columns 5 and 3 eighths, and optional full width column
+*
+**********************************************************************/
+
+.a53 .col1, .a53 .col2 {
+	float: left;
+}
+
+.a53 .col1 {
+	margin-right: 9px;
+	width: 391px;
+}
+
+.a53 .col2 {
+	width: 231px;
+}
+
+.a53 .col3 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .a62 - Two columns 6 and 2 eighths, and optional full width column
+*
+**********************************************************************/
+
+.a62 .col1, .a62 .col2 {
+	float: left;
+}
+
+.a62 .col1 {
+	margin-right: 9px;
+	width: 471px;
+}
+
+.a62 .col2 {
+	width: 151px;
+}
+
+.a62 .col3 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .b332 - Three cols, and optional full width column
+*
+**********************************************************************/
+
+.b332 .col1, .b332 .col2, .b332 .col3 {
+	float: left;
+}
+
+.b332 .col1, .b332 .col2 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.b332 .col3 {
+	width: 151px;
+}
+
+.b332 .col4 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .b422 - Three cols, and optional full width column
+*
+**********************************************************************/
+
+.b422 .col1, .b422 .col2, .b422 .col3 {
+	float: left;
+}
+
+.b422 .col1 {
+	margin-right: 9px;
+	width: 311px;
+}
+
+.b422 .col2 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.b422 .col3 {
+	width: 151px;
+}
+
+.b422 .col4 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .b323 - Three cols, and optional full width column
+*
+**********************************************************************/
+
+.b323 .col1, .b323 .col2, .b323 .col3 {
+	float: left;
+}
+
+.b323 .col1 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.b323 .col2 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.b323 .col3 {
+	width: 231px;
+}
+
+.b323 .col4 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .b233 - Three cols, and optional full width column
+*
+**********************************************************************/
+
+.b233 .col1, .b233 .col2, .b233 .col3 {
+	float: left;
+}
+
+.b233 .col1 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.b233 .col2 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.b233 .col3 {
+	width: 231px;
+}
+
+.b233 .col4 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .b242 - Three cols, and optional full width column
+*
+**********************************************************************/
+
+.b242 .col1, .b242 .col2, .b242 .col3 {
+	float: left;
+}
+
+.b242 .col1 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.b242 .col2 {
+	margin-right: 9px;
+	width: 311px;
+}
+
+.b242 .col3 {
+	width: 151px;
+}
+
+.b242 .col4 {
+	clear: left;
+}
+
+/**********************************************************************
+*
+* .c4224 - Left sidebar (4/8) with two 2/4 half-cols
+*
+**********************************************************************/
+
+.c4224 .col1, .c4224 .col2, .c4224 .col3, .c4224 .col4 {
+	float: left;
+}
+
+.c4224 .col1 {
+	margin-right: 9px;
+	width: 311px;
+}
+
+.c4224 .col2 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.c4224 .col3 {
+	width: 151px;
+}
+
+.c4224 .col4 {
+	width: 311px;
+	float: right
+}
+
+.c4224 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .c3235 - Left sidebar (3/8) with two half-cols (2/8 and 3/8)
+*
+**********************************************************************/
+
+.c3235 .col1, .c3235 .col2, .c3235 .col3, .c3235 .col4 {
+	float: left;
+}
+
+.c3235 .col1 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.c3235 .col2 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.c3235 .col3 {
+	width: 231px;
+}
+
+.c3235 .col4 {
+	width: 391px;
+	float: right
+}
+
+.c3235 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .c3325 - Left sidebar (3/8) with two half-cols (3/8 and 2/8)
+*
+**********************************************************************/
+
+.c3325 .col1, .c3325 .col2, .c3325 .col3, .c3325 .col4 {
+	float: left;
+}
+
+.c3325 .col1 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.c3325 .col2 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.c3325 .col3 {
+	width: 151px;
+}
+
+.c3325 .col4 {
+	width: 391px;
+	float: right
+}
+
+.c3325 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .c2426 - Left sidebar (2/8) with two half-cols (4/8 and 2/8)
+*
+**********************************************************************/
+
+.c2426 .col1, .c2426 .col2, .c2426 .col3, .c2426 .col4 {
+	float: left;
+}
+
+.c2426 .col1 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.c2426 .col2 {
+	margin-right: 9px;
+	width: 311px;
+}
+
+.c2426 .col3 {
+	width: 151px;
+}
+
+.c2426 .col4 {
+	width: 471px;
+	float: right
+}
+
+.c2426 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .c2336 - Left sidebar (2/8) with two half-cols (3/8 and 3/8)
+*
+**********************************************************************/
+
+.c2336 .col1, .c2336 .col2, .c2336 .col3, .c2336 .col4 {
+	float: left;
+}
+
+.c2336 .col1 {
+	margin-right: 9px;
+	width: 151px;
+}
+
+.c2336 .col2 {
+	margin-right: 9px;
+	width: 231px;
+}
+
+.c2336 .col3 {
+	width: 231px;
+}
+
+.c2336 .col4 {
+	width: 471px;
+	float: right
+}
+
+.c2336 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .d3235 - Right sidebar (3/8) with two half-cols (2/8 and 3/8)
+*
+**********************************************************************/
+
+.d3235 .col1, .d3235 .col2, .d3235 .col3, .d3235 .col4 {
+	float: right;
+}
+
+.d3235 .col1 {
+	margin-left: 9px;
+	width: 231px;
+}
+
+.d3235 .col2 {
+	margin-left: 9px;
+	width: 151px;
+}
+
+.d3235 .col3 {
+	width: 231px;
+}
+
+.d3235 .col4 {
+	width: 391px;
+	float: left;
+}
+
+.d3235 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .d2246 - Right sidebar (2/8) with two half-cols (2/8 and 4/8)
+*
+**********************************************************************/
+
+.d2246 .col1, .d2246 .col2, .d2246 .col3, .d2246 .col4 {
+	float: right;
+}
+
+.d2246 .col1 {
+	margin-left: 9px;
+	width: 151px;
+}
+
+.d2246 .col2 {
+	margin-left: 9px;
+	width: 151px;
+}
+
+.d2246 .col3 {
+	width: 311px;
+}
+
+.d2246 .col4 {
+	width: 471px;
+	float: left;
+}
+
+.d2246 .col5 {
+	clear: both;
+}
+
+/**********************************************************************
+*
+* .d2336 - Right sidebar (2/8) with two half-cols (3/8 and 3/8)
+*
+**********************************************************************/
+
+.d2336 .col1, .d2336 .col2, .d2336 .col3, .d2336 .col4 {
+	float: right;
+}
+
+.d2336 .col1 {
+	margin-left: 9px;
+	width: 151px;
+}
+
+.d2336 .col2 {
+	margin-left: 9px;
+	width: 231px;
+}
+
+.d2336 .col3 {
+	width: 231px;
+}
+
+.d2336 .col4 {
+	width: 471px;
+	float: left;
+}
+
+.d2336 .col5 {
+	clear: both;
+}
+/*********************************************************************
+*
+* Finance grid Layout overrides
+*
+*********************************************************************/
+body {
+	background:#f2f2f2;
+}
+#y-page.y-fin-wrapper{
+	width:970px;
+	background:#f2f2f2;
+}
+#y-content{
+	margin-left:9px;
+	*display:inline; /* IE6 double margin fix */
+}
+
+/*********************************************************************
+*
+* Page specific
+*
+*********************************************************************/
+#y-head, 
+#y-main {
+	background:#fff;
+}
+
+#y-main{
+	clear:both;
+	padding:9px 0;
+	text-align:left;
+}
+
+/*********************************************************************
+*
+* Secondary Nav - stock search etc
+*
+*********************************************************************/
+
+#y-nav-sec{
+	text-align:left;
+}
+	#y-nav-sec fieldset{
+		float:left;
+		clear:none;
+	}
+
+	#y-nav-sec label,
+	#y-nav-sec legend,
+	#y-nav-sec h2
+	{
+		display:none;
+	}
+	
+#y-fi-get-quotes-input{
+	border:2px solid #3d60a4;
+}
+
+
+
+/*********************************************************************
+*
+* Ad styles
+*
+*********************************************************************/
+
+#y-ad-units, #yfi-rq {
+	text-align:center;
+	padding:0 0 6px 0;
+	display:block;
+	clear:both;	
+}
+
+#y-ad-units {
+	width: 960px;
+}
+
+#y-ad-units .ad{
+	float:left;
+	clear:none;
+	width:25%;
+	_width:24%;
+}
+	
+#y-banner{
+	border-bottom:1px solid #d0d0d0;
+	padding-bottom:0.5em;
+	margin-bottom:20px;
+}
+#y-article-related #yfi-rq {
+	padding:10px 0;
+	background-color:#EEF3F6;
+	margin:0;
+}
+
+/*********************************************************************
+*
+* Content specific
+*
+*********************************************************************/
+
+#y-content p,
+#y-content blockquote
+{
+	font-size:1em;
+	line-height:1.539em;
+	margin-bottom:1.53em;
+	display:block;
+}
+
+#y-content blockquote{
+	margin-left:1.53em;
+}
+
+#y-content strong{
+	font-weight:bold;
+}
+#y-content h1{
+	font-size:1.82em;
+	font-weight:bold;
+	padding:0;
+	margin-bottom:10px;
+}
+#y-content h2{
+	font-size:116%;
+	font-family:Georgia, serif;
+	margin-bottom:1.16em;
+}
+
+.content-wrapper{
+	/* This is necessary to accomodate design */
+	padding:9px;
+}
+
+/*********************************************************************
+*
+* Article header region
+*
+*********************************************************************/
+
+#y-article-hd{
+	position:relative;
+	margin-bottom:1.16em;
+}
+#y-content #y-article-hd h2{
+	font-family:arial, sans-serif;
+	font-size:108%;
+	margin-top:-5px;
+	margin-bottom:1em;
+}
+
+#y-content #y-article-hd p{
+	color:#808080;
+	font-size:85%;
+	margin-bottom:12px;
+	padding:0;
+	position:relative;
+}
+
+#y-content #y-article-hd p .source{
+	position:absolute;
+	right:0;
+}
+
+#y-article-hd .attribution li{
+	margin-bottom:2px;
+}
+
+/*#y-article-hd .toolbar{
+	position:absolute;
+	right:0;
+	bottom:0;
+	margin:0;
+}*/
+
+/*********************************************************************
+*
+* Module Grouping
+*
+*********************************************************************/
+
+#y-content .mod-group{
+	padding-top:20px;
+	margin-bottom:1em;
+}
+	#y-content .mod-group .mod{
+		clear:none;
+		padding:0 9px;
+	}
+		#y-content .mod-group .col2 .mod{
+			padding-left:0;
+		}
+		
+	#y-content .mod-group .mod ul{
+		padding-left:15px;
+	}
+	#y-content .mod-group .mod li{
+		margin-bottom:0.70em;
+	}
+
+
+
+/*********************************************************************
+*
+* Related
+*
+*********************************************************************/
+
+#y-related h2{
+	padding:12px 0 12px 14px;
+	margin-bottom:12px;
+	font-size:116%;
+}
+	#y-related h2 img{
+		vertical-align:middle;
+	}
+#y-related ul{
+	margin:0 14px;
+}
+#y-related ul li{
+	margin-left:14px;
+	margin-bottom:0.70em;
+}
+
+/* Module specific */
+
+#y-related .mod{
+	margin-bottom:9px;
+	padding-bottom:12px;
+}
+
+/*********************************************************************
+*
+* Footer
+*
+*********************************************************************/
+
+.y-footer{
+	background:#e6eff7;
+	clear:both;
+	text-align:left;
+}
+
+#yfi_ft {
+	background: #C6C3C6; 
+	margin:0;
+	padding:15px ; 
+}
+#yfi_ft p {
+	margin:10px 0 0 0; 
+	font-size:85%;
+}
+
+/*********************************************************************
+*
+* Reset - finance tables assume 100%. where does this rule go?
+*
+*********************************************************************/
+
+table {width:100%;}
+
+/*********************************************************************
+*
+* Common - common rules that should be in a base css file
+*
+*********************************************************************/
+/*uppercase any ticker link */
+.yf-ticker {
+text-transform:uppercase;
+}
+
+/* ad generated blank spacer gifs  cause extra whitespace  */
+#yfi-nns img{
+	display:none;
+}
+
+/* the nns ad uses a font tag that wraps a link! apply styles to the font instead of the div.*/
+#yfi-nns font, #y-feedback {
+	margin:0 7px 5px 7px; 
+	border:1px solid#ccc; 
+	padding:3px 10px; 
+	background:#fff;
+} 
+#yfi-nns font {
+	display:block; 
+}
+#y-feedback { 
+	border: 1px solid #e1c05e;  
+	background:#fef3d2;
+	font-size:85%;
+}
+#y-feedback img {
+vertical-align:middle;
+}
+/* add styles to the more links inside list modules */
+.newslist .more {
+	font-weight:bold;
+	margin:0 10px;
+}
+/*********************************************************************
+*
+* Finance grid Layout overrides
+*
+*********************************************************************/
+
+#y-content{
+	background:#fff;
+}
+
+/*********************************************************************
+*
+* Link Styles
+*
+*********************************************************************/
+
+#y-main a{
+	color:#044d89;
+	text-decoration:none;
+}
+#y-main a:hover{
+	text-decoration:underline;
+}
+#y-main a:visited{
+	color:#990099;
+}
+
+
+/*********************************************************************
+*
+* Call To action
+*
+*********************************************************************/
+button.cta{
+	background:#e4e3e2 url('http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/cta-button-static.gif') no-repeat 0 0;
+	width:100px;
+	height:27px;
+	border:none;
+	color:#000;
+	font-weight:bold;
+	font-size:0.7em;
+	text-align:center;
+	text-transform:uppercase;
+	padding:0;
+}
+
+/*
+	button.cta span{
+		position:relative;
+		background:#e4e3e2 url('http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/cta-button.gif') no-repeat 0 0;
+	}
+	button.cta span span{
+		left:-9px;	
+		top:0;	
+		background-position:0 100%;
+	}
+	button.cta span span span{
+		left:0;
+		top:-1px;
+		margin-bottom:-10px;
+		background-position:0 0;
+	}
+	button.cta span span span span{
+		left:10px;
+		margin-bottom:0;
+		top:0;
+		background-position:100% 0;
+		padding:10px;
+	}
+*/
+
+/*********************************************************************
+*
+* Content specific
+*
+*********************************************************************/
+
+#y-content p{
+	color:#181818;
+}
+#y-content h2{
+	color:#000;
+}
+
+/*********************************************************************
+*
+* Module specific
+*
+*********************************************************************/
+
+.mod li.video a{
+	background:transparent url(http://l.yimg.com/a/i/ww/thm/1/icons_1.1.gif) no-repeat 0 -51px;
+	padding-left:22px;
+}
+.mod li.image a{
+	background:transparent url(http://l.yimg.com/a/i/ww/thm/1/icons_1.1.gif) no-repeat 0 -151px;
+	padding-left:22px;
+}
+
+/*********************************************************************
+*
+* Module Grouping
+*
+*********************************************************************/
+
+#y-content .mod-group{
+	clear:both;
+	border-top:3px solid #e7e7e7;
+	zoom:1;
+}
+	#y-content .mod-group .mod ul{
+		list-style:disc;
+	}
+	#y-content .mod-group .mod li{
+		list-style:disc;
+		color:#808080;
+	}
+	#y-content .mod-group .mod.ysm{
+		border:1px solid #e7e7e7;
+	}
+	
+/*********************************************************************
+*
+* Attribution
+*
+*********************************************************************/
+
+.attribution,
+#y-content #y-article-hd p.attribution,
+ul li cite{
+	color:#808080;
+	font-size:0.77em;
+}
+
+/*********************************************************************
+*
+* Related
+*
+*********************************************************************/
+
+#y-related h2{
+	font-family:Georgia,serif;
+	border-bottom:1px solid #d0d0d0;
+}
+#y-related ul{
+	color:#808080;
+}
+#y-related ul li{
+	list-style:disc;
+}
+
+/* Module specific */
+
+#y-related .mod{
+	border-bottom:3px solid #E7E7E7;
+}
+
+/* taken from  yfi_quotes_summary.css */
+/***************************************
+ * =Streaming Quotes
+ **************************************/
+ /* on/off controller */
+
+#y-nav {
+position:relative;  
+}
+/* Streaming Quotes */
+#yfi_streaming_quotes{
+    float:right;
+    font-size: 85%;
+}
+#yfsbar{
+    position:relative;
+    top:3px;
+	right:10px;
+}
+#yfsbar span{
+    display:block;
+    float:left;
+    margin-left:.5em;
+}
+#yfi_streaming_quotes #yfs_onoff span {
+    color: #444;
+    display:inline;
+}
+#yfi_streaming_quotes #yfs_onoff a {
+    font-weight: bold;
+		text-decoration:none;
+}
+#yfi_streaming_quotes #yfs_onoff a:hover {
+		text-decoration:underline;
+}
+#yfi_streaming_quotes #yfs_wthis a {
+    background: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/icon_round_question.png);
+    display: block;
+    height: 13px;
+    width: 13px;
+    overflow: hidden;
+    text-indent: -9999em;
+}
+span.sq_change_up {
+    color: #3a932e;
+}
+span.sq_change_down {
+    color: #e46062;
+}
+span.sq_highlight_up {
+    background-color: #e1fbd6;
+}
+span.sq_highlight_down {
+    background-color: #ffe7e5;
+}
+span.yfi-price-change-up {
+	/*color: #3a932e;*/
+	color: #008800;
+	font-weight: bold;
+}
+span.yfi-price-change-down {
+	/*color: #e46062;*/
+	color: #cc0000;
+	font-weight: bold;
+}
+.yfi-price-change-up {
+	/*color: #3a932e;*/
+	color: #008800;
+	font-weight: bold;
+}
+.yfi-price-change-down {
+	/*color: #e46062;*/
+	color: #cc0000;
+	font-weight: bold;
+}
+.yfs_module_params, .yfs_common_params {
+    display: none;
+}
+#yfs_common_params {
+    display: none;
+}
+.mod.article-content-col{
+	padding:9px;
+}
+
+	.mod.article-content-col .modgroup .mod{
+		clear:left;
+		float:left;
+		width:46%;
+		margin:14px;
+		margin-left:0;
+	}
+	/*basic rules for related column to avoid showing an empty column*/
+#y-article-related{
+	float:left;
+	width:auto;
+}
+#y-content #y-article-related.mod-group{
+    clear:none;
+}
+
+	.disclaimer{
+		clear:left;
+		padding:10px; 
+		color:#666; 
+		font-size:90%
+	}
+	#y-article-bd p {
+	line-height: 1.4em;
+	margin-bottom: 1.25em;
+	}
+	/*make secondary toolbar clear the left subcolumn */
+	#y-article-bd .yfi_share_article_container {
+	clear:left; 
+	}
+
+	/* Styles for structural content delivered by the provider */
+	#y-article-bd ul, #y-article-bd ul {
+		margin-left:40px;
+	}
+	#y-article-bd .yfi_share_article_container ul{ 
+		margin-left:0;
+	}
+	/*these may interfere with toolbar and related div */
+	#y-article-bd  li{
+	list-style-type:disc; 
+	margin:10px;
+	}
+	#y-article-bd ol li{
+		list-style-type:decimal;
+	}
+	#y-article-bd ol {
+		margin-left:25px;
+	}
+	
+	#y-article-bd h4 {
+		font-weight:bold;
+		margin:10px 0; 
+		font-size:116%;
+	}
+
+	#y-article-bd img, #y-article-bd table  {
+		max-width:600px; 
+	}
+	#y-article-bd pre {
+		font-size:90%;
+		overflow-x:auto;
+		overflow-y:hidden; 
+		clear:left;
+		max-width:600px;
+		width:auto;
+		width:600px;
+	}
+	/* overflow hidden for IE6 to keep extra large inline content from breaking page */
+	#y-article-bd   {
+	_width:610px;
+		_overflow:hidden;
+	}
+	.print-article #y-article-bd pre { 
+		overflow-x:auto; 
+		overflow-y:hidden; 
+		clear:left; 
+		max-width:920px; 
+		width:auto; 
+		width:920px; 
+	} 
+
+	/*provider specific ad inside teh article. */
+	#y_provider_promo{
+		clear:left;
+		padding:0;
+		text-align:center;
+		display:block;
+		clear:left;
+		margin-bottom:1em;
+	}
+	#y_provider_promo table{
+		margin-right:auto;
+		margin-left:auto;
+		text-align:left; 
+		max-width:550px;
+	}
+	#y_provider_promo td {
+		padding:1px; 
+		font-size:inherit;
+	}
+	
+	#y_provider_promo p{
+	    margin-bottom:0;
+	}
+.mod.article-related-col{
+	background:#fff;
+	margin-right:9px;
+}
+#y-related .article-related-col{
+padding-bottom:0;   
+}
+#y-related .mod.mip{
+margin-bottom:0;
+}
+.y-footer .footer-wrapper-first{
+	padding:10px;
+	zoom:1;
+}
+.y-footer .elsewhere,
+.y-footer .worldwide ul{
+	zoom:1;
+}
+.y-footer .elsewhere:after,
+.y-footer .worldwide ul:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.y-footer .elsewhere ul,
+.y-footer .elsewhere ol{
+	padding-left:15px;	
+	float:left;
+}	
+.y-footer .property ul{
+	padding-right:35px;
+}
+.y-footer .also ol{
+	padding-right:60px;
+}
+
+.y-footer .property,
+.y-footer .also,
+.y-footer .functions{
+	padding: 0 10px;
+	float:left;
+}
+
+.y-footer .also,
+.y-footer .functions{
+	margin-top: 10px; 
+}
+.y-footer .also{
+	padding-left: 20px;
+}
+.y-footer .functions{
+	float:right;
+}	
+.y-footer .worldwide li{
+	float:left;
+}
+.y-footer h2{
+	font-size:114%;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+.y-footer a{
+	text-decoration:none;
+}
+.y-footer .elsewhere li{
+	list-style-type:disc;
+	font-size:85%; 
+	line-height:15px;
+}
+.y-footer .elsewhere li.all{
+	list-style-type:none;
+	font-size:100%; 
+	padding-top:5px;
+    margin-left: -12px;
+}
+.y-footer .property{
+	width:32%;
+	background-color:#3C61A5;
+	padding:10px;
+}
+.y-footer .functions{
+	width:18%;
+	border-left:1px solid #B5B9BA;
+	padding-right:0;
+}
+.y-footer .property,
+.y-footer .property a{
+	color: #FFF;
+}
+.y-footer .also h2,
+.y-footer .functions h2,
+.y-footer .worldwide h2{
+	color: #3A61A6;
+}
+.y-footer .also a,
+.y-footer .functions a,
+.y-footer .worldwide a{
+	color: #000;
+}
+.y-footer .footer-wrapper{
+	border-top:10px solid #FFF;
+	border-bottom:10px solid #FFF;
+}
+.y-footer .worldwide{
+	padding:15px 290px 0 15px;
+	background: url('http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/world-map.png') no-repeat right top;
+}
+.y-footer .worldwide li{
+	padding-right:10px;
+	line-height:25px;
+}
+#MapleUrchinBrowserPre{
+	width:956px;
+	margin:9px auto;
+	padding:9px;
+	border:1px solid #FFFFCC;
+	overflow:auto;
+}
+body.print-article {
+    background:none;
+}
+
+.print-article .col3 {
+	width:950px;
+}
+.print-article #y-page.y-fin-wrapper{
+    background:none;
+	margin-top:-20px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+.print-article .print-art-hd {
+	border-bottom:1px solid #CCCCCC;
+	margin:20px 10px 0 10px;
+	padding-bottom:20px;
+	padding-top:0;
+}
+
+.print-article .print-art-hd .yf-logo {
+	float:left;
+}
+
+.print-article .print-art-hd .yf-btn-print {
+	padding-right: 3px;
+}
+.print-article .print-art-hd .hd-right {
+	padding-top:5px;
+	text-align:right;
+}
+
+.print-article a.hd-links {
+	color:#044D89;
+	padding-right:10px;
+	text-decoration:none;
+}
+
+.print-article .img-float-right {
+	float:right;
+}
+
+.print-article #y-content{
+    margin-left:none;
+    *display:inline;
+}
+
+.print-article #y-footer {
+    background:none;
+}
+
+.print-article #yfi_ft {
+    background:none;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+}
+
+.print-article #y-page {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.print-article #y-content {
+    width: 950px;
+    margin-right: none;
+}
+
+.print-article .attribution, .print-article #y-content #y-article-hd p.attribution, .print-article ul li cite {
+	color:#808080;
+	font-size:0.77em;
+}
+
+.print-article .sponsorimage {
+	float:right;
+}
+
+.print-article .y-article-hd-left {
+	width:750px;
+}
+.news-topic-subscribe{
+	text-align:left;
+}
+
+.news-topic-subscribe ul,
+.news-topic-subscribe ul li,
+.news-topic-subscribe ul ul{
+	padding-left:0;
+}
+
+.news-topic-subscribe ul ul{
+	margin-left:0;
+	margin-top:3px;
+}
+
+.news-topic-subscribe ul ul li{
+	display:inline;
+	margin-left:0;
+	
+}
+
+.news-topic-subscribe .ticker{
+	text-transform:uppercase;
+}
+#y-related .news-topic-subscribe ul,
+#y-related .news-topic-subscribe ul li{
+	padding-left:0;
+}
+
+#y-related .news-topic-subscribe ul ul{
+	margin-left:0;
+	margin-top:3px;
+}
+
+#y-related .news-topic-subscribe ul ul li{
+	display:inline;
+	margin-left:0;
+}
+#y-nav{
+    position:relative;
+    z-index:1;
+}
+#y-nav-pri{
+}
+#y-nav-pri,
+#y-nav-pri ul,
+#y-nav-pri li { /* autoclear floats for ie */
+    zoom:1;
+}
+#y-nav-pri:after,
+#y-nav-pri ul:after,
+#y-nav-pri li:after { /* autoclear floats for non ie */
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+#y-nav-pri li{
+    float: left;
+    list-style-type: none;
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 0 6px 0 0;
+    position:relative;
+    overflow:visible;
+}
+#y-nav-pri li span {
+    display: block;
+    position:relative;
+}
+#y-nav-pri li a{
+    display: block;
+}
+#y-nav-pri li.new strong.new{
+    position: absolute;
+    text-indent:-999em;
+    display:block;
+    overflow:hidden;
+    height:0;
+    width:0;
+}
+/* Sub Navigation  */
+#y-nav-pri li ul{
+    display:none;
+    position:absolute;
+    z-index:10;
+    /*min-width:100%;*/
+    /*width:100%;*/
+    _width:auto; /* 100% makes ie6 be far to wide */
+    margin:0;
+    padding:0;
+}
+#y-nav-pri li.active ul{
+    display: block;
+}
+/*FireFox 3+*/
+#y-nav-pri li.active ul, 
+x:-moz-any-link, 
+x:default {
+    width:auto;
+    min-width:100%;
+}
+/* Opera */ 
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) { 
+    head~body #y-nav-pri li.active ul {
+        width:auto;
+        min-width:100%;
+    } 
+}
+#y-nav-pri li ul li{
+    /*float:none;*/
+    clear:left;
+    display:block;
+    /*zoom:1;*/
+    width:100%;
+    _width:120px;/* ie6 needs a (min)width */
+    
+    /*border:1px solid red;*/
+    overflow:hidden;
+    _overflow:visible;
+    /*position:static;*/
+}
+
+/* IE 7 */ 
+html > body #y-nav-pri li ul li { 
+    *width:auto;
+    *min-width:100%;
+}
+
+/*FireFox 2 + 3 */
+#y-nav-pri li ul li, 
+x:-moz-any-link {
+    overflow:visible;
+} 
+
+/*FireFox 3+*/
+.gecko_1-9 #y-nav-pri li ul li{
+    width:auto;
+    min-width:100%;
+}
+
+/* Opera */ 
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) { 
+    head~body #y-nav-pri li ul li {
+        overflow:visible;
+    } 
+}
+#y-nav-pri li ul li a,
+#y-nav-pri li#y-current ul li a{
+    display:block;
+    position:relative;
+    width:auto;
+    /*border:1px solid green;*/
+}
+
+
+
+/* Portfolios Navigation */
+#y-nav-pri #y-nav-my-portfolios{
+    min-width:150%;
+    _width:200px; /* ie6 needs a (min)width */
+}
+#y-nav-pri #y-nav-my-portfolios ul{
+    position:relative;
+    /*border:none;*/
+}
+#y-nav-pri #y-nav-my-portfolios li{
+    width:50%;
+    float:left;
+    display:block;
+    clear:none;
+}
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios li ul{
+    *margin-bottom:-.43em;  /*dirty dirty hack to remove the Gap between the li's that appears when the edit link is visible in ie6 and ie7 */
+}
+#y-nav-pri #y-nav-my-portfolios li ul li,
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios{
+    width:100%;
+    float:none;
+}
+
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios a{
+    padding-right:6em;
+}
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios li.edit{
+    display:block;
+    min-width:auto;
+    height:0px;
+    overflow:hidden;
+    margin-top:-1.4em;
+    *margin-top:-1.65em;
+    float:right;
+    width:auto;
+    
+}
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios li.active ul li.edit{
+    height:auto;
+}
+/*FireFox 3+*/
+.gecko_1-9 #y-nav-pri li ul li.edit{
+    min-width:auto;
+}
+
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios li.edit a{
+    padding-right:.5em;
+    padding-left:.5em;
+    border:none;
+}
+#y-nav-pri #y-nav-my-portfolios li#y-portfolios.scroll ul li.edit a{
+    margin-right:10px;
+}
+#y-nav-pri #y-nav-my-portfolios #y-portfolios.scroll{
+    overflow-y:auto;
+    overflow-x:hidden;
+    max-height:14.5em;
+    *height:15em;
+}
+#y-nav{
+    margin-top:0;
+}
+#y-nav-pri ul{
+    margin-left:20px;
+    text-align:left;
+}
+#y-nav-pri li{
+    background-color: #C8C7C7;
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite.png);
+    background-position:100% -200px;
+}
+#y-nav-pri li span {
+    padding: 8px 10px 7px 10px;
+    font-weight: bold;
+}
+#y-nav-pri li.subnav span{
+    /*not spriteable!*/
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/main-nav-dropdown-indicator.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+#y-nav-pri li#y-current.subnav span{
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/main-nav-dropdown-indicator-active.png);
+}
+#y-nav-pri li#y-current{
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite.png);
+    background-position:100% -300px;
+    background-color: #3D63A8;
+}
+#y-nav-pri li a{
+    background-position: 0 0;
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #3C3C3C;
+    text-transform: uppercase;
+}
+#y-nav-pri li#y-current a{
+    background-position: 0 -100px;
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    color: #fff;
+}
+#y-nav-pri li.new{
+    background-color: #858585;
+    background-position: top right;
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite.png);
+    background-repeat: no-repeat;
+}
+#y-nav-pri li#y-current.new{
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite.png);
+    background-position:100% -100px;
+    background-color: #3D63A8;
+}
+#y-nav-pri li.new a{
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+    font-size:95%;
+    color: #fff;
+}
+#y-nav-pri li.new a span{
+    padding: 13px 20px 3px 20px;    
+}
+#y-nav-pri li#y-current.new a{
+    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    background-position: 0 -300px;
+    color: #fff;
+}
+
+#y-nav-pri li ul{
+/*    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    background-position: 0 -500px;*/
+    background-repeat:repeat-x;
+    background-color:#F1F1F1;
+    border-left: 1px solid #DEDFDE;
+    border-right: 1px solid #DEDFDE;
+    border-bottom: 1px solid #DEDFDE;
+}
+
+#y-nav-pri li ul li{
+    border-bottom: 1px solid #DEDFDE;
+}
+#y-nav-pri li ul li li{
+    border-bottom: none;
+}
+#y-nav-pri #y-portfolios-list{
+    border-left:none;
+    border-right:none;
+}
+#y-nav-pri #y-nav-my-portfolios ul{
+    border:none;
+}
+#y-nav-pri #y-portfolios-list ul{
+    border-bottom: 1px solid #DEDFDE;
+}
+#y-nav-pri li ul li a,
+#y-nav-pri li#y-current ul li a{
+    margin: 0 2px 0 2px;
+    padding:2px 4px 2px 4px;
+    font-size:85%;
+    font-weight:bold;
+    text-transform: none;
+    text-align: left;
+    background-color: transparent;
+    background-image: none;
+    color:#333333;
+}
+#y-nav-pri li ul li a:hover,
+#y-nav-pri li#y-current ul li a:hover,
+#y-nav-pri li ul li a:focus,
+#y-nav-pri li#y-current ul li a:focus,
+#y-nav-pri #y-nav-my-portfolios li.active a{
+/*    background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/navigation/topnav-sprite2.png);
+    background-position: 0 -400px;
+    background-repeat: repeat-x;*/
+    background-color: #3C61A4;
+    color: #fff;
+}
+#y-nav-pri li ul li a.edit:hover,
+#y-nav-pri li#y-current ul li a.edit:hover,
+#y-nav-pri li ul li a.edit:focus,
+#y-nav-pri li#y-current ul li a.edit:focus,
+#y-nav-pri #y-nav-my-portfolios li.active a.edit{
+    background-image: none;
+    background-color: transparent;
+}
+#y-nav-pri li ul li a#add-new-portfolio{
+	background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/add12_thn_1.gif);
+	background-position: 0pt 2px;
+	background-repeat: no-repeat;
+	display: block;
+}
+#y-nav-pri li ul li a#market-tracker{
+	background-image: url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/newwin12_1.gif);
+	background-position: 0pt 2px;
+	background-repeat: no-repeat;
+	display: block;
+}
+#y-nav-pri li ul li a#add-new-portfolio span,
+#y-nav-pri li ul li a#market-tracker span {
+	padding: 0px 0px 0px 12px;
+	/*font-weight: normal;*/
+	background-image: none;
+}
+#y-nav-pri li ul li,
+#y-nav-pri li ul li ul{
+    background-image: none;
+    background-color: transparent;
+    padding:0;
+    margin:0;
+}
+
+#y-nav-sec{
+    background-color:#6B92D7;
+    border-top: 4px solid #3C61A4;
+}
+#yfi_quotes_bar,
+#y-nav-sec {
+	background: #6B92D7; 
+	padding:7px 9px 5px; 
+	color: #FFF;
+}
+.ticker-search form { 
+	padding: 0 10px; 
+	float: left;
+	zoom: 1;
+}
+.ticker-search form:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+.ticker-search label {
+	position: absolute; 
+	left: -9999px;
+}
+.ticker-search input#txtQuotes {
+	padding: 2px; 
+	color: #666; 
+	width: 120px;
+	border: 2px solid #3D60A4;
+	margin-top: 2px;
+	float: left;
+}
+.ticker-search #yfi_quotes_submit {
+	padding-left: 8px;
+	*padding-left: 0;
+	background: #6B92D7 url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/cta-button-static.gif) no-repeat top left;
+	margin-left: 10px;
+	height: 27px;
+	float: left;
+}
+.ticker-search #yfi_quotes_submit input {
+	border: 0;
+	padding-right: 8px;
+	color: #000;
+	height: 100%;
+	line-height: 27px;
+	background: #6B92D7 url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/cta-button-static.gif) no-repeat top right;
+	font-weight: bold;
+	font-size: 77%;
+	cursor: pointer;
+	text-align: center;
+}
+.ticker-search a { 
+	float: left;
+	color: #FFF;
+	font-size: 85%;
+	line-height: 27px;
+	text-decoration:none;
+}
+.ticker-search a:hover { 
+	text-decoration:underline;
+}
+.ticker-search span {
+	font-size: 85%;
+	line-height: 27px;
+	padding-right: 10px;
+}
+.ticker-search button span {
+	float: none;
+	padding-right: 0;
+	font-weight: bold;	
+	text-transform: uppercase;
+}
+.ticker-search ul{
+	float:left;
+	/*font-size:0.77em;*/
+	line-height:1em;
+	margin-left:10px;
+	/*margin-top:8px;*/
+	vertical-align:middle;
+}
+.ticker-search li{
+	display:inline;
+}
+
+.ticker-search p{
+	clear:none;
+	color:#fff;
+	float:right;
+	line-height:1em;
+	margin:0;
+}
+#y-fi-get-quotes-input{
+    float:left;
+    margin-top:4px;
+}
+.mod.related-companies{
+	background:#f2f7fb;
+	margin-top:1.16em;
+	margin-bottom:1.31em;
+	padding:6px;
+}
+#y-content .mod.related-companies h3{
+	font-weight:bold;
+	float:left;
+	margin-right:0.3em;
+}
+#y-content .mod.related-companies p{
+	margin:0;
+	padding:0;
+}
+#y-content .mod.related-companies ul{
+	display:inline;
+	margin-left:5px;
+}
+#y-content .mod.related-companies ul .more{
+	border-left:1px solid #222;
+	padding-left:0.3em;
+}
+#y-content .mod.related-companies li{
+	display:inline;
+	margin:0;
+}
+/*********************************************************************
+*
+* Toolbar
+*
+* from the current US site
+*
+*********************************************************************/
+ 
+
+/* article tools */
+
+.yfi_share_article_container{
+    border:1px solid #d0e1ff;
+    padding:12px 10px;
+    background: #EAF2FF url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_repeat-x.png) repeat-x scroll 0pt -452px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.yfi_share_article_container label {
+    font-weight: bold;
+    color:#666;
+}
+.yfi_share_article_container ul {
+	display:inline;
+}
+
+.yfi_share_article_container li {
+	display: inline; 
+	margin-right: 23px;	
+}
+.yfi_share_article_container li a {
+	padding-left: 20px; 
+	padding-bottom: 3px;
+	font-size: 77%;
+}
+.yfi_share_article_container li.yfi_share_buzz form{
+	display:inline;
+}
+.yfi_share_email a{
+    background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_icons.png) no-repeat 0 -586px;
+}
+.yfi_share_im a{
+    background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_icons.png) no-repeat 0 -632px;
+}
+.yfi_share_bookmark a{
+    background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_icons.png) no-repeat 0 -678px;
+}
+.yfi_share_delicious a{
+    background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_icons.png) no-repeat 0 -724px;
+}
+.yfi_share_digg a{
+    background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/backgrounds/sprite_tt_icons.png) no-repeat 0 -770px;
+}
+.yfi_share_buzz a{
+    background: transparent url(http://l.yimg.com/ds/orion/0.3.9/img/badge-logo.png) no-repeat;
+}
+.givechange {
+    position:relative;
+    display:inline;
+    left:4px;
+    top:3px;
+    padding:5px;
+}
+.yfi_print a{
+	background: transparent url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/print_btn.png) no-repeat;
+}
+#y-article-bd .yfi_share_article_container ul{float:none; display:inline;}
+
+#y-article-hd .yfi_share_article_container{
+	border:none; 
+	padding:5px 0 5px 5px;
+	float:right;
+	margin-top:-2em;
+}
+
+
+ 
+/*CSS for the Buzz buttons*/
+
+	form.buzz { 
+		margin:3px 0 10px; 
+}
+	form.buzz button { 
+	border:0; 
+	white-space:nowrap; 
+	cursor:hand; 
+	cursor:pointer; 
+}
+	form.buzzing button { 
+	opacity:0.5; 
+}
+	form.buzzed button { 
+	cursor:default; 
+}
+	
+	.buzz button,
+	.count-box,
+	#form-inside .buzz-count {background-image:url(http://l.yimg.com/cz/lib/fi/us/p/d/static/images/3.0.11/2.0.0/buzz.png); 
+	background-repeat: no-repeat; 
+	background-color:#fff; 
+	color:#000; 
+	/* supply a color so the count won't go grey when button is disabled */ 
+}
+	
+	.count-box { 
+	clear:left; 
+	padding-top:7px; 
+	height:45px; 
+	width:51px; 
+	margin:4px 0; 
+	text-align:center; 
+}
+	.count-box .buzz-count { 
+	font:122% georgia,times; 
+	color:#7B0099; 
+}
+	.count-box em { 
+	display:block; 
+	font:85% arial; 
+	color:#7A7A7A; 
+}
+	#media-buzz-top button, 
+	#media-buzz-bottom button { 
+	text-indent:0;
+	font-size:77%;
+	height:17px; 
+	padding-left:20px; 
+	width:auto; _
+	margin-right:10px; 
+	overflow:visible; 
+	background-position:0 -56px; 
+	color:#044d89; /* supply a color so the text won't go grey when 	button is disabled, match the link color */ 
+}
+	#media-buzz-top .count-after,
+	#media-buzz-bottom .count-after { 
+	font:110% georgia,times; 
+	color:#7B0099; 
+}
+/*this will be the message boards css file */
+/*this is going to be the ysm css file */
+#y-content .mod-group .mod.ysm{
+	padding:9px;
+	margin:9px;
+	margin-top:0;
+}
+
+#y-content .mod-group .mod.ysm ul,
+#y-content .mod-group .mod.ysm ul li
+{
+	list-style:none;
+	padding-left:0;
+}
+#y-main .mod.ysm li a{
+	color:#008000;
+}
+#y-main .mod.ysm li h3 a{
+	color:#044D89;
+}
+
+.a44 .mod.ysm .col1,
+.a44 .mod.ysm .col2{
+	width:292px;
+}
+#y-related .mod.more-from-partner h2{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+#y-related .mod.more-from-partner h2 img{
+	position:relative;
+	margin-bottom: 10px;
+}
+#y-related .mod.more-from-partner h2.noprovlinks { 
+	border:none; 
+	margin:0;
+	padding:10px 0 0 10px;	
+}
+/*this will be styles associated with the tech ticker module*/
+.mod.tech-ticker .ft{
+	margin-left:9px;
+}
+#symlookupLink {
+	cursor: pointer;
+}
+
+/* ************ yahoo finance company symbol/name auto suggest */ 
+
+#quoteContainer {
+	position: absolute; 
+	z-index: 9050;
+} 
+#quoteContainer .yui-ac-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 36em;
+	border: 1px solid #9C9C9C;
+	background: #fefefe;
+	overflow: hidden;
+	text-align: left;
+	padding: .5em;
+	font-size: 92%
+} 
+#quoteContainer .yui-ac-ft {
+	font-family: Verdana, sans-serif;
+	font-size: 85%;
+}
+#quoteContainer .yui-ac-ft .moreresults {
+	padding-left: 0.3em;
+}	
+#quoteContainer .yui-ac-ft .tip {
+	border-top: 1px solid #D6D6D6;
+	color: #636363; 
+	padding: 0.5em 0 0 0.4em;
+	margin-top: .48em;
+}
+#quoteContainer em {
+	font-weight: bold;
+}
+#quoteContainer .yui-ac-ft .tip a {
+	padding-left: 0.3em;
+}
+#quoteContainer .yui-ac-ft a {
+	color: #003399; 
+}
+#quoteContainer ul {
+	padding-bottom: .4em;
+	width: 100%;
+} 
+#quoteContainer li {
+	padding: 0 0.38em;
+	cursor: default;
+	white-space: nowrap;
+	list-style: none;
+} 
+#quoteContainer li.yui-ac-highlight {
+	background: #D6F7FF;
+	cursor: pointer;
+} 
+#quoteContainer li table { 
+	width: 100%;
+}
+#quoteContainer li td { 
+	vertical-align: bottom; 
+	text-align: left;
+	padding: .15em 0;
+}
+#quoteContainer li td.exch_type_wrapper { 
+	color: #aaa; 
+	font-size: 92%; 
+	width: 10em; 
+	height: auto;
+	text-align: right;
+}
+#quoteContainer li td.symbol { 
+	width: 6.5em; 
+}
+

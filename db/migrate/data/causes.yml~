@@ -1,0 +1,34 @@
+education:
+  id:         1
+  cause:      education
+  created_at: 2009-05-19 00:44:23
+
+arts:
+  id:         2
+  cause:      arts
+  created_at: 2009-05-19 00:44:23
+
+culture:
+  id:         3
+  cause:      culture
+  created_at: 2009-05-19 00:44:23
+
+humanities:
+  id:         4
+  cause:      humanities
+  created_at: 2009-05-19 00:44:23
+
+health:
+  id:         5
+  cause:      health
+  created_at: 2009-05-19 00:44:23
+
+overfishing:
+  id:         6
+  cause:      overfishing
+  created_at: 2009-05-19 00:44:23
+
+conservation:
+  id:         7
+  cause:      conservation
+  created_at: 2009-05-19 00:44:23

@@ -1,0 +1,46 @@
+<div class="yui-gd"> 
+  <div class="yui-u first">
+    <div class="yui-gd">
+      <div class="yui-u">
+	      <%= image_tag(charity.portrait_photo_url(), :class => "charity_images") %>
+	      <br/>
+	      <br/>
+      </div>
+      <div class="yui-u first">
+	<br/>
+	<br/>
+	<br/>
+	<div class="charity_radio">
+	<%= radio_button_tag('chosenCharity[]', charity.name) %>
+	</div>
+      </div>
+    </div>
+  </div>
+  <div class="yui-u">
+    
+    <div id="charity_title_box">
+      <% if charity.name.length <= 25 %>      
+        <% if charity.name.length <= 19 %>
+          <h2 id="red"><%= charity.name %></h2>  
+        <% else %>       
+          <h2 id="red_medium"><%= charity.name %></h2>
+        <% end %>
+      <% else %>
+        <h2 id="red_long"><%= charity.name %></h2>
+      <% end %>
+    </div>
+    
+    <div id="charity_supporters_box">
+      <%= render(:partial =>"/shared/rating", :locals => { :rating => charity.rating_gc }) %> <br/>
+		  <div id="supporters_box">
+			  <p id="supporters">Fellow Supporters:</p><br/>
+		    </br>
+		    <%= render(:partial => "charity_supporters_for_widget", :locals => {:charity => charity }) %>
+		  </div>    
+    </div>
+
+		<br/>
+  </div>
+</div>
+
+

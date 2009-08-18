@@ -1,0 +1,269 @@
+h1#bolder
+ {color: black; 
+  font-size: 200%;
+  font-weight: bolder;
+  display:inline;
+  }
+
+h2#red
+  {padding-left:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color:red;
+  font-size: 160%;
+  font-weight: 600;
+  }
+
+h2#red_medium
+  {padding-left:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color:red;
+  font-size: 140%;
+  font-weight: 600;
+  }
+
+h2#red_long
+  {padding-left:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color:red;
+  font-size: 120%;
+  font-weight: 600;
+  }
+
+p 
+  {
+  font-size: 130%;
+	padding-top: 10px;
+	display: inline;
+  }
+
+p.bold
+  {font-size: 125%;
+	font-weight: 500;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  padding-left:0px;
+  }
+
+p#red
+  {color:red;
+	display: inline;
+  }
+  
+p#supporters
+  {font-size: 100%;
+	padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  }
+
+p#supporters_bold
+  {font-size: 100%;
+  font-weight: 600;
+	padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+
+p#supporters_blue
+  {font-size: 100%;
+  font-weight:600;
+  color: #94beff;
+	padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  }
+
+p#benefits
+  {font-size:115%;
+  font-weight:600;
+  padding-top:10px;
+  padding-bottom:2px;
+  }
+
+p#benefits_blue
+  {font-size:115%;
+  font-weight:600;
+  color:#94beff;
+  padding-top:2px;
+  padding-bottom:2px;
+  }
+
+/* div CLASSES */
+
+.content_box{
+	border: 2px solid #94beff;
+	background: white;
+	padding: 1em;
+	margin: 3px;
+	}
+
+.rsvp_button
+  {background-image:url('/images/widget/rsvp_button.png');
+	background-repeat:no-repeat;
+  background-color:#fff;
+  background-position:top center;
+	width:55px;
+	height:21px;
+  border:none;
+	}
+
+.charity_radio {
+	position:relative;
+	left:-8px;
+	top:12px;
+	}
+
+.pledge_radio {
+	position:relative;
+	top: 15px;
+	}
+
+div.notice {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 40%;
+	border: 5px solid #94beff;
+	margin-top: 50px;
+  margin-bottom: 25px;
+	padding: 5px;
+	font-weight: bold;
+  font-size: 145%;
+  color #94beff;
+}
+
+/* SUBMIT */
+
+.submit input{
+  position:relative;
+  top:-20px;
+  left:30px;
+	background-image:url('/images/widget/submit_button.png');
+	background-repeat:no-repeat;
+  background-color:#fff;
+  background-position:top center;
+	width:97px;
+	height:50px;
+  border:none;
+	}
+
+
+
+/* img CLASSES */
+
+img.charity_images{
+	margin: 5px;
+	position: relative;
+	left: -32px;
+  height: 125px;
+  width: 125px;
+	}
+
+img.supporters{
+  height:50px;
+  width:50px;
+  }
+
+img.event_images{
+  float:left;
+  height:125px;
+  width:125px;
+  }
+
+img.event_images_large{
+  float:left;
+  display:inline;
+  height:125px;
+  width:125px;
+  margin: 10px;
+  }
+
+/*BOXES*/
+
+#charity_title_box
+  {height:20px;
+  width:350px;
+  padding-left: 7px;
+  }
+
+#charity_supporters_box   
+  {padding-top:4px;
+  width:350px;
+  height: 100px;
+  padding-left: 7px;
+  }
+
+#supporters_box {
+  padding:5px;
+  padding-left:0px;
+}
+
+#event_title_box
+  {width:230px;
+  height:25px;
+  padding-bottom: 0px;
+  padding-left: 7px;
+  overflow: hidden;
+  text-overflow: ellipses;
+  }
+
+#event_title_box_long
+  {width:230px;
+  height:40px;
+  padding-bottom: 0px;
+  padding-left: 7px;
+  margin-right:1px;
+  overflow: hidden;
+  text-overflow: ellipses;
+  }
+
+#event_info_box
+  {padding-top:0px;
+  width:250px;
+  height: 100px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipses;
+  }
+
+#event_info_box_long_title
+  {padding-top:0px;
+  width:250px;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipses;
+  }
+
+#volunteer_box {
+	padding: 5px;
+	position: relative;
+	left: 25px;
+	top: -20px;
+	}
+
+#pledge_box {
+	padding: 5px;
+	position: relative;
+	left: 25px;
+	top: -27px;
+	}
+
+.content_box_black{
+	border: 3px solid black;
+	background: white;
+	padding: 1em;
+	margin: 3px;
+	}
+
+.content_box_black_adjusted_for_short_name
+  {border: 3px solid black;
+	background: white;
+	padding: 1em;
+	margin: 3px;
+  height: 175px;
+	}
+

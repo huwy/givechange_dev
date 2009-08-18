@@ -1,0 +1,121 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>160x600_WelcomeMat_General</title>
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+</head><body style="border-width: 0px; margin: 0px;" bgcolor="White">
+<script type="text/javascript">
+var nRequiredVersion = 9; 
+var bIsRightVersion = false;	
+var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+if(isIE && isWin){
+document.writeln('<SCR' + 'IPT LANGUAGE=VBScript\>');
+document.writeln('on error resume next');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash." & nRequiredVersion)');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('If (Not bIsRightVersion) And (nRequiredVersion < 3) Then');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash")');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('End If');
+document.writeln('</SCR' + 'IPT\>'); 
+}
+function detectPluginSHF1242272264174() 
+{ 
+if (!bIsRightVersion) 
+{
+if (navigator.plugins != null && navigator.plugins.length > 0) {
+if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+var descArray = flashDescription.split(" ");
+var tempArrayMajor = descArray[2].split(".");	
+var versionMajor = tempArrayMajor[0];
+bIsRightVersion = (versionMajor >= nRequiredVersion);
+}
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1)
+{
+bIsRightVersion = (4 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1)
+{
+bIsRightVersion = (3 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) 
+{
+bIsRightVersion = (2 >= nRequiredVersion);
+}
+}
+}
+detectPluginSHF1242272264174();
+var _SHF1242272264174_Instance =
+{
+http : "HTTP",
+image_path : "spe.atdmt.com/ds/AAAVESHFLSHF",
+click : "http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=",
+imgs : []
+};
+if (!window.armapi_a1_a1)
+{
+var armapi_a1_a1 =
+{
+initialize : function(unique_id){},
+click : function(unique_id, num, suffix)
+{
+this.clickTrack(unique_id);
+this.clickThru(unique_id, num, suffix);
+},
+clickTrack : function(unique_id, num)
+{
+var instance = window[unique_id + "_Instance"];
+if (instance.click != "")
+{
+var img = new Image();
+img.src = instance.click + instance.http + "://" + instance.image_path + "/images/pixel.gif";
+instance.imgs.push(img); 
+}
+},
+clickThru : function(unique_id, num, suffix) {}
+};
+}
+var _strContentSHF1242272264174 = '';
+if(bIsRightVersion) 
+{ 
+var strFQDN = "HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/"; 
+var index = strFQDN.indexOf("/ds/");
+strFQDN = strFQDN.substring(0, index);
+_strContentSHF1242272264174 = '' + '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="HTTP://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="idSWFSHF1242272264174" width="160" height="600">'
++ '<param name="movie" value="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/Promo_WelcomeMat/160x600_WelcomeMat_General.swf?ver=1&clickTag1=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01&clickTag=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01" />'
++ '<param name="base" value="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/" />'
++ '<param name="FlashVars" value="unique_id=_SHF1242272264174&ArmApi=armapi_a1_a1&ArmClickUrl=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.$num$/01&ArmClickToken=$num$" />'
++ '<param name="quality" value="high" />'
++ '<param name="salign" value="lt" />'
++ '<param name="loop" value="true" />'
++ '<param name="wmode" value="opaque" />'
++ '<param name="allowScriptAccess" value="always" />'
++ '<embed allowScriptAccess="always" quality="high" salign="LT" loop="true" type="application/x-shockwave-flash" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" base="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/" wmode="opaque" src="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/Promo_WelcomeMat/160x600_WelcomeMat_General.swf?ver=1&clickTag1=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01&clickTag=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01" width="160" height="600" FlashVars="unique_id=SHF1242272264174&ArmApi=armapi_a1_a1&ArmClickUrl=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.$num$/01&ArmClickToken=$num$" />'
++ '</object>'
++ '';
+} 
+else 
+{ 
+_strContentSHF1242272264174 = '<a target="_blank" href="http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01" onclick="if(\'http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=\')(new Image).src=\'http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://spe.atdmt.com/images/pixel.gif\'"><img border="0" src="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/BabyGirl_Stationary/160x600_BabyGirl_Stationary.jpg?ver=1" width="160" height="600" /></a>';
+}
+</script>
+<script type="text/javascript" src="01_data/DocumentDotWrite.js"></script>
+<script type="text/javascript">DocumentDotWrite(_strContentSHF1242272264174);</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="HTTP://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="idSWFSHF1242272264174" width="160" height="600"><param name="movie" value="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/Promo_WelcomeMat/160x600_WelcomeMat_General.swf?ver=1&amp;clickTag1=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01&amp;clickTag=http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01"><param name="base" value="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/"><param name="FlashVars" value="unique_id=_SHF1242272264174&amp;ArmApi=armapi_a1_a1&amp;ArmClickUrl=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.$num$/01&amp;ArmClickToken=$num$"><param name="quality" value="high"><param name="salign" value="lt"><param name="loop" value="true"><param name="wmode" value="opaque"><param name="allowScriptAccess" value="always"><embed allowscriptaccess="always" quality="high" salign="LT" loop="true" type="application/x-shockwave-flash" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" base="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/" wmode="opaque" src="01_data/160x600_WelcomeMat_General.swf" flashvars="unique_id=SHF1242272264174&amp;ArmApi=armapi_a1_a1&amp;ArmClickUrl=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.$num$/01&amp;ArmClickToken=$num$" width="160" height="600"></object>
+<script type="text/javascript"> 
+</script>
+<noscript>
+<a target="_blank"
+href="http://servedby.advertising.com/click/site=0000711922/mnum=0000698403/cstr=71880545=_4a11e74e,4345563825,711922^698403^1183^0,1_/xsxdata=$XSXDATA/bnum=71880545/optn=64?trg=http://clk.atdmt.com/go/145610841/direct;vt.1;wi.160;hi.600;ai.114595717;ct.1/01"><img
+border="0"
+src="HTTP://spe.atdmt.com/ds/AAAVESHFLSHF/BabyGirl_Stationary/160x600_BabyGirl_Stationary.jpg?ver=1"
+width="160" height="600" /></a>
+</noscript>
+</body></html>

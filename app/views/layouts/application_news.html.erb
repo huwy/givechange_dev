@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>GIVE CHANGE</title>
+		<!--[if IE 6]>
+			<link rel="stylesheet" href="css/ie6-style.css" type="text/css" media="all" />
+		<![endif]-->
+
+	  <%= javascript_include_tag :defaults %>
+	  <%= javascript_include_tag '/yui/build/yahoo-dom-event/yahoo-dom-event' %>
+
+    <!--HTMLBurger js -->
+    <%= javascript_include_tag "jquery-1.3.2.min.js" %>
+    <%= javascript_include_tag "cufon-yui.js" %>
+    <%= javascript_include_tag "gotham.font.js" %>
+    <%= javascript_include_tag "fns.js" %>
+    <%= javascript_include_tag "prototype.js" %>
+    <%= javascript_include_tag "scriptaculous.js" %>
+    
+	  <%= stylesheet_link_tag '/yui/build/reset-fonts-grids/reset-fonts-grids' %>
+	  <%= stylesheet_link_tag 'style' %>
+
+  
+	</head>
+
+  <body>
+		<!-- Page -->
+		<div id="page" class="shell">
+      <%= render :partial => "layouts/partials/header_news" %>
+       	<%= yield  %>
+      <%= render :partial => "layouts/partials/footer" %>
+    </div>
+    <!-- END Page -->
+		<!-- Cufon IE Loading script (Should be right before the body ending tag) -->
+		<script type="text/javascript"> Cufon.now(); </script>
+	</body>
+</html>

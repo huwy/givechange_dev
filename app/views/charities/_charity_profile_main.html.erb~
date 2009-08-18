@@ -1,0 +1,22 @@
+<h1><%= charity.name %><h1>
+<br/>
+<%= link_to("Edit", edit_charity_url) %> | <%= link_to("Delete this Charity", charity_path(@charity), {:method => :delete, :confirm => :permanently_delete_this_event.l}) %>
+<br/>
+<%= render(:partial =>"rating", :object => charity.rating_gc) %> 
+<br/>
+<%= render(:partial => "list_cause", :locals => {:causes => causes}) %>
+<br/>
+<br/>
+dollars raised: <%= @total_donations_amount %> <br/>
+
+Mission:
+<p><%= charity.mission %></p>
+<br/>Programs:
+<p><%= charity.programs %></p>
+
+
+
+
+
+
+

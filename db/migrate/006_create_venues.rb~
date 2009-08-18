@@ -1,0 +1,21 @@
+class CreateVenues < ActiveRecord::Migration
+  def self.up
+    create_table :venues do |t|
+      t.column :name, :string
+      t.column :created_at, :datetime
+      t.column :updated_at, :datetime
+      t.column :user_id, :integer
+      t.column :description, :text
+      t.column :address, :text
+      t.column :zipcode, :integer
+      t.column :elite_discount, :string, :default => "No Discount at this Time"
+
+      #stats
+      t.column :favorite_count, :integer, :default => 0
+    end
+  end
+
+  def self.down
+    drop_table :venues
+  end
+end

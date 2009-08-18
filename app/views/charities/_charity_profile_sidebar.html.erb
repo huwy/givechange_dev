@@ -1,0 +1,10 @@
+<%= image_tag(charity.portrait_photo_url(:medium), :size => "150x150") %>
+<br/>
+<%= link_to("Homepage", charity.homepage_url) %>
+<p><%= charity.address %></p>
+<p><%= charity.city %>, <%= charity.state %>  <%= charity.zipcode %> </p>
+<%= number_to_phone(charity.phone_number,:area_code => true, :delimiter => " ") %>
+<%= render(:partial => "contact", :collection => @contacts) %>
+
+
+  

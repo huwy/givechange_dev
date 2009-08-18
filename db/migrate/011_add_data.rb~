@@ -1,0 +1,236 @@
+require 'active_record/fixtures'
+
+class AddData < ActiveRecord::Migration
+  def self.up
+    directory = File.join(File.dirname(__FILE__), "data")
+    Fixtures.create_fixtures(directory, "charities")
+    Fixtures.create_fixtures(directory, "events")
+    Fixtures.create_fixtures(directory, "users")
+    Fixtures.create_fixtures(directory, "causes")
+    
+    #causes
+    cEducation=Cause.find_by_cause('education')
+    cArts=Cause.find_by_cause('arts')
+    cCulture=Cause.find_by_cause('culture')
+    cHumanities=Cause.find_by_cause('humanities')
+    cHealth=Cause.find_by_cause('health')
+    cOverfishing=Cause.find_by_cause('overfishing')
+    cConservation=Cause.find_by_cause('conservation')
+    
+    #charities
+    c1=Charity.find_by_name("Alliance For School Choice")
+    c2=Charity.find_by_name("San Francisco Education Fund")
+    c3=Charity.find_by_name("National Foundation for Advancement in the Arts")
+    c4=Charity.find_by_name("San Francisco Girls Chorus")
+    c5=Charity.find_by_name("Society For Womens Health Research")
+    c6=Charity.find_by_name("Haight Ashbury Free Clinics")
+    c7=Charity.find_by_name("American Fisheries Society")
+    c8=Charity.find_by_name("San Francisco Estuary Project")
+    c9=Charity.find_by_name("Grassroots International")
+    c10=Charity.find_by_name("The Bay Institute")
+    
+    #users
+    user1 = User.find_by_login("alevin3")
+    user2 = User.find_by_login("eunji")
+    user3 = User.find_by_login("jrgoodner")
+    user4 = User.find_by_login("jbryant2")
+    user5 = User.find_by_login("jnguyen5")
+    user6 = User.find_by_login("kking4")
+    user7 = User.find_by_login("mericsson")
+    user8 = User.find_by_login("pssamant")
+    user9 = User.find_by_login("rseawell1")
+    user10 = User.find_by_login("shiv10")
+    user11 = User.find_by_login("ramy11")
+    
+    #events
+    event1 = Event.find_by_name("Carnaval")
+    event2 = Event.find_by_name("KamiNational Foundation for Advancement in the Artskaze Heart by City Circus")
+    event3 = Event.find_by_name("Giants Game")
+    event4 = Event.find_by_name("Makossa")
+    event5 = Event.find_by_name("Happy Hour and Fundraiser to Save Senior Lunch")
+    event6 = Event.find_by_name("SF International Arts Festival")
+    event7 = Event.find_by_name("Sprite Slam Dunk Showdown 2009")
+    event8 = Event.find_by_name("We Resist")
+    
+    #create images
+    i1 = Photo.new(:filename => 'Alevin3.jpg', :content_type => 'image/jpeg',
+:temp_path => 'files_for_testing/User Pics/Alevin3.jpg')
+    i2 = Photo.new(:filename => 'Eunjie Kim.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Eunji Kim.jpg")
+    i3 = Photo.new(:filename => 'Jared Goodner.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Jared Goodner.jpg")
+    i4 = Photo.new(:filename => 'jbryant2.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/jbryant2.jpg")
+    i5 = Photo.new(:filename => 'JNguyen5.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/JNguyen5.jpg")
+    i6 = Photo.new(:filename => 'KKing4.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/KKing4.jpg")  
+    i7 = Photo.new(:filename => 'Marcus Ericsson.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Marcus Ericsson.jpg")
+    i8 = Photo.new(:filename => 'Prashant Samant.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Prashant Samant.jpg")
+    i9 = Photo.new(:filename => 'Rseawell1.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Rseawell1.jpg")
+    i10 = Photo.new(:filename => 'Shiv Kumar.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/Shiv Kumar.jpg")
+    i11 = Photo.new(:filename => 'ahmad.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/User Pics/ahmad.jpg")
+    
+    e1=EventImage.new(:filename => 'Carnaval2009.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/Carnaval2009.jpg")
+    e2=EventImage.new(:filename => 'City Circus.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/City Circus.jpg")
+    e3=EventImage.new(:filename => 'Giants Game.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/Giants Game.jpg")
+    e4=EventImage.new(:filename => 'Makossa.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/Makossa.jpg")
+    e5=EventImage.new(:filename => 'Save Senior Lunch.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/Save Senior Lunch.jpg")
+    e6=EventImage.new(:filename => 'SFInternationalArtFestical.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/SFInternationalArtFestical.jpg")
+    e7=EventImage.new(:filename => 'SpriteSlamDunkShowdown.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/SpriteSlamDunkShowdown.jpg")
+    e8=EventImage.new(:filename => 'We Resist.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Event Pics/We Resist.jpg")
+    
+    ci1=CharityImage.new(:filename => 'AllianceSchoolChoice.png', :content_type => 'image/png',
+:temp_path => "files_for_testing/Charity Pics/AllianceSchoolChoice.png")
+    ci2=CharityImage.new(:filename => 'American Fisheries Society.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Charity Pics/American Fisheries Society.jpg")
+    ci3=CharityImage.new(:filename => 'Grassroots International.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Charity Pics/Grassroots International.jpg")
+    ci4=CharityImage.new(:filename => 'HaightAshburyFreeClinics.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Charity Pics/HaightAshburyFreeClinics.jpg")
+    ci5=CharityImage.new(:filename => 'NFAdvancementArts.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Charity Pics/NFAdvancementArts.jpg")
+    ci6=CharityImage.new(:filename => 'San Francisco Estuary Project.gif', :content_type => 'image/gif',
+:temp_path =>"files_for_testing/Charity Pics/San Francisco Estuary Project.gif")
+    ci7=CharityImage.new(:filename => 'SFEducationFund.jpg', :content_type => 'image/jpeg',
+:temp_path =>"files_for_testing/Charity Pics/SFEducationFund.jpg")
+    ci8=CharityImage.new(:filename => 'SFGirlsChorus.jpg', :content_type => 'image/jpeg',
+:temp_path => "files_for_testing/Charity Pics/SFGirlsChorus.jpg")
+    ci9=CharityImage.new(:filename => 'Society4WomensHealthResearch.gif', :content_type => 'image/gif',
+:temp_path => "files_for_testing/Charity Pics/Society4WomensHealthResearch.gif")
+    ci10=CharityImage.new(:filename => 'The Bay Institute.gif', :content_type => 'image/gif',
+:temp_path => "files_for_testing/Charity Pics/The Bay Institute.gif")
+
+    #associate images with users    
+    i1.user = user1
+    i1.save
+    user1.avatar = i1
+    i2.user = user2
+    i2.save
+    user2.avatar = i2
+    i3.user = user3
+    i3.save
+    user3.avatar = i3
+    i4.user = user4
+    i4.save
+    user4.avatar = i4
+    i5.user = user5
+    i5.save
+    user5.avatar = i5
+    i6.user = user6
+    i6.save
+    user6.avatar = i6
+    i7.user = user7
+    i7.save
+    user7.avatar = i7
+    i8.user = user8
+    i8.save
+    user8.avatar = i8
+    i9.user = user9
+    i9.save
+    user9.avatar = i9
+    i10.user = user10
+    i10.save
+    user10.avatar = i10
+    i11.user = user11
+    i11.save
+    user11.avatar = i11
+    
+    #associate images with events
+    e1.event = event1
+    e1.save
+    e2.event = event2
+    e2.save
+    e3.event = event3
+    e3.save
+    e4.event = event4
+    e4.save
+    e5.event = event5
+    e5.save
+    e6.event = event6
+    e6.save
+    e7.event = event7
+    e7.save
+    e8.event = event8
+    e8.save
+
+    
+    #associate images with charities
+    ci1.charity = c1
+    ci1.save
+    ci7.charity = c2
+    ci7.save
+    ci5.charity = c3
+    ci5.save
+    ci8.charity = c4
+    ci8.save
+    ci9.charity = c5
+    ci9.save
+    ci4.charity = c6
+    ci4.save
+    ci2.charity = c7
+    ci2.save
+    ci6.charity = c8
+    ci6.save
+    ci3.charity = c9
+    ci3.save
+    ci10.charity = c10
+    ci10.save
+    
+    #associate causes with charities
+    c1.addCause(cEducation)
+    c2.addCause(cEducation)
+    c3.addCause(cArts)
+    c3.addCause(cCulture)
+    c3.addCause(cHumanities)
+    c4.addCause(cArts)
+    c4.addCause(cCulture)
+    c4.addCause(cHumanities)
+    c5.addCause(cHealth)    
+    c6.addCause(cHealth)
+    c7.addCause(cOverfishing)
+    c8.addCause(cOverfishing)
+    c9.addCause(cConservation)
+    c10.addCause(cConservation)
+    
+    #create donations
+    userCount = 11
+    charityCount = 10
+    donationCount = 0
+    while (donationCount <= 50)
+      user = User.find(1+rand(userCount))
+      charity = Charity.find(1+rand(charityCount))
+      charity.createDonation(user,5 + rand(51))
+      donationCount += 1
+    end
+       
+    #create RSVPs
+    userCount = 11
+    eventCount = 8
+    rsvpCount = 0
+    while (rsvpCount <= 50)
+      user = User.find(1+rand(userCount))
+      event = Event.find(1+rand(eventCount))
+      event.createRsvp(user)
+      rsvpCount += 1
+    end
+    
+  end
+  
+
+  def self.down
+  end
+end

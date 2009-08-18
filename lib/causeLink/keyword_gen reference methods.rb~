@@ -1,0 +1,32 @@
+##BEFORE RUNNING THIS:
+###require libraries
+###run this command: Watir::Browser.start("https://adwords.google.com/select/KeywordToolExternal")
+###fill out captcha, hit submit
+
+require 'rubygems'
+require 'hpricot'
+require 'watir'
+require 'lib/causeLink/keyword_gen'
+require 'lib/causeLink/csv_gen'
+
+#global vars
+keyword_count = 20
+
+#instantiate a browser object
+ff = Watir::Browser.start("https://adwords.google.com/select/KeywordToolExternal")
+
+#levels = Hlevel.find(:all)
+#to grab all levels greater than level "o" (o.id = 15)
+levels = Hlevel.find(:all, :conditions => "id > 173")
+
+#For each level object in the db, expand the number of keywords (based on seed keywords present),
+#keywords attribute is updated so, and the object is saved. 
+levels.each do |level|
+  KeywordGen.expand_level_keywords_and_save_object(level,ff,keyword_count)
+end
+
+#create a csv record of current Hlevels table
+levels = Hlevel.find(:all)
+CSVGen.create_levels_csv(levels, "csv_levels_table_7.8.09.txt")
+
+

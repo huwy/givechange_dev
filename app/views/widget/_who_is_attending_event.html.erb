@@ -1,0 +1,9 @@
+<div id="supporters_box">
+  <% users = event.findRandomRsvpUsers(5) %>
+  <p id="supporters">Who's going? </p> <p id="supporters_blue">So far, <%= event.rsvps.length %>  donors from GiveChange </p>
+  <br/>
+  <br/>
+  <% for user in users %>
+    <%= image_tag(user.avatar_photo_url, :class => "supporters") %>
+  <% end %>	
+</div>

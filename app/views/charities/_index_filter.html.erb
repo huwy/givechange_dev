@@ -1,0 +1,54 @@
+<!-- Find Friends -->
+<div class="shbox" style="margin-top: 5px;">
+	<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+	<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+	<div class="cnt">
+		<div class="bg bg-blue">
+			<h3>Filter Nonprofits:</h3>
+			<div class="filters">
+      <% form_tag('javascript:void(0)', :id=> 'charities_filter') do %>
+				<ul>
+				    <li class="t">Rating</li>
+				    <li class="left"><label><%= check_box_tag 'rating[]', '5' %>5</label></li>
+				    <li class="left"><label><%= check_box_tag 'rating[]', '4' %>4</label></li>
+				    <li class="left"><label><%= check_box_tag 'rating[]', '3' %>3</label></li>
+				    <li class="left"><label><%= check_box_tag 'rating[]', '2' %>2</label></li>
+				    <li class="left"><label><%= check_box_tag 'rating[]', '1' %>1</label></li>
+				</ul>
+				<div class="cl">&nbsp;</div>
+				<ul>
+				    <li class="t">Cause</li>
+				    <%= render(:partial => "filter_list_categories", :collection => @categories_for_filter) %>
+				</ul>
+				<ul>
+				    <li>
+				    	<strong>Proximity</strong>
+              <input id="zipcode" name="zipcode" type="text" class="field" />
+				    </li>
+				    <li class="left"><label><%= check_box_tag 'proximity[]', '5' %>5mi. </label></li>
+				    <li class="left"><label><%= check_box_tag 'proximity[]', '10' %>10mi. </label></li>
+				    <li class="left"><label><%= check_box_tag 'proximity[]', '15' %>20mi. </label></li>
+				</ul>
+				<div class="cl">&nbsp;</div>
+				<ul>
+				    <li class="t">Program Scope</li>
+				    <li><label><%= check_box_tag 'scope[]', '1' %>Local</label></li>
+				    <li><label><%= check_box_tag 'scope[]', '2' %>National</label></li>
+				    <li><label><%= check_box_tag 'scope[]', '3' %>International</label></li>
+				</ul>
+				<ul>
+				    <li class="t">Organizational Income</li>
+				    <li class="left"><label><%= check_box_tag 'income[]', '1' %>&lt;250K</label></li>
+				    <li class="left"><label><%= check_box_tag 'income[]', '2' %>&lt;1MIL</label></li>
+				    <li class="left"><label><%= check_box_tag 'income[]', '3' %>&lt;5MIL</label></li>
+				    <li class="left"><label><%= check_box_tag 'income[]', '4' %>&gt;5MIL</label></li>
+				</ul>
+				<div class="cl">&nbsp;</div>
+			</div>
+      <% end %>
+      <%=  observe_form :charities_filter, :url => { :action => 'filter_charities' } %>
+		</div>
+	</div>
+	</div></div></div></div></div></div></div></div>
+</div>
+<!-- END Find Friends -->	

@@ -1,0 +1,12 @@
+script/generate scaffold article url:string cause_id:string
+
+script/generate scaffold causecategory type:string name:string image:string
+
+script/generate scaffold cause name:string description:string city:string state:string country:string category_id:string
+
+script/generate scaffold charity name:string description:string ratingOwn:float ratingCharityNavigator:float ratingGreatNonProfits:float image:string
+
+script/generate scaffold donation date:datetime amount:string user_id:string article_id:string charity_id:string
+
+script/generate scaffold charityevent name:string description:string city:string state:string country:string image:string
+

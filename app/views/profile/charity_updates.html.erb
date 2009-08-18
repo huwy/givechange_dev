@@ -1,0 +1,58 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+				    <li><%= link_to("general", profile_url(params[:id]) %></li>
+				    <li class="active"><%= link_to("charity updates", profile_nonprofit_updates_url(params[:id]) %></li>
+				    <li><%= link_to("account history", profile_account_history_url(params[:id]) %></li>
+				    <li><%= link_to("friends", profile_friends_url(params[:id]) %></li>
+				    <li><%= link_to("venues", profile_venues_url(params[:id]) %></li>
+				    <li><%= link_to("inbox", profile_inbox_url(params[:id]) %></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+				<!-- Find Friends -->
+				<div class="shbox" style="margin-top: 25px;">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg bg-blue">
+							<h3>Filter Updates By:</h3>
+							<div class="filters">
+								<ul>
+								    <li class="t">Charity</li>
+								    <%= render(:partial => 'filter_charity', :collection => @updated_charities_for_filter) %>
+								</ul>
+								<ul>
+								    <li class="t">Source</li>
+								    <li><label><input type="checkbox" class="check" />GiveChange</label></li>
+								    <li><label><input type="checkbox" class="check" />Twitter</label></li>
+								    <li><label><input type="checkbox" class="check" />Facebook</label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+			</div>
+			<div class="main-side-a second-main-side" style="width: 500px;">
+				<h3 class="block-title" style="width: 100%;"><a href="#" class="rss">rss</a><span class="page-results">1-10 of 80</span>My Charity Updates</h3>
+				<div class="update-articles">
+					<%= render(:partial => 'update', :collection => @updates) %>
+					<br /><br /><br /><br />
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

@@ -1,0 +1,68 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+				    <li><%= link_to("general", profile_url(params[:id]) %></li>
+				    <li><%= link_to("charity updates", profile_nonprofit_updates_url(params[:id]) %></li>
+				    <li><%= link_to("account history", profile_account_history_url(params[:id]) %></li>
+				    <li><%= link_to("friends", profile_friends_url(params[:id]) %></li>
+				    <li><%= link_to("venues", profile_venues_url(params[:id]) %></li>
+				    <li class="active"><%= link_to("inbox", profile_inbox_url(params[:id]) %></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+				<!-- Find Friends -->
+				<div class="shbox" style="margin-top: 25px;">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg bg-blue">
+							<div class="filters">
+				        <div class="update-articles">
+						        <p class="bl title"><a href="<%= @link_inbox_messages %>">Messages (<%= @unread_messages.length %>)</a></p>
+						        <p class="bl title"><a href="<%= @link_inbox_friendships %>">Friend Requests (<%= @pending_friendships.length %>)</a></p>
+                  </div>
+                </div>
+							</div>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+			</div>
+      <div class="main-side-a second-main-side" style="width: 500px;">
+        <% if @pending_friendships.length > 10 %>
+          <h3 class="block-title" style="width: 100%;"><span class="page-results">1-10 of <= @pending_friendships.length %></span>My Inbox</h3>
+        <% elsif @pending_friendships.length == 0 %>
+          <h3 class="block-title" style="width: 100%;"><span class="page-results">No Pending Requests</span>My Inbox</h3>          
+        <% else %>
+          <h3 class="block-title" style="width: 100%;"><span class="page-results">1-<= @pending_friendships.length %> of <= @pending_friendships.length %></span>My Inbox</h3>
+        <% end %>
+        <div class="update-articles">
+					<div class="simple-article">
+						<div class="cl">&nbsp;</div>
+            <p>Friend Requests (<%= @pending_friendships.length %>)</p>
+          </div>
+        </div>
+				<div class="update-articles">
+          <% if @pending_friendships.empty? %>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <% else %>
+            <%= render(:partial => 'friendship_request', :collection => @pending_friendships) %>
+					  <br /><br /><br /><br />
+          <% end %>
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

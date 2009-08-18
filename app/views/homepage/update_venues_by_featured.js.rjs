@@ -1,0 +1,10 @@
+page.replace_html("venue_list", :partial=> 'venues/venue', :collection => @venues)
+unless @message
+  page << @map_venues.clear_overlays
+  @markers.each { |m| page << @map_venues.add_overlay(m)}
+  page << @map_venues.set_center(@center,@zoom)
+else
+  page.replace_html "notice", @message
+  page.hide "notice"
+  page.visual_effect :appear, "notice", :duration => 0.5
+end

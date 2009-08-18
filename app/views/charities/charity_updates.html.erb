@@ -1,0 +1,37 @@
+<!-- Main -->
+	<div id="main">
+		<div id="main-top">&nbsp;</div>
+		<div id="main-cnt">
+			<div id="venue-profile">
+				<div class="cl">&nbsp;</div>
+				<h2><%= @charity.name.capitalize %></h2>
+				<div class="cl">&nbsp;</div>
+				<%= render ( :partial => "charities/info_sidebar", :object => @charity ) %>
+				<div class="main-side main-side-tabbed">
+					<div id="maintabs">
+						<div class="cl">&nbsp;</div>
+						<ul>
+						    <li><%= link_to("General Info", give_non_profit_url(params[:id])) %></li>
+						    <li><%= link_to("Supporters", give_non_profit_supporters_url(params[:id])) %></li>
+						    <li><%= link_to("Photos/Videos", give_non_profit_media_url(params[:id])) %></li>
+						    <li><%= link_to("Needs/Offers", give_non_profit_offers_url(params[:id])) %></li>
+						    <li class="active"><%= link_to("Updates", give_non_profit_updates_url(params[:id])) %></li>
+						</ul>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<div class="top">
+            <h4 class="block-title" style="margin-bottom: 10px;">Updates from the Field</h4>
+            <p>
+              COMING SOON!
+            </p>
+            
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+					</div>          
+          <div class="bot">&nbsp;</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+			</div>
+		</div>
+		<div id="main-bot">&nbsp;</div>
+	</div>
+	<!-- END Main -->

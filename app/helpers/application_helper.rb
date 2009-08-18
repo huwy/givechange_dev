@@ -1,0 +1,55 @@
+# Methods added to this helper will be available to all templates in the application.
+module ApplicationHelper
+
+  def flash_helper
+    f_names = [:notice, :warning, :message]
+    fl = ''
+
+    for name in f_names
+      if flash[name]
+        fl = fl + "<div class=\"notice\">#{flash[name]}</div>"
+      end
+      flash[name] = nil;
+    end
+    return fl
+  end
+
+  def return_date_string(date_time)
+    day = return_weekday_string(date_time)
+    month = return_month_string(date_time)
+    date_time_string = day + " " + month + " " + date_time.day.to_s + ", " + date_time.year.to_s
+    date_time_string
+  end
+  
+  def list_causes(user)
+    #get 3 causes user has donated to
+    causes = user.get_causes
+    number_of_causes = causes.length
+    causes = causes.slice(0,2)
+    #create cause_string
+    cause_string = ""
+    causes.each do |c|
+      cause_string = cause_string + c.cause + ", "
+    end
+    #modify cause_string tail
+    if number_of_causes > 3
+      cause_string = cause_string.gsub(/, $/, "...")
+    else
+      cause_string = cause_string.gsub(/, $/, "")
+    end
+    cause_string
+  end
+
+  def cascade_categories(charity)
+    cascade = charity.category.cascade_parents_by_eldest
+    string = ""
+    cascade.each do |category|
+      string = string + category.name + " > "
+    end
+    string = string.gsub(/ > ${1}/, "")
+    string
+  end
+
+
+
+end

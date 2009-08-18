@@ -1,0 +1,11 @@
+class AddAdminPermissionsToUserTable < ActiveRecord::Migration
+  def self.up
+    add_column :users, :admin_permission_to_become_charity, :boolean, :default => FALSE
+    add_column :users, :admin_permission_to_become_promoter, :boolean, :default => FALSE
+  end
+
+  def self.down
+    remove_column :users, :admin_permission_to_become_charity
+    remove_column :users, :admin_permission_to_become_promoter
+  end
+end

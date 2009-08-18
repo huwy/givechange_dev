@@ -1,0 +1,7 @@
+<% users = event.findRandomRsvpUsers(5) %>
+Who's going? So far, 
+<%= event.number_rsvp %>
+Donors from GiveChange <br/>
+<% for user in users %>
+  <%= image_tag(user.avatar_photo_url, :size => "10x10") %>
+<% end %>

@@ -1,0 +1,138 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+			    <li class="active"><%= link_to("Browse People",community_people_url) %></li>
+			    <li><%= link_to("Browse Places",community_places_url) %></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+		    <h3 class="center">Search People:</h3>
+        <% form_remote_tag :url=> { :action => 'search_people' } do %>
+			    <div class="simple-search">
+	          <div class="cl">&nbsp;</div>
+            <input id="person_search" name="person_search" type="text" class="field" />
+            <input type="submit" class="button" value="Go" />
+			      <div class="cl">&nbsp;</div>
+          </div>       
+        <% end %>  
+				<!-- Find Friends -->
+				<div class="shbox" style="margin-top: 5px;">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg bg-blue">
+              <% form_tag('javascript:void(0)', :id=> 'people_filter') do %>
+							<h3>Filter Members:</h3>
+							<div class="filters">
+									<ul>
+									    <li>
+									    	<strong>Location</strong>
+                        <input id="zipcode" name="zipcode" type="text" class="field" />
+								    	</li>
+									</ul>
+									<div class="cl">&nbsp;</div>
+                  <ul>                  
+							      <li><strong>Favorite Cause</strong></li>
+							      <%= render(:partial => 'checkbox_cause', :collection => @causes) %>
+                  </ul>
+                  <% if current_user %>
+									  <ul>
+					            <li><label><%= check_box_tag 'area[]', 'my_area' %> My Area</label></li>
+								    </ul>
+                    <ul>
+                      <li><label><%= check_box_tag 'type[]', 'my_friends' %> Friends</label></li>
+                      <li><label><%= check_box_tag 'type[]', 'similar_interests' %> People Like Me</label></li>
+                    </ul>
+                  <% end %>
+							</div>
+              <% end %>
+              <%=  observe_form :people_filter, :url => { :action => 'filter_people' }, :update => 'person_partial' %>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+				<!-- Find Friends -->
+				<div class="shbox findfriends">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg">
+							<p>Are your friends already<br /> on GiveChange?</p>
+							<form action="" method="post">
+								<div class="cl">&nbsp;</div>
+								<label>Your Email:</label>
+								<input type="text" class="field" />
+								<div class="cl">&nbsp;</div>
+								<label>Password:</label>
+								<input type="text" class="field" />
+								<input type="submit" class="button" value="Find Friends" />
+								<div class="cl">&nbsp;</div>
+							</form>
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->
+			</div>
+			<div class="main-side-a second-main-side" style="width: 500px;">
+				<h3 class="block-title" style="width: 100%; margin-bottom: 5px;"><a href="#" class="rss">rss</a><span class="page-results">1-10 of 80</span>Browse GiveChange Members</h3>
+				<p><small>Sort Members By:  <a href="#">Most Generous</a>   <a href="#">Membership Length</a>   <a href="#">Recently Active</a> </small></p>
+				<div class="profile">
+					<div class="cl">&nbsp;</div>
+          <div id="person_partial"><%= render(:partial => 'person', :collection => @people) %></div>
+  				<div class="right-side">
+						<!-- Find Friends -->
+						<div class="shbox peoplelikeme">
+							<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+							<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+							<div class="cnt">
+								<div class="bg">
+									<h3>New Members Near You</h3>
+									<div class="article">
+										<div class="cl">&nbsp;</div>
+										<div class="holder image">&nbsp;</div>
+										<div class="info">
+											<p>[information]</p>
+										</div>
+										<div class="cl">&nbsp;</div>
+									</div>
+									<div class="article">
+										<div class="cl">&nbsp;</div>
+										<div class="holder image">&nbsp;</div>
+										<div class="info">
+											<p>[information]</p>
+										</div>
+										<div class="cl">&nbsp;</div>
+									</div>
+									<div class="article">
+										<div class="cl">&nbsp;</div>
+										<div class="holder image">&nbsp;</div>
+										<div class="info">
+											<p>[information]</p>
+										</div>
+										<div class="cl">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+							</div></div></div></div></div></div></div></div>
+						</div>
+						<!-- END Find Friends -->
+					</div>
+					<div class="cl">&nbsp;</div>
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

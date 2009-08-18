@@ -1,0 +1,34 @@
+
+<div class="yui-u first">
+	<%= image_tag(event.portrait_photo_url(), :class=>"eventImages") %>
+</div>
+<div class="yui-u">
+   <% if event.name.length < 12	%>
+      <div id="event_title_box">
+        <center><h2 id="red"><%= event.name %></h2></center>
+      </div>
+      <br/>
+	    <div id="event_info_box">
+        <center>
+        <p id="supporters_bold"><%= return_date_string(event.start_time) %> at <%= event.location %></p><br/>
+	      <p id="benefits">GiveChange Benefits: </p><br/>
+        <p id="benefits_blue"><%= event.discount %> </p>
+        </center>
+      </div>
+  <% else %>
+      <div id="event_title_box_long">
+        <center><h2 id="red_medium"><%= event.name %></h2></center>
+      </div>
+      <br/>
+	    <div id="event_info_box_long_title">
+        <center>
+        <p id="supporters_bold"><%= return_date_string(event.start_time) %> at <%= event.location %></p><br/>
+	      <p id="benefits">GiveChange Benefits: </p><br/>
+        <p id="benefits_blue"><%= event.discount %> </p>
+        </center>
+      </div>
+  <% end %>
+</div>
+
+
+

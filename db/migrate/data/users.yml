@@ -1,0 +1,200 @@
+jrgoodner_admin:
+  id:                 1
+  login:              jrgoodner
+  login_slug:         jrgoodner
+  first_name:         Jared
+  last_name:          Goodner
+  address:            283 24th ave
+  city:               San Francisco
+  state:              CA
+  zipcode:            94121
+  email:              jrgoodner@gmail.com
+  crypted_password:   0fc647c4d3825354b45338e10b5a7d2a3faf1aa6
+  salt:               9b3035b516c446d77d91fbca15bdbeda9842797b 
+  activation_code:    374e0a398f99e9760878b414ab3e7862dfa8c868
+  created_at:         2009-05-12 20:51:12 
+  updated_at:         2009-05-12 20:51:12 
+  activated_at:       2009-05-12 20:51:12 
+  birthday:           1984-05-12
+  role_id:            1
+  
+rseawell1_donor:
+  id:                 2
+  login:              rseawell1
+  first_name:         Ryan
+  last_name:          Seawell
+  address:            1245 san mateo dr
+  city:               Menlo Park
+  state:              CA
+  email:              rseawell1@gmail.com
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+jbryant2_donor:
+  id:                 3
+  login:              jbryant2
+  email:              jbryant2@gmail.com
+  first_name:         Jessica
+  last_name:          Bryant
+  address:            12 Stanford Dr.
+  city:               Palo Alto
+  state:              CA
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12
+  role_id:            5
+  
+alevin3_donor:
+  id:                 4
+  login:              alevin3
+  first_name:         Alex
+  last_name:          Levine
+  address:            545 Seagate Way
+  city:               Belmont
+  state:              CA
+  email:              alevin3@gmail.com
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+kking4_donor:
+  id:                 5
+  login:              kking4
+  email:              kking4@gmail.com
+  first_name:         Kaki
+  last_name:          King
+  address:            283 24th ave
+  city:               San Francisco
+  state:              CA
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+jnguyen5_donor:
+  id:                 6
+  login:              jnguyen5
+  email:              jnguyen5@gmail.com
+  first_name:         Jennifer
+  last_name:          Nguyen
+  address:            283 24th ave
+  city:               San Francisco
+  state:              CA
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+pssamant_donor:
+  id:                 7
+  login:              pssamant
+  email:              pssamant@gmail.com
+  first_name:         Prashant
+  last_name:          Samant
+  address:            283 24th ave
+  city:               San Francisco
+  state:              CA
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+
+eunji_donor:
+  id:                 8
+  login:              eunji
+  email:              eunji@gmail.com
+  first_name:         Eunji
+  last_name:          Unj
+  address:            283 24th ave
+  city:               San Francisco
+  state:              CA
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+mericsson_donor:
+  id:                 9
+  login:              mericsson
+  first_name:         Marcus
+  last_name:          Ericsson
+  address:            545 Seagate Way
+  city:               Belmont
+  state:              CA
+  email:              mericsson@gmail.com
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+shiv_donor:
+  id:                 10
+  login:              shiv10
+  first_name:         Shiv
+  last_name:          Kumar
+  address:            545 Seagate Way
+  city:               Belmont
+  state:              CA
+  email:              shiv10@gmail.com
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  
+ramy10_donor:
+  id:                 11
+  login:              ramy11
+  first_name:         Ahmad
+  last_name:          Sghayer
+  address:            545 Seagate Way
+  city:               Belmont
+  state:              CA
+  email:              ramy11@gmail.com
+  crypted_password:   5c8c91b318cd5865f9872cbf180a1021c8e07770
+  salt:               602a700e2c09a451d6293ebd44dc448978be8e63 
+  activation_code:    98d1178a0a7fe52a65136f15d24da6623d0d2ddd
+  created_at:         2009-05-12 20:55:14
+  updated_at:         2009-05-12 20:55:14
+  activated_at:       2009-05-12 20:55:14
+  birthday:           1984-05-12 
+  role_id:            5
+  

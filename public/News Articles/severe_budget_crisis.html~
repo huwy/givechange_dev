@@ -1,0 +1,726 @@
+<!-- Some GC Notes:
+      added the js function win1() to the header
+      altered the print link to open the /widget?url=... (search for: <a href="javascript:win1()">giveChange</a>)
+      messed with the "keyword" content tags to include our causes (search for: name="keywords" content=)
+      -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us"><head>
+
+<!--                                Givechange addition                                -->
+<script type="text/javascript" language="javascript">
+function win1() {
+// TODO eventually replace http://localhost:3000/ with http://www.igivechange.org/
+	window.open("http://localhost:3000/widget?url=" + location.href, 'Donate with GiveChange','width=800,height=513,top=60,left=60');
+}
+</script>
+<!--                               end of Givechange Addition                          -->
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+	<title>Severe budget crisis threatens California schools - Yahoo! Finance</title><meta name="keywords" content="public education, california, budget"><meta name="description" content="SAN FRANCISCO (AP) -- California's public schools already trail most states in academic performance, suffer from high dropout rates and struggle to improve the performance">	
+	
+
+<link rel="stylesheet" type="text/css" href="severe_budget_crisis_files/combo.css">
+   
+<!--this is not the final template. -->
+<script src="severe_budget_crisis_files/uh_utils-1.js" type="text/javascript"></script></head><body class="a44 apf">
+    <div id="y-page" class="y-fin-wrapper">
+				<div id="y-head">
+						<div id="y-umh">
+						<link type="text/css" rel="stylesheet" href="severe_budget_crisis_files/uh-1.css"><style type="text/css">#ygma ul#ygmanav li, #ygma ul#ygmauseroptions li {margin:0 0 0 0;}#ygma #ygmatop ul li.nonjs,span#ygmausername {display: inline;}</style><script type="text/javascript" charset="utf-8">(function(){var B={};var A=function(){YAHOO.one.uh.hotlistInfo={rd:"http://us.ard.yahoo.com",space:"/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=0",adid:"5496383",prop:"fin",protocol:"http",host:"finance.yahoo.com",url:"%2fnews%2fSevere-budget-crisis-apf-15268364.html%3f.v%3d1"};B=YAHOO.one.uh.hotlistInfo;YAHOO.one.uh.translate=function(C){var D={yahoo_homepage:"http://www.yahoo.com",hp_detect_script:"http://www.yahoo.com/includes/hdhpdetect.php",set_hp_script:"http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=1/SIG=11te3u6o2/*http://www.yahoo.com/bin/set",set_hp_firefox_instructions:['Drag the "Y!" and drop it onto the "Home" icon.','Select "Yes" from the pop up window.',"Nothing, you're done."],close_this_window:"Close this window",set_hp_alternative_instructions1:"If this didn't work for you see ",detailed_set_hp_instructions:"detailed instructions",set_hp_alternative_instructions2:""};return D[C]};YAHOO.one.uh.yahooServices=[["News","http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=2/SIG=000000000/*http://news.yahoo.com"],["Sports","http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=3/*http://sports.yahoo.com"],["Entertainment","http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=4/*http://entertainment.yahoo.com"]]};if("undefined"!==typeof YAHOO&&"undefined"!==typeof YAHOO.one&&"undefined"!==typeof YAHOO.one.uh){A()}else{setTimeout(arguments.callee,500)}})();</script><div id="ygma"><div id="ygmaheader"><div class="bd sprite_bg"><div id="ygmatop" class="sprite_bg"><ul id="ygmanav"><li class="sprite_bg delim"><a href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=5/SIG=10np9vmbm/*http://www.yahoo.com/" target="_top">Yahoo!</a></li><li class="sprite_bg delim"><a href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=6/SIG=10m97m5i1/*http://my.yahoo.com/" target="_top">My Yahoo!</a></li><li class="sprite_bg delim"><a href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=7/SIG=10od5rqfs/*http://mail.yahoo.com/" target="_top">Mail</a></li><li class="last-child"><a class="stop_key_nav sprite_bg lst yltasis" id="ygmamore" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=8/SIG=119rld6dj/*http://docs.yahoo.com/docs/family/more/" target="_top">More<span class="offscrn"> Yahoo! Services</span></a><ul class="menu sprite_bg hidden" id="ygmasubnav"><li><a target="_top" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=2/SIG=000000000/*http://news.yahoo.com">News</a></li><li><a target="_top" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=3/*http://sports.yahoo.com">Sports</a></li><li class="last-child"><a target="_top" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=4/*http://entertainment.yahoo.com">Entertainment</a></li></ul></li></ul><div id="ygmapromo"><!-- SpaceID=8988914 loc=HPRM1 noad -->
+<script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['Ck9XCtj8emA-']='&U=12d8m0uop%2fN%3dCk9XCtj8emA-%2fC%3d-1%2fD%3dHPRM1%2fB%3d-1%2fV%3d0';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15vmract7%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d3508765074%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=12d8m0uop%2fN%3dCk9XCtj8emA-%2fC%3d-1%2fD%3dHPRM1%2fB%3d-1%2fV%3d0"></noscript><a style="display: block;" id="ygmamyyhp" class="stop_nav hidden yltasis yltiefix" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=9/SIG=10uacnjgh/*http://www.yahoo.com/bin/set" target="_top">Make <abbr class="stop_nav" title="Yahoo!">Y!</abbr> My Homepage</a><a style="display: none;" id="ygmatoolbar" class="hidden yltasis yltiefix" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=10/SIG=117bakia1/*http://toolbar.yahoo.com/?.cpdl=ushdl" target="_top">Get Yahoo! Toolbar</a></div><script type="text/javascript" charset="utf-8">(function(){var G=document.getElementById("ygmamore");G.className+=((""==G.className)?"":" ")+"sprite_bg lst yltasis";var D=document.getElementById("ygmamyyhp");var I=document.getElementById("ygmatoolbar");var F=navigator.userAgent;var E=navigator.userAgent.match(/MSIE\s([^;]*)/);var H=(null!=E&&(parseInt(E[1],10)==7)&&(F.indexOf("Trident")>-1));if(document.getElementById("ygmaie8")){document.getElementById("ygmaie8").style.display="block";if(H){document.getElementById("ygmaie8").style.display="none"}}if(!document.getElementById("ygmaie8")||H){D.className+=((""==D.className)?"":" ")+"yltasis yltiefix";I.className+=((""==D.className)?"":" ")+"yltasis yltiefix";if(document.cookie.indexOf("HP=")>-1){D.style.display="none";I.style.display="block"}else{I.style.display="none";D.style.display="block"}if(document.cookie.indexOf("CP=")>-1){I.style.display="none"}}})();</script><div id="ygmauserinfo"><h2 class="offscrn">Account Options</h2><span class="sprite_bg delim"><em>New User?</em> <a href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=11/SIG=14p8qlson/*https://edit.yahoo.com/config/eval_register?.done=http://finance.yahoo.com%2fnews%2fSevere-budget-crisis-apf-15268364.html%3f.v%3d1&amp;.src=quote&amp;.intl=us">Sign Up</a></span><a class="sprite_bg delim" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=12/SIG=14ij2kobg/*https://login.yahoo.com/config/login?.done=http://finance.yahoo.com%2fnews%2fSevere-budget-crisis-apf-15268364.html%3f.v%3d1&amp;.src=quote&amp;.intl=us"><em>Sign In</em></a><a id="ygmahelp" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=13/SIG=11bv9h578/*http://help.yahoo.com/l/us/yahoo/finance/" target="_top" title="Yahoo! Help Central - Finance help">Help</a></div><div id="ygmashpd" class="shdw hidden"><div class="bd"><div id="pnt" class="myyhpbg"></div><a class="ygmashp myyhpbg" href="http://www.yahoo.com/" title="Yahoo!">Yahoo!</a><ol id="ygmahpinstr"><li>Drag the "Y!" and drop it onto the "Home" icon.</li><li>Select "Yes" from the pop up window.</li><li>Nothing, you're done.</li></ol><div class="hr"><p>If this didn't work for you see <a id="ygmashpdetails" class="ygmashps" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=1/SIG=11te3u6o2/*http://www.yahoo.com/bin/set">detailed instructions</a></p><p><a id="ygmashpdclose" href="javascript:void(0);">Close this window</a></p></div></div></div></div><div id="ygmabot" class="sprite_bg"><a id="ygmalogo" href="http://us.ard.yahoo.com/SIG=15lrt7qpe/M=650008.12494723.13293834.4206179/D=fin/S=8988914:HEAD/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5496383/R=14/SIG=10q40gpus/*http://finance.yahoo.com" target="_top"><img id="ygmalogoimg" src="severe_budget_crisis_files/fin_logov1.gif" alt="Yahoo! Finance" width="247" height="33"></a><div class="srch sprite_bg"><form name="ygmasrchfrm" id="ygmasrchfrm" action="http://srd.yahoo.com/loc=head&amp;st=yahoo/*http://search.yahoo.com/search" method="get"><div class="fieldset"><label for="ygmasrchquery" class="sprite_bg"><span class="offscrn">Yahoo! </span>Search</label><input id="ygmasrchquery" name="p" maxlength="100" type="text"><span class="btn sprite_bg"><span class="first-child"><button name="ygmasrchbtn" id="ygmasrchbtn" value="web search" type="submit">web search</button></span></span><input id="fr" name="fr" value="ush1-finance" type="hidden"></div></form></div></div></div></div></div><script charset="utf-8" type="text/javascript" src="severe_budget_crisis_files/uh-1.js"></script><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['9k5XCtj8emA-']='&U=13ft8nkor%2fN%3d9k5XCtj8emA-%2fC%3d650008.12494723.13293834.4206179%2fD%3dHEAD%2fB%3d5496383%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15ufk9m8l%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d688403929%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ft8nkor%2fN%3d9k5XCtj8emA-%2fC%3d650008.12494723.13293834.4206179%2fD%3dHEAD%2fB%3d5496383%2fV%3d1"></noscript>
+						</div><!-- /#y-umh -->
+						<div id="y-nav">
+						
+						
+<div id="yfi_streaming_quotes"><div id="yfsbar"><span id="yfs_onoff"><span>streaming quotes: </span><a class="on" href="javascript:void(0)" onclick="YAHOO.Finance.Streaming.frontend.onoff.toggleOnoffText('off'); return false;">ON</a></span><span id="yfs_wthis" style=""><a href="http://help.yahoo.com/l/us/yahoo/finance/quotes/quote-63.html">What are streaming quotes?</a></span></div><input id=".yficrumb" name=".yficrumb" value="sa4evKfKMmq" type="hidden"></div><span id="yfs_common_params" class="yfs_common_params">{
+"market" : {"NAME" : "U.S.", "ID" : "us_market", "TZ" : "ET",
+"TZOFFSET" : "-14400", "open" : "1243431004", "close" : "1243454404",
+"flags" : {}} , "STREAMER_SERVER" :
+"http://streamerapi.finance.yahoo.com","arrowAsChangeSign" :
+false,"throttleInterval": "1000"}</span>
+
+
+
+
+						<div id="y-nav-pri">
+	<ul id="y-main-nav">
+	<li class="top"><a href="http://finance.yahoo.com/"><span>Home</span></a></li><li class="top subnav">
+<a href="http://finance.yahoo.com/marketupdate?u"><span>Investing</span></a><ul>
+<li><a href="http://finance.yahoo.com/marketupdate/overview">Market Overview</a></li>
+<li><a href="http://finance.yahoo.com/education">Education</a></li>
+<li><a href="http://finance.yahoo.com/actives?e=us">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/r/">Stocks</a></li>
+<li><a href="http://finance.yahoo.com/funds">Mutual Funds</a></li>
+<li><a href="http://finance.yahoo.com/etf">ETFs</a></li>
+<li><a href="http://finance.yahoo.com/bonds">Bonds</a></li>
+<li><a href="http://biz.yahoo.com/opt">Options</a></li>
+<li><a href="http://biz.yahoo.com/ic">Industries</a></li>
+<li><a href="http://finance.yahoo.com/currency-investing">Currencies <em style="padding-left: 5px; color: rgb(255, 102, 0); font-weight: bold; text-transform: uppercase;">New!</em></a></li>
+</ul>
+</li><li class="top subnav">
+<a href="http://biz.yahoo.com/top.html"><span>News &amp; Opinion</span></a><ul>
+<li><a href="http://biz.yahoo.com/topic/us-markets/">Markets</a></li>
+<li><a href="http://biz.yahoo.com/topic/investing-ideas/">Investing Ideas</a></li>
+<li><a href="http://finance.yahoo.com/expert/index">Expert Advice</a></li>
+<li><a href="http://biz.yahoo.com/special.html">Special Editions</a></li>
+<li><a href="http://biz.yahoo.com/topic/earnings/">Company Finances</a></li>
+<li><a href="http://biz.yahoo.com/apf/">Providers</a></li>
+</ul>
+</li><li class="top subnav">
+<a href="http://finance.yahoo.com/personal-finance"><span>Personal Finance</span></a><ul>
+<li><a href="http://finance.yahoo.com/banking-budgeting">Banking &amp; Budgeting</a></li>
+<li><a href="http://finance.yahoo.com/career-work">Career &amp; Work</a></li>
+<li><a href="http://finance.yahoo.com/college-education">College &amp; Education</a></li>
+<li><a href="http://finance.yahoo.com/family-home">Family &amp; Home</a></li>
+<li><a href="http://finance.yahoo.com/insurance">Insurance</a></li>
+<li><a href="http://finance.yahoo.com/loans">Loans</a></li>
+<li><a href="http://finance.yahoo.com/real-estate">Real Estate</a></li>
+<li><a href="http://finance.yahoo.com/retirement">Retirement</a></li>
+<li><a href="http://finance.yahoo.com/taxes">Taxes</a></li>
+</ul>
+</li>
+
+	<li class="top subnav active" id="yfmyli">
+<a href="#" id="yfmya"><span>My Portfolios</span></a><ul id="y-nav-my-portfolios">
+<li id="y-portfolios"><ul id="y-portfolios-list"></ul></li>
+<li><a href="http://edit.finance.yahoo.com/eh?.src=quote&amp;.intl=us&amp;.done=" id="add-new-portfolio" title="Add a new portfolio"><span>New Portfolio</span></a></li>
+<li><a href="http://billing.finance.yahoo.com/ym/f/FinanceReal1?.src=quote&amp;.refer=nb" id="market-tracker" title="View the MarketTracker"><span>MarketTracker</span></a></li>
+</ul>
+</li>
+
+	<li class="promo-tab new top"><a href="http://finance.yahoo.com/tech-ticker"><span>Tech Ticker<strong class="new">(new)</strong></span></a></li>
+	
+	</ul>
+</div>
+
+
+<!--topnav  -->
+						<div id="y-nav-sec" class="clear"><div class="ticker-search mod">
+<div class="hd"></div>
+<div class="bd"><form id="quote" name="quote" action="/q">
+<h2 class="yfi_signpost">Search for share prices</h2>
+<label for="y-fi-get-quotes-input">Get Quotes</label><input class="yui-ac-input" id="txtQuotes" name="s" value="" autocomplete="off" type="text"><div id="yfi_quotes_submit"><input value="Get Quotes" type="submit"></div>
+</form></div>
+<div class="ft">
+<ul><li><a href="http://finance.yahoo.com/search">Finance Search</a></li></ul>
+<p><span id="yfs_market_time">Wed, May 27, 2009, 4:14PM ET - <b>U.S. Markets closed.</b></span></p>
+</div>
+</div></div>
+<!--quotebar -->
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						</div><!-- ./end of article y-nav -->
+        </div><!--./#y-head -->
+        <div id="y-main" class="clear">
+            <ul id="y-ad-units" class="clear"><li class="ad"><!--Vendor: Doubleclick, Format: IFrame -->
+<iframe src="severe_budget_crisis_files/a.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" scrolling="no" width="150" frameborder="0" height="30">
+&lt;SCRIPT language='JavaScript1.1'
+SRC="http://ad.doubleclick.net/adj/N5043.Yahoo/B3311270.176;abr=!ie;sz=150x30;dcopt=rcl;mtfIFrameRequest=false;click=http://us.ard.yahoo.com/SIG=15krl48f4/M=708491.13403891.13524283.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=8U5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5710922/R=1/*;ord=1243455188445592"&gt;
+&lt;/SCRIPT&gt; &lt;NOSCRIPT&gt; &lt;A
+HREF="http://us.ard.yahoo.com/SIG=15krl48f4/M=708491.13403891.13524283.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=8U5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5710922/R=2/SIG=13bbsem93/*http://ad.doubleclick.net/jump/N5043.Yahoo/B3311270.176;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"&gt;
+&lt;IMG
+SRC="http://ad.doubleclick.net/ad/N5043.Yahoo/B3311270.176;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"
+BORDER=0 WIDTH=150 HEIGHT=30 ALT="Click Here"&gt;&lt;/A&gt;
+&lt;/NOSCRIPT&gt; </iframe>  <script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['8U5XCtj8emA-']='&U=13elutoo4%2fN%3d8U5XCtj8emA-%2fC%3d708491.13403891.13524283.2140147%2fD%3dNE3%2fB%3d5710922%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15vj227v2%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d2585282344%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13elutoo4%2fN%3d8U5XCtj8emA-%2fC%3d708491.13403891.13524283.2140147%2fD%3dNE3%2fB%3d5710922%2fV%3d1"></noscript></li><li class="ad"><a href="http://us.ard.yahoo.com/SIG=15khakk5j/M=716636.13173572.13377266.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=8k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5685866/R=0/SIG=11kkeerua/*http://ad.doubleclick.net/clk;213643699;31961533;n"><img src="severe_budget_crisis_files/td_bra_bra_x95_q309_150x30_0.gif" alt="Click Here!" width="150" border="0" height="30"></a><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['8k5XCtj8emA-']='&U=13ehr52uj%2fN%3d8k5XCtj8emA-%2fC%3d716636.13173572.13377266.2140147%2fD%3dNE3%2fB%3d5685866%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15um5hu7n%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d134924546%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ehr52uj%2fN%3d8k5XCtj8emA-%2fC%3d716636.13173572.13377266.2140147%2fD%3dNE3%2fB%3d5685866%2fV%3d1"></noscript></li><li class="ad"><!--Vendor: Doubleclick, Format: IFrame -->
+<iframe src="severe_budget_crisis_files/a_002.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" scrolling="no" width="150" frameborder="0" height="30">
+&lt;A
+HREF="http://us.ard.yahoo.com/SIG=15kiefjd5/M=708491.13086453.13354424.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=805XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5590115/R=1/SIG=13amqqdig/*http://ad.doubleclick.net/jump/N5043.Yahoo/B3311270.14;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"&gt;&lt;IMG
+SRC="http://ad.doubleclick.net/ad/N5043.Yahoo/B3311270.14;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"
+BORDER=0 WIDTH=150 HEIGHT=30 ALT="Click Here"&gt;&lt;/A&gt;</iframe><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['805XCtj8emA-']='&U=13e2m72vq%2fN%3d805XCtj8emA-%2fC%3d708491.13086453.13354424.2140147%2fD%3dNE3%2fB%3d5590115%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15u4is372%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d989393542%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13e2m72vq%2fN%3d805XCtj8emA-%2fC%3d708491.13086453.13354424.2140147%2fD%3dNE3%2fB%3d5590115%2fV%3d1"></noscript></li><li class="ad"><!--Vendor: Doubleclick, Format: IFrame -->
+<script type="text/javascript" language="javascript">var YAHOO = YAHOO || {};YAHOO.RT = YAHOO.RT || {};YAHOO.RT.ADS = YAHOO.RT.ADS || {};function rtAd_endTime(fName){var et = fName + "_endTime";YAHOO.RT.ADS[et] = Number(new Date());}function rtAd_startTime(){this.fName = "";this.url = "";this.startTime = function(){var fr = document.getElementById(this.fName);if(fr) {var st = this.fName + "_startTime";YAHOO.RT.ADS[st] = Number(new Date());fr.src=this.url;}}}function rtAd_write(content, adurl, id){document.write(content);YAHOO.RT.ADS['startTimeObj_'+id] = new rtAd_startTime();YAHOO.RT.ADS['startTimeObj_'+id].fName = id;YAHOO.RT.ADS['startTimeObj_'+id].url = adurl;window.setTimeout("YAHOO.RT.ADS['startTimeObj_"+id+"'].startTime()", 1);}
+var ran = Number(new Date()) + Math.floor(Math.random() * 9999999999);var rt_ad_content ='<iframe id="rt_id_'+ran+'" ONLOAD="rtAd_endTime(\'rt_id_'+ran+'\')"  WIDTH=150 HEIGHT=30 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000"><SCRIPT language="JavaScript1.1" ><\/SCRIPT><NOSCRIPT><A HREF="http://us.ard.yahoo.com/SIG=15knkm8en/M=717158.13184718.13372355.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9E5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5682407/R=0/SIG=13l2rklij/*http://ad.doubleclick.net/jump/N3382.yahoo.comOX2562/B3321285.101;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"><IMG  BORDER=0 WIDTH=150 HEIGHT=30 ALT="Click Here"></A></NOSCRIPT></IFRAME>';
+var rt_ad_id = "rt_id_"+(ran);
+var rt_ad_url = "http://ad.doubleclick.net/adi/N3382.yahoo.comOX2562/B3321285.101;sz=150x30;dcopt=rcl;mtfIFrameRequest=false;click=http://us.ard.yahoo.com/SIG=15knkm8en/M=717158.13184718.13372355.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9E5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5682407/R=1/*;ord=1243455188445592?";
+rtAd_write(rt_ad_content, rt_ad_url, rt_ad_id);
+</script><iframe src="severe_budget_crisis_files/a_003.html" id="rt_id_1246675008794" onload="rtAd_endTime('rt_id_1246675008794')" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" scrolling="no" width="150" frameborder="0" height="30">&lt;SCRIPT
+language="JavaScript1.1" &gt;&lt;/SCRIPT&gt;&lt;NOSCRIPT&gt;&lt;A
+HREF="http://us.ard.yahoo.com/SIG=15knkm8en/M=717158.13184718.13372355.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9E5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5682407/R=0/SIG=13l2rklij/*http://ad.doubleclick.net/jump/N3382.yahoo.comOX2562/B3321285.101;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"&gt;&lt;IMG
+BORDER=0 WIDTH=150 HEIGHT=30 ALT="Click
+Here"&gt;&lt;/A&gt;&lt;/NOSCRIPT&gt;</iframe>
+<noscript>
+<IFRAME
+SRC="http://ad.doubleclick.net/adi/N3382.yahoo.comOX2562/B3321285.101;sz=150x30;dcopt=rcl;mtfIFrameRequest=false;click=http://us.ard.yahoo.com/SIG=15knkm8en/M=717158.13184718.13372355.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9E5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5682407/R=2/*;ord=1243455188445592?"
+WIDTH=150 HEIGHT=30 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0
+FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<A
+HREF="http://us.ard.yahoo.com/SIG=15knkm8en/M=717158.13184718.13372355.2140147/D=fin/S=8988914:NE3/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=9E5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5682407/R=3/SIG=13l2rklij/*http://ad.doubleclick.net/jump/N3382.yahoo.comOX2562/B3321285.101;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"><IMG
+SRC="http://ad.doubleclick.net/ad/N3382.yahoo.comOX2562/B3321285.101;abr=!ie4;abr=!ie5;sz=150x30;ord=1243455188445592?"
+BORDER=0 WIDTH=150 HEIGHT=30 ALT="Click Here"></A></IFRAME>
+</noscript><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['9E5XCtj8emA-']='&U=13eqolm81%2fN%3d9E5XCtj8emA-%2fC%3d717158.13184718.13372355.2140147%2fD%3dNE3%2fB%3d5682407%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15vjgnnum%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d2740117176%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13eqolm81%2fN%3d9E5XCtj8emA-%2fC%3d717158.13184718.13372355.2140147%2fD%3dNE3%2fB%3d5682407%2fV%3d1"></noscript></li></ul><!--banner ads -->
+            
+            <div id="yfi-nns" class="mod ad">
+<font size="-1" face="arial"><a href="http://us.ard.yahoo.com/SIG=15lp0d6hg/M=708491.13283080.13409431.11657411/D=fin/S=8988914:NNS/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=AU9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5665578/R=0/SIG=13rb57utt/*http://ad.doubleclick.net/clk;213036868;32038837;k?http://research.scottrade.com/public/stocks/overview/overview.asp?id=1"><b>Free Stock Symbol Lookup</b> -  Scottrade: Leading stock research  </a></font>
+<img src="severe_budget_crisis_files/B3311270.gif" width="1" border="0" height="1"><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['AU9XCtj8emA-']='&U=13f30s27v%2fN%3dAU9XCtj8emA-%2fC%3d708491.13283080.13409431.11657411%2fD%3dNNS%2fB%3d5665578%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15vk9leba%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d2594073437%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13f30s27v%2fN%3dAU9XCtj8emA-%2fC%3d708491.13283080.13409431.11657411%2fD%3dNNS%2fB%3d5665578%2fV%3d1"></noscript>
+</div>
+
+
+            <div id="y-content">
+                <div class="col3"><!--article body -->
+                    <div class="mod content-wrapper">
+                        
+                        <!--breaking news -->
+                        
+                 
+                    <div id="y-article-hd">
+                    <!-- article header, including ads -->
+                        
+                        	
+		<h1>Severe budget crisis threatens California schools</h1>
+		
+		<h2>California schools brace for deep cuts as state grapples with historic $15.4B budget deficit </h2>	<ul class="attribution">
+				<li class="byline">Terence Chea and Samantha Young, Associated Press Writers</li>
+				<li class="datetime">On Friday May 15, 2009, 5:46 pm EDT</li>
+			</ul>
+	
+
+
+                        		<div class="toolbar yfi_share_article_container clear">
+			<ul>
+<li class="yfi_share_buzz">		
+		<form method="post" action="http://buzz.yahoo.com/vote/" class="buzz" id="media-buzz-top">
+			<input name="publisherurn" value="y_finance" type="hidden">
+			<input name="guid" value="yahoo_finance/183636335" type="hidden">
+			<input name=".done" value="/news/Severe-budget-crisis-apf-15268364.html" type="hidden">
+			<input name="assettype" value="article" type="hidden">
+			<input name="votetype" value="1" type="hidden">
+			<input name="from" value="orion" type="hidden">
+			<input name="key" value="778c9" type="hidden">
+			<input name=".crumb" value="U4YN4ZXORDn" type="hidden">
+			<button type="submit">Buzz up!</button>
+		</form>
+		
+		<li class="print">
+    <a href="javascript:win1()"><div class="givechange"><image src="http://www.igivechange.org/button_small_14px.png"/></div> GiveChange</a>
+		</li>			</ul>
+		</div>
+
+                    </div><!-- ./end of article hd -->
+										<div id="y-article-bd">
+                        
+                        		
+	<p>
+SAN FRANCISCO (AP) -- California's public schools already trail most
+states in academic performance, suffer from high dropout rates and
+struggle to improve the performance of black and Hispanic students.</p>	
+	
+	
+                        
+                        
+                        <!--- Insert the sidebar information -->                               
+<div id="y-article-related" class="mod-group">
+    
+    
+    
+    
+</div>
+<!-- Article Related Media -->
+                        
+<p>Now they face a historic state budget deficit that is expected to
+force deep cuts in education funding that will lead to thousands of
+teacher layoffs, larger class sizes, school closures and a shortened
+school year.</p><p>"Simply put, additional cuts to public education
+would be paralyzing," Jack O'Connell, the state Superintendent of
+Public Instruction, said Friday. "We think about having a world-class
+education system. These cuts would bring us a Third World education
+system."</p><p>O'Connell said schools will lose counselors, nurses and
+librarians. They are also likely to cut athletic programs as well as
+classes in art, music and career technical education.</p><p>"They want
+our kids to have a good education yet they're denying them full access
+to their learning by doing layoffs, increasing class size and cutting
+programs," said Cynthia Velasco, 34, who was dropping off her daughter
+at Sunrise Elementary School in Rancho Cordova near Sacramento on
+Friday.</p><p>Gov. Arnold Schwarzenegger said this week that California
+faces a $15.4 billion deficit for the fiscal year that starts July 1.
+That shortfall will grow to $21.3 billion if voters do not approve five
+budget-related measures in next Tuesday's election. Recent polls show
+all of them trailing.</p><p>On Thursday, the governor laid out two dire
+budget scenarios -- one if the measures pass and another if they are
+rejected. Both plans call for laying off thousands of state employees,
+cutting health care programs for the poor, transferring up to 19,000
+illegal immigrant prisoners to federal custody, and selling off state
+assets such as Los Angeles Memorial Coliseum and San Quentin State
+Prison.</p><p>The state's K-12 schools and community colleges will face
+a $3 billion cut over the coming year if the measures pass, and $5.3
+billion cut if they fail. That's on top of cuts enacted in the budget
+package lawmakers passed in February -- $8.6 billion over two years.</p><p>Schwarzenegger's budget also calls for shortening the school year by five to 7.5 days -- an unprecedented move in California.</p><p>"It's
+just completely devastating," said Bob Wells, who heads the Association
+of California School Administrators. "It puts a great number of our
+students at risk."</p><p>There already have been painful cuts. The
+board of the Los Angeles Unified School District voted last month to
+lay off as many as 2,400 teachers and 2,000 other personnel to deal
+with a $596 million budget shortfall for the upcoming school year. On
+Friday, dozens of people were arrested outside district headquarters
+for blocking traffic during a protest.</p><p>Education advocates say
+the budget cuts would further weaken a public school system that lags
+behind other states by almost all achievement measures. Nearly half the
+system's 6.3 million students are poor under federal guidelines, and
+about a quarter do not speak English well.</p><p>In its annual national
+survey released in January, Education Week magazine gave the state a C
+grade overall and a D for its student achievement -- 38th overall.
+California ranked 47th in per-pupil spending, with an average $7,571
+per student in California compared with a national average of $9,961.</p><p>"If
+this is how we want to treat our schools and kids, as a state we're
+going to have to expect less," said Rick Pratt, assistant executive
+director of the California School Boards Association. "We're going to
+reach the breaking point."</p><p>Pratt said 30,000 of the state's
+roughly 310,000 public school teachers have already received pink slips
+this year, and school districts could be forced to lay off more before
+classes begin in the fall.</p><p>"We're seeing a lot of districts
+getting close to the edge financially," Pratt said. "The numbers are
+huge. It gets to be kind of mind-boggling."</p><p>Samantha Young reported from Sacramento, Calif.</p>
+	
+
+
+ 
+
+                        		
+
+                        
+                        		<div class="toolbar yfi_share_article_container clear">
+			<ul>
+<li class="yfi_share_email"><a href="http://mtf.news.yahoo.com/mailto/?locale=us&amp;prop=finance&amp;url=http%3A%2F%2Fbiz.yahoo.com%2Fap%2F090515%2Fus_california_budget_education.html%3F.v%3D1&amp;title=Severe+budget+crisis+threatens+California+schools" rel="nofollow">Email</a></li><li class="yfi_share_im"><a href="#" onclick="return YAHOO.Media.Dtk.ArticleTools.IM.imStory(encodeURIComponent('{Severe budget crisis threatens California schools}'), 'http%3A%2F%2Fbiz.yahoo.com%2Fap%2F090515%2Fus_california_budget_education.html%3F.v%3D1');" rel="nofollow">IM</a></li>
+<li class="yfi_share_bookmark">
+					<a href="http://us.lrd.yahoo.com/_ylt=Apc8DSyRrBAXfVwjk9RlBbXyKIkA/SIG=177cdn3gq/**http%3A//beta.bookmarks.yahoo.com/toolbar/savebm%3Fu=http%253A%252F%252Fbiz.yahoo.com%252Fap%252F090515%252Fus_california_budget_education.html%253F.v%253D1%26t=Severe%2Bbudget%2Bcrisis%2Bthreatens%2BCalifornia%2Bschools%26v=fin" class="yltasis" onclick="javascript:window.open('http://beta.bookmarks.yahoo.com/toolbar/savebm?u=http%3A%2F%2Fbiz.yahoo.com%2Fap%2F090515%2Fus_california_budget_education.html%3F.v%3D1&amp;t=Severe+budget+crisis+threatens+California+schools&amp;v=fin', 'bookmark','width=800,height=600'); return false;" rel="nofollow">Bookmark</a></li><li class="yfi_share_delicious"><a href="http://us.lrd.yahoo.com/_ylt=AmrMlFzb6vwRipHcy5dhWYTyKIkA/SIG=17qeohem4/**http%3A//del.icio.us/post%3Fv=4%26partner=ypf%26noui=yes%26jump=close%26url=http%253A%252F%252Fbiz.yahoo.com%252Fap%252F090515%252Fus_california_budget_education.html%253F.v%253D1%26title=Severe%2Bbudget%2Bcrisis%2Bthreatens%2BCalifornia%2Bschools" class="yltasis" onclick="javascript:window.open('http://del.icio.us/post?v=4&amp;partner=ypf&amp;noui=yes&amp;jump=close&amp;url=http%3A%2F%2Fbiz.yahoo.com%2Fap%2F090515%2Fus_california_budget_education.html%3F.v%3D1&amp;title=Severe+budget+crisis+threatens+California+schools', 'delicious', 'toolbar=no,width=700,height=400'); return false;" rel="nofollow">del.icio.us</a></li><li class="yfi_share_digg">
+					<a href="http://us.lrd.yahoo.com/_ylt=AvPB7cXYYnbxBHDOGLOZJEXyKIkA/SIG=17gfamm8d/**http%3A//digg.com/submit%3Fphase=2%26topic=business_finance%26url=http%253A%252F%252Fbiz.yahoo.com%252Fap%252F090515%252Fus_california_budget_education.html%253F.v%253D1%26title=Severe%2Bbudget%2Bcrisis%2Bthreatens%2BCalifornia%2Bschools" class="yltasis" onclick="javascript:window.open('http://digg.com/submit?phase=2&amp;topic=business_finance&amp;url=http%3A%2F%2Fbiz.yahoo.com%2Fap%2F090515%2Fus_california_budget_education.html%3F.v%3D1&amp;title=Severe+budget+crisis+threatens+California+schools','digg','scrollbars=yes,width=950'); return false;" rel="nofollow">Digg</a></li><li class="yfi_share_buzz">		
+		<form method="post" action="http://buzz.yahoo.com/vote/" class="buzz" id="media-buzz-bottom">
+			<input name="publisherurn" value="y_finance" type="hidden">
+			<input name="guid" value="yahoo_finance/183636335" type="hidden">
+			<input name=".done" value="/news/Severe-budget-crisis-apf-15268364.html" type="hidden">
+			<input name="assettype" value="article" type="hidden">
+			<input name="votetype" value="1" type="hidden">
+			<input name="from" value="orion" type="hidden">
+			<input name="key" value="778c9" type="hidden">
+			<input name=".crumb" value="U4YN4ZXORDn" type="hidden">
+			<button type="submit">Buzz up!</button>
+		</form>
+		
+		</li>		</ul>
+		</div>
+
+                    </div><!-- ./end of article bd -->
+                    </div><!-- ./ index-content-col -->
+                </div><!-- ./end of col3--> 
+                
+                    
+                    
+                    
+                    
+                  
+                <div class="mod-group">
+                    	
+<div class="col1">		<div class="mod newslist">
+		
+		
+			<div class="hd">
+				<h2>Top Stories</h2>
+			</div>
+		<div class="bd">
+			<ul>
+									<li class=". first"><a href="http://finance.yahoo.com/news/Slumping-Treasury-bond-prices-apf-15360914.html">Slumping Treasury Bond Prices Send Stocks Lower</a> <cite>- AP</cite></li>						<li class="."><a href="http://finance.yahoo.com/news/Existing-Homes-Sales-Up-zacks-15359123.html">Existing home sales up, but so are inventories</a> <cite>- Zacks.com</cite></li>						<li class="."><a href="http://us.rd.yahoo.com/finance/news/topnews/*http://biz.yahoo.com/ap/090527/moody_s_us_government.html">Moody's: US government's 'AAA' rating is stable</a> <cite>- AP</cite></li>						<li class="."><a href="http://finance.yahoo.com/news/Oil-hits-6month-high-Saudi-rb-15361309.html">Oil hits 6-month high, Saudi says world can cope</a> <cite>- Reuters</cite></li>						<li class="."><a href="http://finance.yahoo.com/news/FDIC-Fund-Running-zacks-15360529.html">FDIC fund is running dry</a> <cite>- Zacks.com</cite></li>			</ul>
+					</div>	
+		<div class="ft"></div>
+	</div><!-- /.mod.newslist -->
+	</div>	 
+
+                    
+                    
+                    
+                </div>  
+								
+								
+                    
+
+<div class="mod-group">                
+	<div class="mod ysm clear">
+		<div class="hd">
+			<h2>Sponsored Links</h2>
+		</div>
+		<div class="bd">
+						<div class="col1">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20AKkWdil1pHEjBg4r6YOD-fOcNzLVPONSNLT0HSLZAHSyt8i2YH7JE1hwcOhF_wAWywBfQ5swxBRV71ClFuMzpYxJh8JnYmThPGSaSKb1Wp_M6bo2c1u0usjLi_Oq5lJWi2_59lPduMHORcFqPJdQlS4bl9t21YvL10ulRhXUNsufc5apeiXKW6IcVFb4wqQXYAvJJQOz1Kty9n7d-eJFwYtTIr4JgGUu20kWQZyqIj-hzq8h9_G9O_E.000000021714edb2">Earn From 2.35% to 2.65%</a></h3>
+			<div class="yfi-ysm-description">With GE Capital Corporation. Not An Offer Of Securities For Sale.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AhEBY9xMCXyK5Mz4TJeSF5fyKIkA/SIG=1a0lua580/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20AKkWdil1pHEjBg4r6YOD-fOcNzLVPONSNLT0HSLZAHSyt8i2YH7JE1hwcOhF_wAWywBfQ5swxBRV71ClFuMzpYxJh8JnYmThPGSaSKb1Wp_M6bo2c1u0usjLi_Oq5lJWi2_59lPduMHORcFqPJdQlS4bl9t21YvL10ulRhXUNsufc5apeiXKW6IcVFb4wqQXYAvJJQOz1Kty9n7d-eJFwYtTIr4JgGUu20kWQZyqIj-hzq8h9_G9O_E.000000021714edb2" class="yltasis">www.geinterestplus.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20AKkWdil1pHEjg5te0IH9j-UWzl9v0OhJeV2XAvdBjgrttUvSaNKEpROw7bLK6rOt8F7OZkjI9FwYS9MdueAsnKljIzjsLBwQqirPK7HX1F9aGB0Wbaiv4KnOL9eQ_7bpI1FphloJtE8rtYUXh5KGfhl9l7t0mX3AySFWDO-QmDu4n7PSOQfLS0DvJfq5te9iXWEarhpJqxgOmJ1QbtcYqttmmqds42SpRIKTmhKVuAb9kel4gw9_ijE.000000021714edb2">Free Forex Trading Education</a></h3>
+			<div class="yfi-ysm-description">GFT Makes FX Trading Sweet with Free Educational Resources. Try Now.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AuTVaWg2Qd4jzQvvrsXc1XXyKIkA/SIG=1a0cdaj9o/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20AKkWdil1pHEjg5te0IH9j-UWzl9v0OhJeV2XAvdBjgrttUvSaNKEpROw7bLK6rOt8F7OZkjI9FwYS9MdueAsnKljIzjsLBwQqirPK7HX1F9aGB0Wbaiv4KnOL9eQ_7bpI1FphloJtE8rtYUXh5KGfhl9l7t0mX3AySFWDO-QmDu4n7PSOQfLS0DvJfq5te9iXWEarhpJqxgOmJ1QbtcYqttmmqds42SpRIKTmhKVuAb9kel4gw9_ijE.000000021714edb2" class="yltasis">www.GFTforex.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20AJpVDqKMlmVp5DIKXDz5tRuWncfwJhXWLa4DmeDLqlIL2ZOGo9yjULmou9KBWrSbAt-YPvh4X-yYRVrf2ExlIulmjMDtOTagtlolYR55vAgOLd9Q8GCc9FTmNBZuQDKSSgyCjgMk1JIrte2-lKOGR0sI3x8AvFtyp-pNEDgl90MYauZZ6OuMZw-GOE1I2h866-eyHQNFm7WTkzeHdBC-gQ4DCVdTwIWE9bgZ7xru3Jp1ToIgicJ9IfQ.000000021714edb2">Finance</a></h3>
+			<div class="yfi-ysm-description">Discover free information about finance.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AqN_6IOQgU72C2lKM2MrePbyKIkA/SIG=1a02s7b1l/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20AJpVDqKMlmVp5DIKXDz5tRuWncfwJhXWLa4DmeDLqlIL2ZOGo9yjULmou9KBWrSbAt-YPvh4X-yYRVrf2ExlIulmjMDtOTagtlolYR55vAgOLd9Q8GCc9FTmNBZuQDKSSgyCjgMk1JIrte2-lKOGR0sI3x8AvFtyp-pNEDgl90MYauZZ6OuMZw-GOE1I2h866-eyHQNFm7WTkzeHdBC-gQ4DCVdTwIWE9bgZ7xru3Jp1ToIgicJ9IfQ.000000021714edb2" class="yltasis">discovertheinformation.com/finance</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+								<div class="col2">
+					<ul>
+			<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20AJpVDqKMlmVpLgfLFfl2iskENH8h8_JdruILa9ayXRJ5AoqsQ4GWcrNvGQh837XJy2U3CLrMEMJfuZjtchcLBoRIhaRkskR0i-Vr5lIQ_BKtY2aTSQFjf-Kqc3q4hth43UpzGnLWebSec3wA_yog2qZq1JSI-4cOjJW-wUgO3g3wPdMHSqn9edtKrbESM5O1qwxx2jCCGC6cYnZbVwL5u6NVRk7hgFnNYUV3AAr3UH3Ko4l-TgjRzc4.000000021714edb2">Retired At 32 - Personal Finance</a></h3>
+			<div class="yfi-ysm-description">How I Actually Did It. No Gimmicks. No B.S. $500+ Investment Required.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AoIX0ApPxKhCm.XwW8L41dXyKIkA/SIG=1a0vidp0l/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20AJpVDqKMlmVpLgfLFfl2iskENH8h8_JdruILa9ayXRJ5AoqsQ4GWcrNvGQh837XJy2U3CLrMEMJfuZjtchcLBoRIhaRkskR0i-Vr5lIQ_BKtY2aTSQFjf-Kqc3q4hth43UpzGnLWebSec3wA_yog2qZq1JSI-4cOjJW-wUgO3g3wPdMHSqn9edtKrbESM5O1qwxx2jCCGC6cYnZbVwL5u6NVRk7hgFnNYUV3AAr3UH3Ko4l-TgjRzc4.000000021714edb2" class="yltasis">www.RetiredAt32.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20ADnLzZVtGA1UJsQHGeSmxIvU9h2xkXK609o9SJkrO-bJMRte3EcVzQ5DByhe_FvNT8IALDmbSAoUyNCkG9BMZVq5uSmxIvv8QKQftQtxBDfCSAecpsjRNQL1d7HndUjPv9gNpgHcdjzhuRJICuYNyQ27V0vBR8xq9gkWuQfiN81f1cOEqdF0a9Wr3u67m66tWhpJDRuLoqMXyPX_4flln32qlfK4LI-DjOugFSlk4JgMDB3YXp2gc4w.000000021714edb2">What Recession?</a></h3>
+			<div class="yfi-ysm-description">I make $12.000 every month online! Do the same, it's easy.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AlSUM3QocXs4YMqbJWwD6pjyKIkA/SIG=1a07a8mpq/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20ADnLzZVtGA1UJsQHGeSmxIvU9h2xkXK609o9SJkrO-bJMRte3EcVzQ5DByhe_FvNT8IALDmbSAoUyNCkG9BMZVq5uSmxIvv8QKQftQtxBDfCSAecpsjRNQL1d7HndUjPv9gNpgHcdjzhuRJICuYNyQ27V0vBR8xq9gkWuQfiN81f1cOEqdF0a9Wr3u67m66tWhpJDRuLoqMXyPX_4flln32qlfK4LI-DjOugFSlk4JgMDB3YXp2gc4w.000000021714edb2" class="yltasis">NickGetsGreen.com</a></div><!-- /.yfi-ysm-link -->
+		</li>		<li>
+			<h3><a href="http://rc.us-west.srv.overture.com/d/sr/?xargs=20ADnLzZVtGA1U41W3yQ9CpKxodDxYtl-vKvhSKJInxyggTyffiy949l5l4-K7UOYYxxS9cU16GRGRXWW-8X40Q6mUtFV5ofM2HQp_OF-hxrVKZAeVxzczfWk6Su726rA2625ITiHA_uKxrN8gqBk-XSnxiZv0yFKmPrZ_bexPRss9t-PYwm9tiebvpICb8rb2oLYbM_42Mmc1RaMvfFMIpoTuUwRNjDOfGSqCfZ2IbqBE1jCnQ0Aufo8.000000021714edb2">Do You Know Your Credit Score?</a></h3>
+			<div class="yfi-ysm-description">Want a New Car or Home? First Get a 100% Free Credit Report Right Now.</div><!-- /.yfi-ysm-description -->
+			<div class="yfi-ysm-link"><a href="http://us.lrd.yahoo.com/_ylt=AhOJmrTS6ozQopj3gJYI6GnyKIkA/SIG=1a0bdh0hr/**http%3A//rc.us-west.srv.overture.com/d/sr/%3Fxargs=20ADnLzZVtGA1U41W3yQ9CpKxodDxYtl-vKvhSKJInxyggTyffiy949l5l4-K7UOYYxxS9cU16GRGRXWW-8X40Q6mUtFV5ofM2HQp_OF-hxrVKZAeVxzczfWk6Su726rA2625ITiHA_uKxrN8gqBk-XSnxiZv0yFKmPrZ_bexPRss9t-PYwm9tiebvpICb8rb2oLYbM_42Mmc1RaMvfFMIpoTuUwRNjDOfGSqCfZ2IbqBE1jCnQ0Aufo8.000000021714edb2" class="yltasis">TriFreeCreditReports.com/free</a></div><!-- /.yfi-ysm-link -->
+		</li>					</ul>
+				</div><!-- /.col0 -->
+						</div>
+	</div>
+</div>
+
+                    
+                    
+                    
+
+            </div><!--./ end of y-content -->
+            
+            <div id="y-related">
+                <div class="mod article-related-col">
+                    
+                    <div class="mod more-from-partner newslist">
+		<div class="hd"><h2 class="noprovlinks">Provided by:<a href="http://us.rd.yahoo.com/finance/news/apf/SIG=10kfmofol/*http://www.ap.org/"><img src="severe_budget_crisis_files/ap_left_170x33.gif" alt="AP" class="sponsorimage"></a></h2></div>
+			<div class="bd">
+			<a href="http://biz.yahoo.com/apf" class="more">View more from provider »</a>
+			</div>
+				
+	
+					<div class="bd">
+			</div>	
+		
+</div><!-- ./mod -->
+
+                    
+                    <div class="ad mod lrec">
+                        <table class="ad_slug_table" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center"><span class="ad_slug"><font class="ad_slug_font" size="-2" face="Arial">ADVERTISEMENT</font><br></span>
+<!--Vendor: Doubleclick, Format: IFrame -->
+<script type="text/javascript" language="javascript">var YAHOO = YAHOO || {};YAHOO.RT = YAHOO.RT || {};YAHOO.RT.ADS = YAHOO.RT.ADS || {};function rtAd_endTime(fName){var et = fName + "_endTime";YAHOO.RT.ADS[et] = Number(new Date());}function rtAd_startTime(){this.fName = "";this.url = "";this.startTime = function(){var fr = document.getElementById(this.fName);if(fr) {var st = this.fName + "_startTime";YAHOO.RT.ADS[st] = Number(new Date());fr.src=this.url;}}}function rtAd_write(content, adurl, id){document.write(content);YAHOO.RT.ADS['startTimeObj_'+id] = new rtAd_startTime();YAHOO.RT.ADS['startTimeObj_'+id].fName = id;YAHOO.RT.ADS['startTimeObj_'+id].url = adurl;window.setTimeout("YAHOO.RT.ADS['startTimeObj_"+id+"'].startTime()", 1);}
+var ran = Number(new Date());var rt_ad_content ='<iframe id="rt_id_'+ran+'" ONLOAD="rtAd_endTime(\'rt_id_'+ran+'\')"  WIDTH=300 HEIGHT=250 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000"><SCRIPT language="JavaScript1.1" ><\/SCRIPT><NOSCRIPT><A HREF="http://us.ard.yahoo.com/SIG=15l51mjr0/M=719241.13250065.13396275.1383221/D=fin/S=8988914:LREC/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=_k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5614475/R=0/SIG=13kpvhpal/*http://ad.doubleclick.net/jump/N805.yahoo.comSD1509/B3342132.19;abr=!ie4;abr=!ie5;sz=300x250;ord=1243455188445592?"><IMG  BORDER=0 WIDTH=300 HEIGHT=250 ALT="Click Here"></A></NOSCRIPT></IFRAME>';
+var rt_ad_id = "rt_id_"+ran;
+var rt_ad_url = "http://ad.doubleclick.net/adi/N805.yahoo.comSD1509/B3342132.19;sz=300x250;dcopt=rcl;mtfIFrameRequest=false;click=http://us.ard.yahoo.com/SIG=15l51mjr0/M=719241.13250065.13396275.1383221/D=fin/S=8988914:LREC/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=_k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5614475/R=1/*;ord=1243455188445592?";
+rtAd_write(rt_ad_content, rt_ad_url, rt_ad_id);
+</script><iframe src="severe_budget_crisis_files/a_004.html" id="rt_id_1243455208049" onload="rtAd_endTime('rt_id_1243455208049')" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" scrolling="no" width="300" frameborder="0" height="250">&lt;SCRIPT
+language="JavaScript1.1" &gt;&lt;/SCRIPT&gt;&lt;NOSCRIPT&gt;&lt;A
+HREF="http://us.ard.yahoo.com/SIG=15l51mjr0/M=719241.13250065.13396275.1383221/D=fin/S=8988914:LREC/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=_k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5614475/R=0/SIG=13kpvhpal/*http://ad.doubleclick.net/jump/N805.yahoo.comSD1509/B3342132.19;abr=!ie4;abr=!ie5;sz=300x250;ord=1243455188445592?"&gt;&lt;IMG
+BORDER=0 WIDTH=300 HEIGHT=250 ALT="Click
+Here"&gt;&lt;/A&gt;&lt;/NOSCRIPT&gt;</iframe>
+<noscript>
+<IFRAME
+SRC="http://ad.doubleclick.net/adi/N805.yahoo.comSD1509/B3342132.19;sz=300x250;dcopt=rcl;mtfIFrameRequest=false;click=http://us.ard.yahoo.com/SIG=15l51mjr0/M=719241.13250065.13396275.1383221/D=fin/S=8988914:LREC/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=_k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5614475/R=2/*;ord=1243455188445592?"
+WIDTH=300 HEIGHT=250 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0
+FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<A
+HREF="http://us.ard.yahoo.com/SIG=15l51mjr0/M=719241.13250065.13396275.1383221/D=fin/S=8988914:LREC/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=_k5XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=5614475/R=3/SIG=13kpvhpal/*http://ad.doubleclick.net/jump/N805.yahoo.comSD1509/B3342132.19;abr=!ie4;abr=!ie5;sz=300x250;ord=1243455188445592?"><IMG
+SRC="http://ad.doubleclick.net/ad/N805.yahoo.comSD1509/B3342132.19;abr=!ie4;abr=!ie5;sz=300x250;ord=1243455188445592?"
+BORDER=0 WIDTH=300 HEIGHT=250 ALT="Click Here"></A></IFRAME>
+</noscript></td></tr></tbody></table><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['_k5XCtj8emA-']='&U=13ftak6lk%2fN%3d_k5XCtj8emA-%2fC%3d719241.13250065.13396275.1383221%2fD%3dLREC%2fB%3d5614475%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15vdnp7qo%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d1120908586%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ftak6lk%2fN%3d_k5XCtj8emA-%2fC%3d719241.13250065.13396275.1383221%2fD%3dLREC%2fB%3d5614475%2fV%3d1"></noscript>
+                    </div>
+                    
+                    
+                    
+		<div class="mod techticker newslist">
+		<div class="hd">
+			<h2>Tech Ticker Recent Posts</h2>
+		</div>
+		<div class="bd">
+			<ul>
+								<li><a href="http://finance.yahoo.com/techticker/article/255285/Battelle:-Twitter%27s-">Battelle: Twitter's "Multi-Billion Market" Reveals Facebook's Vulnerability</a> <cite> - Aaron Task</cite></li>					<li><a href="http://finance.yahoo.com/techticker/article/255230/Yahoo-CEO-Carol-Bartz:-We%27ll-Sell-Search-to-Microsoft-If-We-Get-">Yahoo CEO Carol Bartz: We'll Sell Search to Microsoft If We Get "Boatloads of Money"</a> <cite> - Peter Kafka</cite></li>					<li><a href="http://finance.yahoo.com/techticker/article/255083/The-Worst-Is-Over-For-The-Economy">The Worst Is Over For The Economy</a> <cite> - Henry Blodget</cite></li>			</ul>
+		</div>	
+		<div class="ft">
+			<a href="http://finance.yahoo.com/tech-ticker" class="more">View More »</a>		</div>                 
+	</div><!-- /.mod.techticker -->
+		 
+
+                    
+                    <table class="ad_slug_table" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center"><span class="ad_slug"><font class="ad_slug_font" size="-2" face="Arial">ADVERTISEMENT</font><br></span>
+<iframe marginwidth="0" marginheight="0" src="severe_budget_crisis_files/st.html" scrolling="no" width="300" frameborder="0" height="100"></iframe></td></tr></tbody></table><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['8E5XCtj8emA-']='&U=13gdcqngm%2fN%3d8E5XCtj8emA-%2fC%3d715481.13412453.13505733.12937412%2fD%3dRAIL%2fB%3d5659982%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15v6nvjiv%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d2407627641%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13gdcqngm%2fN%3d8E5XCtj8emA-%2fC%3d715481.13412453.13505733.12937412%2fD%3dRAIL%2fB%3d5659982%2fV%3d1"></noscript>
+                    
+    <div class="mod news-topic-subscribe">
+        <div class="hd">
+            <h2>Subscribe to Topics</h2>
+    	</div><!-- /.hd -->
+    	<div class="bd">
+			<ul>
+				<li>Top Stories 
+		            <ul>
+		                <li>
+		                    <a href="http://add.my.yahoo.com/rss?url=http://finance.yahoo.com/rss/topstories" title="Add to My Yahoo!">
+		                        <img src="severe_budget_crisis_files/addtomyyahoo3.gif" alt="Add To My Yahoo!">
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="http://finance.yahoo.com/rss/topstories" title="Subscribe to RSS">
+		                        <img src="severe_budget_crisis_files/rss16_1.gif" alt="Rss">
+		                    </a>
+		                </li>
+						<li>
+							<a href="http://alerts.yahoo.com/main.php?view=blogs&amp;nep=rssi&amp;url=http://finance.yahoo.com/rss/topstories" title="Subscribe to RSS">
+							<img src="severe_budget_crisis_files/alrt16_1.gif" alt="Add Alert">
+							</a>
+						</li>
+		            </ul>
+				</li>
+				
+		
+			</ul>
+    	</div><!-- /.bd -->
+    	<div class="ft">
+    	</div><!-- /.ft -->
+    </div><!-- /.mod -->
+
+                    
+                </div>
+            </div><!-- ./end of article y-related -->
+
+                    <p class="disclaimer">Copyright
+© 2008 The Associated Press. All rights reserved. The information
+contained in the AP News report may not be published, broadcast,
+rewritten, or redistributed without the prior written authority of The
+Associated Press.</p>
+                    
+                    
+        </div><!-- ./end of article y-main -->
+        
+        
+        <div id="y-footer">
+            
+            
+  <div class="y-footer"><div class="footer-wrapper-first"><div class="footer-wrapper-inner"><div class="elsewhere"><div>
+<div class="property">
+<h2>Yahoo! Finance</h2>
+<ul>
+<li><a href="http://finance.yahoo.com/banking-budgeting">Banking &amp; Budgeting</a></li>
+<li><a href="http://finance.yahoo.com/calculator/index">Calculators</a></li>
+<li><a href="http://finance.yahoo.com/currency">Currency</a></li>
+<li><a href="http://finance.yahoo.com/etf">ETFs</a></li>
+<li><a href="http://finance.yahoo.com/expert/index">Experts</a></li>
+<li><a href="http://finance.yahoo.com/marketupdate?u">Investing</a></li>
+</ul>
+<ul>
+<li><a href="http://finance.yahoo.com/insurance">Insurance</a></li>
+<li><a href="http://finance.yahoo.com/actives?e=us">Market Stats</a></li>
+<li><a href="http://biz.yahoo.com/promo/mbbeta.html">Message Boards</a></li>
+<li><a href="http://finance.yahoo.com/funds">Mutual Funds</a></li>
+<li><a href="http://finance.yahoo.com/personal-finance">Personal Finance</a></li>
+<li><a href="http://finance.yahoo.com/whatsnew">What's New</a></li>
+</ul>
+</div>
+<div class="also">
+<h2>Also on Yahoo</h2>
+<ol>
+<li><a href="http://360.yahoo.com/">360</a></li>
+<li><a href="http://autos.yahoo.com/">Autos</a></li>
+<li><a href="http://finance.yahoo.com/">Finance</a></li>
+<li><a href="http://games.yahoo.com/">Games</a></li>
+<li><a href="http://groups.yahoo.com/">Groups</a></li>
+<li><a href="http://health.yahoo.com/">Health</a></li>
+</ol>
+<ol start="7">
+<li><a href="http://hotjobs.yahoo.com/">Hot Jobs</a></li>
+<li><a href="http://mail.yahoo.com/">Mail</a></li>
+<li><a href="http://maps.yahoo.com/">Maps</a></li>
+<li><a href="http://movies.yahoo.com/">Movies</a></li>
+<li><a href="http://music.yahoo.com/">Music</a></li>
+<li><a href="http://my.yahoo.com/">My Yahoo!</a></li>
+</ol>
+<ol start="13">
+<li><a href="http://news.yahoo.com/">News</a></li>
+<li><a href="http://shopping.yahoo.com/">Shopping</a></li>
+<li><a href="http://sports.yahoo.com/">Sports</a></li>
+<li><a href="http://tech.yahoo.com/">Tech</a></li>
+<li><a href="http://travel.yahoo.com/">Travel</a></li>
+<li><a href="http://tv.yahoo.com/">TV</a></li>
+<li class="all">» <a href="http://everything.yahoo.com/">All Y! Services</a>
+</li>
+</ol>
+</div>
+<div class="functions">
+<h2>Things To Do</h2>
+<ul>
+<li><a href="http://yfinanceblog.com/">Read Our Blog</a></li>
+<li><a href="http://feedback.help.yahoo.com/feedback.php?.src=FINANCE&amp;.done=http://finance.yahoo.com">Send Feedback</a></li>
+<li><a href="http://finance.yahoo.com/lookup">Check Stock Quotes</a></li>
+<li><a href="http://realestate.yahoo.com/">Search Homes for Sale</a></li>
+<li><a href="http://realestate.yahoo.com/Homevalues">Check Home Values</a></li>
+<li><a href="http://autos.yahoo.com/">Find a New Car</a></li>
+<li><a href="http://hotjobs.yahoo.com/">Search Jobs Across the Web</a></li>
+</ul>
+</div>
+</div></div></div></div></div>
+
+                  
+            
+  <div class="y-footer"><div class="footer-wrapper"><div class="footer-wrapper-inner"><div class="worldwide">
+<h2>Yahoo! Finance Worldwide</h2>
+<ul>
+<li><a href="http://ar.finance.yahoo.com/">Argentina</a></li>
+<li><a href="http://au.finance.yahoo.com/">Australia</a></li>
+<li><a href="http://nz.finance.yahoo.com/">New Zealand</a></li>
+<li><a href="http://br.finance.yahoo.com/">Brazil</a></li>
+<li><a href="http://ca.finance.yahoo.com/">Canada</a></li>
+<li><a href="http://cn.finance.yahoo.com/">China</a></li>
+<li><a href="http://chinese.finance.yahoo.com/">Chinese</a></li>
+<li><a href="http://fr.finance.yahoo.com/">France</a></li>
+<li><a href="http://cf.finance.yahoo.com/">French Canada</a></li>
+<li><a href="http://de.finance.yahoo.com/">Germany</a></li>
+<li><a href="http://hk.finance.yahoo.com/">Hong Kong</a></li>
+<li><a href="http://in.finance.yahoo.com/">India</a></li>
+<li><a href="http://it.finance.yahoo.com/">Italy</a></li>
+<li><a href="http://quote.yahoo.co.jp/">Japan</a></li>
+<li><a href="http://kr.finance.yahoo.com/">Korea</a></li>
+<li><a href="http://mx.finance.yahoo.com/">Mexico</a></li>
+<li><a href="http://sg.finance.yahoo.com/">Singapore</a></li>
+<li><a href="http://es.finance.yahoo.com/">Spain</a></li>
+<li><a href="http://espanol.finance.yahoo.com/">Spanish</a></li>
+<li><a href="http://tw.stock.yahoo.com/">Taiwan</a></li>
+<li><a href="http://uk.finance.yahoo.com/">UK &amp; Ireland</a></li>
+</ul>
+</div></div></div></div>
+
+
+            <div id="yfi_ft">
+<script language="javascript"> var ADFadids = "5659982,5710922,5685866,5590115,5682407,4651935,5496383,5614475,-1,5714784,5665578,1226744"; function ADFlaunch() {var w; var l="http://us.ard.yahoo.com/SIG=15j50m9g1/M=224039.2339687.3770134.2277297/D=fin/S=8988914:FOOT/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=Ak9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=1226744/R=0/id=adfeedback/SIG=12e0h8ooc/*http://surveys.yahoo.com/user_ad_feedback?source=8988914:FOOT&.q28=fin&.q26="+ADFadids; w=window.open(l,"AdFeedbackWin","toolbar=no,scrollbars=yes,resizable,location=no,height=400,width=640"); }</script><font size="-2" face="arial">Copyright © 2009 Yahoo! Inc. All rights reserved. <a href="http://us.ard.yahoo.com/SIG=15j50m9g1/M=224039.2339687.3770134.2277297/D=fin/S=8988914:FOOT/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=Ak9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=1226744/R=1/SIG=11tekvpvb/*http://info.yahoo.com/privacy/us/yahoo/finance/details.html">Privacy Policy</a> - <a href="http://us.ard.yahoo.com/SIG=15j50m9g1/M=224039.2339687.3770134.2277297/D=fin/S=8988914:FOOT/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=Ak9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=1226744/R=2/SIG=1136qnvkg/*http://docs.yahoo.com/info/terms/">Terms of Service</a> - <a href="http://us.ard.yahoo.com/SIG=15j50m9g1/M=224039.2339687.3770134.2277297/D=fin/S=8988914:FOOT/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=Ak9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=1226744/R=3/SIG=11lp7krrc/*http://docs.yahoo.com/info/copyright/copyright.html">Copyright Policy</a> - <a href="http://us.ard.yahoo.com/SIG=15j50m9g1/M=224039.2339687.3770134.2277297/D=fin/S=8988914:FOOT/Y=YAHOO/EXP=1243462388/L=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF/B=Ak9XCtj8emA-/J=1243455188445592/K=KHA4DfqrWGHYV.I3NvTzWw/A=1226744/R=4/SIG=13922u3vo/*http://feedback.help.yahoo.com/feedback.php?.src=FINANCE&amp;.from=news&amp;.done=http://biz.yahoo.com/top.html">Send Feedback</a></font> <!-- SpaceID=8988914 loc=FSRVY noad -->
+<script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['C09XCtj8emA-']='&U=12d91cmgv%2fN%3dC09XCtj8emA-%2fC%3d-1%2fD%3dFSRVY%2fB%3d-1%2fV%3d0';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15ve1mhod%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d3589480624%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=12d91cmgv%2fN%3dC09XCtj8emA-%2fC%3d-1%2fD%3dFSRVY%2fB%3d-1%2fV%3d0"></noscript><img src="severe_budget_crisis_files/pixel.gif" width="1" height="1"><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['CE9XCtj8emA-']='&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15v8hppfl%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d1037799087%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1"></noscript><!-- SpaceID=8988914 loc=FR001 noad -->
+
+<img src="severe_budget_crisis_files/pixel.gif" width="1" height="1"><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['CE9XCtj8emA-']='&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15v8hppfl%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d1037799087%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1"></noscript><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['Ak9XCtj8emA-']='&U=13dvvqbeq%2fN%3dAk9XCtj8emA-%2fC%3d224039.2339687.3770134.2277297%2fD%3dFOOT%2fB%3d1226744%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15v85gcfb%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d2260340877%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13dvvqbeq%2fN%3dAk9XCtj8emA-%2fC%3d224039.2339687.3770134.2277297%2fD%3dFOOT%2fB%3d1226744%2fV%3d1"></noscript>
+<p>
+Quotes and other information supplied by independent providers
+identified on the Yahoo! Finance partner page. Quotes are updated
+automatically, but will be turned off after 25 minutes of inactivity.
+Quote data delayed 15 minutes for Nasdaq, NYSE and Amex. Real-Time
+continuous streaming quotes are available through our premium service.
+You may turn streaming quotes on or off. All information provided "as
+is" for informational purposes only, not intended for trading purposes
+or advice. Yahoo! is not an investment adviser and does not provide,
+endorse or review any information or data contained herein.
+</p>
+</div>
+
+
+                  
+            
+            
+                              
+            
+            
+        </div><!-- ./end of article y-footer -->
+        
+    </div><!--./y-page -->
+
+<!-- SpaceID=8988914 loc=FR001 noad -->
+
+<img src="severe_budget_crisis_files/pixel.gif" width="1" height="1"><script language="javascript">
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['CE9XCtj8emA-']='&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1';
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15v8hppfl%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d1037799087%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345&U=13ff1f7i6%2fN%3dCE9XCtj8emA-%2fC%3d624324.13069985.13267337.12549985%2fD%3dSIP%2fB%3d5445947%2fV%3d1"></noscript>
+
+
+
+<script type="text/javascript" src="severe_budget_crisis_files/combo.js"></script>
+
+                                  
+            <script type="text/javascript">   
+             yinc="<script type=\"text/javascript\" src=\"http://us.js2.yimg.com/us.js.yimg.com/lib/common/utils/2/yahoo_2.0.6.js\">\<\/\script>"  
+             yevent="<script type=\"text/javascript\" src=\"http://us.js2.yimg.com/us.js.yimg.com/lib/common/utils/2/event_2.0.6.js\">\<\/\script>" 
+             ystrip="<script type=\"text/javascript\" src=\"http://l.yimg.com/us.js.yimg.com/i/us/fi/js/strip_1.11.js\">\<\/\script>"
+                                    
+             if(typeof YAHOO=="undefined")      
+			 {                                    
+			    document.write(yinc);             
+			    document.write(yevent);           
+                document.write(ystrip);           
+			 }else                                
+			 {                                    
+			    document.write(ystrip);           
+			 }                                    
+		     </script><script type="text/javascript" src="severe_budget_crisis_files/strip_1.js"></script>
+
+
+<div id="spaceid" style="display: none;"></div><script type="text/javascript">
+                YAHOO.util.Event.addListener(window, 'load', function() {
+                    var ss = new YAHOO.Finance.SymbolSuggest();
+				    ss.init('quote', 'txtQuotes');
+				    ss.setServer('http://d.yimg.com/autoc.finance.yahoo.com/autoc');
+                });
+				</script>
+
+<script xmlns:r3="http://yahoo.com" type="text/javascript" src="severe_budget_crisis_files/yfs_concat_200903061452.js"></script><script xmlns:r3="http://yahoo.com" type="text/javascript">
+			YAHOO.util.Event.addListener(window, 'load', function() { setTimeout(YAHOO.Finance.Streaming.init, 5000); });
+	</script>
+
+<!-- finance:myservice-us:0:Success -->
+<script language="javascript">
+if(window.yzq_p==null)document.write("<scr"+"ipt language=javascript src=http://l.yimg.com/d/lib/bc/bc_2.0.4.js></scr"+"ipt>");
+</script><script language="javascript" src="severe_budget_crisis_files/bc_2.js"></script><script language="javascript">
+if(window.yzq_p)yzq_p('P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15qpukq2i%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d1.1%2fW%3dJ%2fY%3dYAHOO%2fF%3d2988416665%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fS%3d1%2fJ%3d1C519345');
+if(window.yzq_s)yzq_s();
+</script><noscript><img width=1 height=1 alt=""
+src="http://us.bc.yahoo.com/b?P=Z7DpnUWTVqH2v.T6Shuzrw6OTBU4I0odntAAAZtF&T=15va7ae8p%2fX%3d1243455188%2fE%3d8988914%2fR%3dfin%2fK%3d5%2fV%3d3.1%2fW%3dJ%2fY%3dYAHOO%2fF%3d1398625531%2fH%3ddG9waWM9Ik5PTkUiIGNvbnRlbnQ9ImZpbmFuY2UiIHJlZnVybD0icmVmdXJsXyI-%2fQ%3d-1%2fS%3d1%2fJ%3d1C519345"></noscript>
+<!-- xsltm19.finance.sp1.yahoo.com compressed/chunked Wed May 27 13:13:04 PDT 2009 -->
+<div class="yui-ac-container" id="quoteContainer"><div style="display: none;" class="yui-ac-content"><div style="display: none;" class="yui-ac-hd"></div><div class="yui-ac-bd"><ul><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li></ul></div><div style="display: none;" class="yui-ac-ft"></div></div></div><iframe style="border: 0px none ; width: 0px; height: 0px;" id="RSIFrame"></iframe><iframe style="border: 0px none ; width: 0px; height: 0px;" id="RSIFrame"></iframe></body></html>

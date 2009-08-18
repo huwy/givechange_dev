@@ -1,0 +1,15 @@
+<% causeCeiling=5 %>
+<% causeLength= causes.length %>
+<% causeCounter = 0 %>
+<h2>Causes: 
+<% if causes %>
+    <% for cause in causes %>
+        <% causeCounter= causeCounter+1 %>
+        <%= cause.cause %> 
+        <% if causeCounter != causeLength %> , <% end %>   
+        <% if (causeCounter==causeCeiling ) %>
+          <% break %>
+        <% end %>
+    <% end %>
+<% end %>
+</h2>

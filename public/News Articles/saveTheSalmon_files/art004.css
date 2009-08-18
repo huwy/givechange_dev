@@ -1,0 +1,50 @@
+/*
+art004 
+Article box
+/web/sites/sfgate/css/contentmodules/art004.css
+rgarcia 07/2008
+*/
+
+
+.sfg_art004 * { 
+margin: 0; 
+padding: 0;
+border:0;
+}
+.sfg_art004 h2 { 
+text-transform: uppercase;
+font:bold .78em arial, verdana, sans-serif;
+margin-bottom:6px;
+color:#222;
+}
+.sfg_art004 p { 
+font:normal .86em verdana, arial, sans-serif;
+margin-bottom:10px;
+}
+.sfg_art004 ul li { 
+list-style-type: none; 
+line-height:13px;
+margin-bottom:5px;
+padding:0pt 0pt 0pt 11px;
+background: url('http://imgs.sfgate.com/graphics/utils/bullet_square333.gif') 0px 5px no-repeat; 
+}  
+* html .sfg_art004 ul li, html* .sfg_art004 ul li { background: url('http://imgs.sfgate.com/graphics/utils/bullet_square333.gif') 0px 8px no-repeat; }
+.sfg_art004 a {
+font:normal .86em verdana, arial, sans-serif;
+color:#015660;
+text-decoration:none;
+margin-top:5px;
+line-height:14px;
+}	
+.sfg_art004  hr { display: none; } /* never visible when css is enabled */ 
+.sfg_art004 .hr {
+clear:both;
+margin: 10px 0;
+height: 1px;
+background: transparent url('http://imgs.sfgate.com/graphics/utils/dotrule.gif') repeat-x;
+}
+
+.sfg_art004 li span {
+font: normal .78em verdana;
+color:#666;
+}

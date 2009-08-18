@@ -1,0 +1,19 @@
+community_name: "GiveChange"
+community_tagline: "A Sample Community using CommunityEngine"
+community_description:  "Tutorials are hard work!"
+support_email:  "support@example.com"
+meta_description: 'A description of your community for use in META tags.'
+meta_keywords: 'keywords for use in META tags'
+    
+charity_image:
+  missing_thumb: '/plugin_assets/community_engine/images/icon_missing_thumb.gif'
+  missing_medium: "/plugin_assets/community_engine/images/icon_missing_medium.gif"
+  
+event_image:
+  missing_thumb: '/plugin_assets/community_engine/images/icon_missing_thumb.gif'
+  missing_medium: "/plugin_assets/community_engine/images/icon_missing_medium.gif"  
+
+donation_floor: 5
+  
+
+

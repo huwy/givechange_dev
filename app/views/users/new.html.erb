@@ -1,0 +1,12 @@
+<% form_for :user, @user, :url => { :action => "create" } do |f| %>
+<p>Login:</p>
+<%= f.text_field 'login', :size=> 35 %>
+<p>Email:</p>
+<%= f.text_field 'email', :size=> 35 %>
+<p>Password:</p>
+<%= f.text_field 'password', :size=> 35 %>
+<p>Confirm Password:</p>
+<%= f.text_field 'password_confirmation', :size=> 35 %>
+<br/>
+<%= submit_tag 'Sign Up!' %>
+<% end %>

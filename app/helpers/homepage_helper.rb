@@ -1,0 +1,4 @@
+module HomepageHelper
+
+end
+

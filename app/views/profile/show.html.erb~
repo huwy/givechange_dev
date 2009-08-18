@@ -1,0 +1,75 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+			    <li class="active"><a href="#">general</a></li>
+			    <li><a href="#">charity updates</a></li>
+			    <li><a href="#">account history</a></li>
+			    <li><a href="#">friends</a></li>
+			    <li><a href="#">venues</a></li>
+			    <li><a href="#">inbox</a></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+              <div id="venue-profile">
+				      <h3><%= @user.first_name %> <%= @user.last_name %></h3>
+				      <div class="cl">&nbsp;</div>
+				      <div class="info-side">
+					      <div class="holder">&nbsp;</div>
+					      <div class="info">
+						      <p><%= @user.city %>, <%= @user.state %>, USA </p>
+                  <br />
+                  <p>You Have <%= @user.points %> Points</p>
+						      <a href="#" class="mbutton mbutton-orange"><span class="line">&nbsp;</span>Redeem Now</a>
+                  <div class="cl">&nbsp;</div>
+                  <%= render(:partial => 'redemption', :collection => @redemptions) %>
+						      <div class="cl">&nbsp;</div>
+					      </div>
+				      </div>
+              </div>
+					  </div>
+					</div></div></div></div></div></div></div></div>
+				<!-- END Find Friends -->	
+			</div>
+        <br /><br />
+			<div class="main-side-a second-main-side" style="width: 500px;">
+				<h3 class="block-title" style="width: 100%;">About Me</h3>
+				<div class="update-articles">
+					<div class="simple-article last-simple-article">
+            <br />
+						<div class="cl">&nbsp;</div>
+						<div class="content">
+							<p>[information]</p><br /><br /><br /><br />
+							<div class="cl">&nbsp;</div>
+						</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+				<h3 class="block-title" style="width: 100%;">Contact Information</h3>
+				<div class="simple-article last-simple-article">
+            <br />
+						<div class="cl">&nbsp;</div>
+						<div class="content">
+							<p>[information]</p>
+							<div class="cl">&nbsp;</div>
+						</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<br /><br /><br /><br />
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+			<!-- END Main -->

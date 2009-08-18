@@ -1,0 +1,13 @@
+unless @message
+  puts "************\nwithin display_venues.rjs, and clearing overlays"
+  page << @map_venues.clear_overlays
+  puts "overlays cleared, adding markers"
+  @venue_markers.each { |marker| page << @map_venues.add_overlay(marker)}
+  puts "markers added, centering map"
+  page << @map_venues.set_center(@center,12)
+  page.replace_html("venue_list", :partial=> 'venues/venue', :collection => @venues)
+else
+  page.replace_html "notice", @message
+  page.hide "notice"
+  page.visual_effect :appear, "notice", :duration => 0.5
+end

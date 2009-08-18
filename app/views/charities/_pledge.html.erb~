@@ -1,0 +1,10 @@
+	<h3> Pledge to: </h3>
+
+	<div class="pledgeRadio"><%= check_box_tag 'volunteer', ' ' %></div>
+
+	<div class="volunteerBox"><%= image_tag("/images/widget/volunteer_image.png", :border => 0) %></div>
+
+	<div class="pledgeRadio"><%= check_box_tag 'pledge', ' ' %></div>
+
+	<div class="pledgeBox">	<%= image_tag("/images/widget/dollar_image.png") %></div>
+

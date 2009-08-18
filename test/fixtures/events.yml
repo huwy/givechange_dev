@@ -1,0 +1,112 @@
+sf_intl_arts_festival:
+  id:               1
+  name:             SF International Arts Festival
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-31 12:00:00 
+  end_time:         2009-05-31 14:00:00 
+  description:      "With their work visas secured and their airline tickets in hand, performing arts groups from ten countries in Europe, Asia and Latin America are heading to San Francisco for the Sixth Annual San Francisco International Arts Festival, which will run from May 20-May 31. The individual artists and ensembles will join a global celebration with 14 Bay Area based companies for the 11 day Festival that will take place at venues throughout the city."
+  discount:         50% Off Ticket Price
+
+  metro_area_id:    null
+  location:         SF MOMA
+  
+sprite_slam_dunk_showdown_2009:
+  id:               2
+  name:             Sprite Slam Dunk Showdown 2009
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-23 10:00:00 
+  end_time:         2009-05-23 14:00:00 
+  description:      "The NBA and Sprite, with the help of LeBron James, are bringing the best amateur dunkers in the U.S. to the NBA All-Star Weekend 2010 in Dallas to crown a Sprite Slam Dunk Showdown champion. It’s time to put non-NBA dunkers with the skills on the big stage!</br>
+Dunkers come and show off your skills for a shot at prizes like an adidas jersey, shorts and shoes. The top dunker will receive $1,000, a Flip Video Camera and be eligible to win the Grand Prize. Second place dunker will receive $500.
+Fans, you can come to the event for free and watch the best dunkers in your city show off their skills. With music, food, games, and events, this is a great event for the entire family."
+
+  metro_area_id:    null
+  location:         Carnaval
+  discount:         Free Hot Dogs!
+  
+makossa:
+  id:               3
+  name:             Makossa
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-19 21:00:00 
+  end_time:         2009-05-19 23:00:00 
+  discount:         Two for One Mojitos!
+  description:      We'll be playing the hottest latin rythms that'll keep you dancing and drinking all night long.
+
+  metro_area_id:    null
+  location:         Easy Lounge
+  
+carnaval_san_francisco_2009:
+  id:               4
+  name:             Carnaval
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-24 10:00:00 
+  end_time:         2009-05-24 14:00:00 
+  description:      The Beat of change is in the air! Come celebrate revival and change! 
+
+  metro_area_id:    null
+  location:         Harrison St. (between 16th and 22nd Streets)
+  discount:         Free All-You-Can Eat Feijoda...
+  
+we_resist:
+  id:               5
+  name:             We Resist
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-21 21:00:00 
+  end_time:         2009-05-21 23:00:00 
+  description:      "We Resist! A night of activist art and musical resistance. Come out to support Amazon Watch's 'True Cost of Chevron' campaign. The night will feature resistance art and live indie, reggae, and samba music in room 1, DJ's in room 2."
+  metro_area_id:    null
+  location:         111 Minna
+  discount:         2 for 1 Lagunitas
+  
+happy_hour_and_fundraiser_to_save_senior_lunch:
+  id:               6
+  name:             Happy Hour and Fundraiser to Save Senior Lunch
+  created_at:       2009-05-17 18:00:00 
+  updated_at:       2009-05-17 20:00:00 
+  user_id:          1
+  start_time:       2009-05-20 18:00:00 
+  end_time:         2009-05-20 20:00:00
+  description:      "The JCCSF Kosher Lunch Program provides 18,000 nutritious meals per year in a warm, welcoming environment to seniors at risk of social isolation and poor nutrition. This year, funding from the City of San Francisco has been cut by $36,000, and we need your support to save this vital program."
+  metro_area_id:    null
+  location:         330 Rich
+  discount:         Free Hors d'oeuvres!
+  
+kamikaze_heart_by_city_circus:
+  id:               7
+  name:             Kamikaze Heart by City Circus
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-29 20:00:00 
+  end_time:         2009-05-29 22:00:00 
+  description:      "KAMIKAZE HEART is a visually stunning, inspired fairy tale about true love.  Written and directed by Tim Barsky, Artistic Director of City Circus, KAMIKAZE HEART is a ground-breaking collaboration by an award-winning team of hip-hop music, dance, and circus artists."
+  metro_area_id:    null
+  location:         BRAVA Theater Center
+  discount:         Half off Cost of Entrance
+
+giants_game:
+  id:               8
+  name:             Giants Game
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  start_time:       2009-05-22 19:00:00 
+  end_time:         2009-05-22 23:00:00 
+  description:      Come watch the Giants play the Oakland Athletics!
+  metro_area_id:    null
+  location:         AT&T Park
+  discount:         $10 Club Seats--Ltd. Number of Seats Available!
+
+  
+  

@@ -1,0 +1,84 @@
+arts_culture_humanities:
+  id:           1
+  name:         Arts, Culture, and Humanities
+  created_at:   2009-05-12 20:02:41 
+
+education:
+  id:           2
+  name:         Education
+  created_at:   2009-05-12 20:02:41 
+
+environment:
+  id:           3
+  name:         Environment
+  created_at:   2009-05-12 20:02:41 
+
+animals:
+  id:           4
+  name:         Animals
+  created_at:   2009-05-12 20:02:41 
+
+healthcare:
+  id:           5
+  name:         Healthcare
+  created_at:   2009-05-12 20:02:41 
+
+mental_health_and_substance_abuse:
+  id:           6
+  name:         Mental Health and Substance Abuse
+  created_at:   2009-05-12 20:02:41 
+
+diseases_disorders_medical_disciplines:
+  id:           7
+  name:         Diseases, Disorders, and Medical Disciplines
+  created_at:   2009-05-12 20:02:41 
+
+medical_research:
+  id:           8
+  name:         Medical research
+  created_at:   2009-05-12 20:02:41 
+
+crime_and_legal:
+  id:           9
+  name:         Crime and Legal
+  created_at:   2009-05-12 20:02:41 
+
+employment:
+  id:           10
+  name:         Employment
+  created_at:   2009-05-12 20:02:41 
+
+food_agriculture_nutrition:
+  id:           11
+  name:         Food, Agriculture, and Nutrition
+  created_at:   2009-05-12 20:02:41 
+
+housing:
+  id:           12
+  name:         Housing
+  created_at:   2009-05-12 20:02:41 
+
+public_safety_and_disaster:
+  id:           13
+  name:         Public Safety and Disaster Preparedness
+  created_at:   2009-05-12 20:02:41 
+
+recreation_sports:
+  id:           14
+  name:         Recreation and Sports
+  created_at:   2009-05-12 20:02:41 
+
+youth_development:
+  id:           15
+  name:         Youth and Development
+  created_at:   2009-05-12 20:02:41 
+
+human_rights:
+  id:           16
+  name:         Human Rights
+  created_at:   2009-05-12 20:02:41 
+
+international_and_foreign_affairs:
+  id:           17
+  name:         INTL and Foreign Affairs
+  created_at:   2009-05-12 20:02:41 

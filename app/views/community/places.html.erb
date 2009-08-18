@@ -1,0 +1,118 @@
+<!-- Main -->
+	<div id="main">
+		<div id="main-top">&nbsp;</div>
+		<div id="main-cnt">
+			<div id="maintabs">
+				<div class="cl">&nbsp;</div>
+				<ul>
+			    <li><%= link_to("Browse People",community_people_url) %></li>
+			    <li class="active"><%= link_to("Browse Places",community_places_url) %></li>
+				</ul>
+				<div class="cl">&nbsp;</div>
+			</div>
+			<div class="main-padder">
+				<div class="cl">&nbsp;</div>
+				<div class="main-side-b" style="width: 170px;">
+		      <h3 class="center">Search Places:</h3>
+          <% form_remote_tag :url=> { :action => 'search_places' } do %>
+			      <div class="simple-search">
+	            <div class="cl">&nbsp;</div>
+              <input id="place_search" name="place_search" type="text" class="field" />
+              <input type="submit" class="button" value="Go" />
+			        <div class="cl">&nbsp;</div>
+            </div>       
+          <% end %>  
+					<!-- Find Friends -->
+					<div class="shbox" style="margin-top: 5px;">
+						<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+						<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+						<div class="cnt">
+							<div class="bg bg-blue">
+								<h3>Filter Places By:</h3>
+								<div class="filters">
+                <% form_tag('javascript:void(0)', :id=> 'places_filter') do %>
+									<ul>
+									    <li>
+									    	<strong>Zipcode</strong>
+                        <input id="zipcode" name="zipcode" type="text" class="field" />
+								    	</li>
+                      <% if @valid_location %>
+                        <li><strong>Near You</strong></li>
+									      <li class="left"><label><%= check_box_tag 'proximity[]', 5 %> 5mi.</label></li>
+									      <li class="left"><label><%= check_box_tag 'proximity[]', 10 %> 10mi.</label></li>
+									      <li class="left"><label><%= check_box_tag 'proximity[]', 15 %> 20mi.</label></li>
+                      <% end %>
+									</ul>
+									<div class="cl">&nbsp;</div>
+									<ul>
+									    <li><strong>Type</strong></li>
+									    <%= render(:partial => "filter_list_classifications", :collection => @classifications) %>
+									</ul>
+									<ul>
+                      <% if current_user %>
+								        <li class="t">People</li>
+								        <li><label><%= check_box_tag 'place[]', 'my_places' %> My Places</label></li>
+								        <li><label><%= check_box_tag 'place[]', 'my_friends_places' %> My Friends’ Places</label></li>
+                      <% end %>
+								  </ul>
+                <% end %>
+                <%=  observe_form :places_filter, :url => { :action => 'filter_places' } %>                
+								</div>
+							</div>
+						</div>
+						</div></div></div></div></div></div></div></div>
+					</div>
+					<!-- END Find Friends -->	
+					<!-- Find Friends -->
+					<div class="shbox">
+						<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+						<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+						<div class="cnt">
+							<div class="bg">
+								<p class="center">Featured Places Near You</p>
+								<p class="center">[information]</p>
+								<div class="slider small-video-slider">
+									<div class="buttons">
+										<a href="#" class="prev">prev</a>
+										<a href="#" class="next">next</a>
+									</div>
+									<div class="holder">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+						</div></div></div></div></div></div></div></div>
+					</div>
+					<!-- END Find Friends -->
+				</div>
+				<div class="main-side-a second-main-side" style="width: 500px;">
+					<h3 class="block-title" style="width: 100%; margin-bottom: 5px;">Browse Bay Area GC Community</h3>
+					<p><small>Sort Places By:  <a href="#">Most Popular</a>   <a href="#">Recently Added</a></small></p>
+					<div class="profile">
+						<div class="cl">&nbsp;</div>
+            <div id="venue_partial"><%= render(:partial => 'venue', :collection => @venues) %></div>
+						<div class="right-side">
+							<div class="holder" style="height: 160px;">&nbsp;</div>
+							<!-- Find Friends -->
+							<div class="shbox goodcard" style="margin: 0;">
+								<div class="bg">
+									<p>GiveChange Good Card</p>
+									<p class="pos">You are eligible to redeem</p>
+									<%= image_tag("/images/img1.gif") %>
+									<div class="cl">&nbsp;</div>
+									<a href="#" class="mbutton mbutton-red"><span class="line">&nbsp;</span>More Info</a>
+									<a href="#" class="mbutton"><span class="line">&nbsp;</span>Redeem Now</a>
+									<div class="cl">&nbsp;</div>
+								</div>
+							</div>
+							<!-- END Find Friends -->
+						</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+				
+				<div class="cl">&nbsp;</div>
+			</div>
+		</div>
+		<div id="main-bot">&nbsp;</div>
+	</div>
+	<!-- END Main -->

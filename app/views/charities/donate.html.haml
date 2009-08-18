@@ -1,0 +1,10 @@
+#yui-main
+  %h3= :donate_to.l @charity.name
+  = error_messages_for :charity
+  - form_tag :controller => 'charities', :action => 'donate', :method => "POST", :multipart =>true, :class => 'MainForm' do
+    %label= :amount.l
+    = text_field :donation, :amount
+    %p
+      = submit_tag :submit_charity.l
+
+  = link_to :back.l, charity_url

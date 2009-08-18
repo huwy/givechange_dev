@@ -1,0 +1,42 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+  <div id="main-cnt">
+    <div class="main-padder">  
+      <div class="holder" style="height: 185px;">
+        <!-- Illustration Goes Here -->
+      </div>
+      <div class="two-columns">
+        <div class="cl">&nbsp;</div>
+        <div class="column">
+          <a href="<%= @give_button_link %>" class="mbutton mbutton-green"><span class="line">&nbsp;</span>Give To Your<br />Community</a>
+          <p class="bl">Find and support inspiring and effective charities.</p>
+          <p class="r"> <%= render( :partial => "charity_filter" ) %></p>
+          <br />
+          <div class="holder">&nbsp;</div>
+          <ol class="list">
+            <div id= "charity_list">
+              <%= render( :partial => "charities/charity", :collection => @charities) %> 
+            </div>
+          </ol>
+        </div>
+        <div class="column">
+          <a href="<%= @community_button_link %>" class="mbutton mbutton-orange"><span class="line">&nbsp;</span> Community<br />Gives Back</a>
+          <p class="bl">Browse local venues who want to return the favor!</p>
+          <p class="r"> <%= render( :partial => "venue_filter" ) %></p>
+          <br />
+          <div class="map"><%= @map_venues.div(:width => 245,:height => 245) %></div>
+          <ol class="list">
+            <div id="venue_list">
+              <%= render( :partial => "venues/venue", :collection => @venues) %> 
+            </div>
+          </ol>
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <p class="center"><a href="#">What people are saying...</a></p>
+      <div class="cl">&nbsp;</div>
+    </div>
+	</div>
+  <div id="main-bot">&nbsp;</div>
+</div>

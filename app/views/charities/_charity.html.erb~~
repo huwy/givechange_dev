@@ -1,0 +1,10 @@
+<div class="yui-gf">
+  <div class="yui-gf">
+    <%= image_tag(charity.portrait_photo_url(:thumb), :size => "25x25") %>
+    <%= radio_button_tag('chosenCharity[]', charity.name) %>
+  <div class="yui-gf first">
+    <h1><%= charity.name %></h1>
+    <%= render(:partial =>"rating", :locals => { :rating => charity.rating }) %> 
+    <h1>Fellow Supporters:</h1>
+    <%= render(:partial => "charity_supporters_for_widget", :locals => {:charity => charity }) %>
+

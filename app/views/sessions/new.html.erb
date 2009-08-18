@@ -1,0 +1,11 @@
+<div id="navigation><li> Log In: </li></div>
+<br/><br/><br/>
+<% form_tag(sessions_path) do %>
+<p>Login:</p>
+<%= text_field_tag 'login', nil, :size=> 35 %>
+<p>Password:</p>
+<%= text_field_tag 'password', nil, :size=> 35 %>
+<br/>
+Remember me?
+<%= check_box_tag 'remember_me', 1 %>
+<%= submit_tag 'Login' %>

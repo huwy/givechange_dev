@@ -1,0 +1,12 @@
+	<% case rating when 0 %>
+		  <%= image_tag("/images/widget/larger files/0star.jpg", :class => "ratings") %>
+		<% when 1 %>
+		  <%= image_tag("/images/widget/larger files/1star.jpg", :class => "ratings") %>
+		<% when 2 %>
+		  <%= image_tag("/images/widget/larger files/2star.jpg", :class => "ratings") %>
+		<% when 3 %>
+		  <%= image_tag("/images/widget/larger files/3star.jpg", :class => "ratings") %>
+		<% else %>
+		  <%= image_tag("/images/widget/larger files/4star.jpg", :class => "ratings") %>
+	<% end %>
+

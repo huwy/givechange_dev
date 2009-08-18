@@ -1,0 +1,8 @@
+<div class="info-side">
+	<div class="holder">&nbsp;</div>
+	<div class="info">
+		<p><%= @charity.address %><br /><%= @charity.city %>, <%= @charity.state %> <%= @charity.zipcode %><br /><%= link_to( truncate(@charity.homepage_url, :length => 24), @charity.homepage_url ) %></p>
+		<a href="#" class="mbutton mbutton-green"><span class="line">&nbsp;</span>Give Now</a>
+		<div class="cl">&nbsp;</div>
+	</div>
+</div>

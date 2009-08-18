@@ -1,0 +1,46 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+			    <li class="active"><a href="#">NonProfits</a></li>
+			    <li><a href="#">Fundraisers</a></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<div class="main-side-b" style="width: 170px;">
+		      <h3 class="center">Search Non-Profits:</h3>
+          <% form_remote_tag :url=> { :action => 'search_charities' } do %>
+			      <div class="simple-search">
+	            <div class="cl">&nbsp;</div>
+              <input id="charity_search" name="charity_search" type="text" class="field" />
+              <input type="submit" class="button" value="Go" />
+			        <div class="cl">&nbsp;</div>
+            </div>       
+          <% end %>  
+        <%= render(:partial => "index_filter") %>
+			</div>
+			<div class="main-side-a second-main-side" style="width: 500px;">
+				<h3 class="block-title" style="width: 100%; margin-bottom: 5px;"><a href="#" class="rss">rss</a><span class="page-results">1-10 of <%= @charities.length %></span>Browse NonProfits</h3>
+				<p><small>Sort Charities By:<br /> <a href="#">Most Recent Feedback</a> <a href="#">Highest Rated</a> Most Popular: <a href="#">Today</a> <a href="#">This Week</a> <a href="#">This Month</a> <a href="#">All Time</a></small></p>
+				<div class="profile">
+					<div class="cl">&nbsp;</div>
+					  <div id="browse_charities"><%= render(:partial => 'charities/browse/charity', :collection => @charities) %></div>
+					<div class="right-side">
+            <%= render(:partial => 'charities/browse/activity', :object => @latest_activity) %>
+						<!-- END Find Friends -->
+					</div>
+					<div class="cl">&nbsp;</div>
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

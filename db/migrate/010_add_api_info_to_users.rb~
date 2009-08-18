@@ -1,0 +1,15 @@
+class AddApiInfoToUsers < ActiveRecord::Migration
+
+  def self.up
+    add_column :users, :youtube_login, :string
+    add_column :users, :youtube_pass, :string
+    add_column :users, :twitter_login, :string
+    add_column :users, :twitter_pass, :string
+  end
+
+  def self.down
+    remove_column :users, :elite_status
+  end
+
+end
+

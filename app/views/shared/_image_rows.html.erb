@@ -1,0 +1,19 @@
+<div class="multimedia-list">
+  <div class="cl">&nbsp;</div>
+  <% counter = 1 %>
+  <% image_rows.each do |image| %>
+    <% unless counter.modulo(4)==0 %>  
+      <% unless counter == 12 %>
+        <div class="holder">&nbsp;</div>
+      <% else %>
+        <div class="holder">&nbsp;</div>
+        <div class="cl">&nbsp;</div>
+      <% end %>
+      <% counter +=1 %>
+    <% else %>
+      <div class="holder">&nbsp;</div>
+      <div class="cl">&nbsp;</div>
+      <% counter +=1 %>
+    <% end %>
+  <% end %>
+</div>

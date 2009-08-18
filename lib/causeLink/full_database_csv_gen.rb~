@@ -1,0 +1,10 @@
+module DatabaseCSVGen
+
+def create_csv_from_levels(levels, filename)
+  levels.each do |level|  
+    FasterCSV.open("#{RAILS_ROOT}/lib/causeLink/#{filename}", "w")  do |csv|
+      csv << [level.id, level.nccs_code, level.keywords]
+    end
+  end
+end
+

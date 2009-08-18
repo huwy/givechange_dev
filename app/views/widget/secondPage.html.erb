@@ -1,0 +1,53 @@
+<div id="hd">
+  <%= image_tag("/images/widget/banner_750px.png") %>
+
+
+  <center><h1 id="bolder">Thank you for your support!</h1></center>
+
+	<center><a href="javascript:self.close()">Back to Your Article</a> | <%= link_to("View your GiveChange Profile", charities_url) %> </center>
+
+</div>
+
+<div id="bd">
+	
+	<br/>
+	<p id="bold">Your community wants to give back to you...Enjoy!</p><br/>
+	<br/>
+  <div class="content_box">
+	  <div class="yui-g">
+			  <div class="yui-gd first">
+			    <%= render(:partial => "event", :locals => {:event => @event1} ) %> 
+			  </div>
+			  <div class="yui-gd">
+			    <%= render(:partial => "event", :locals => {:event => @event2} ) %> 
+			  </div>
+	  </div>
+
+
+	  <div class="yui-g">
+			  <div class="yui-gf first">
+			    <%= render(:partial => "who_is_attending_event", :locals => { :event => @event1 }) %>
+			  </div>
+			  <div class="yui-gf">
+			    <%= render(:partial => "who_is_attending_event", :locals => { :event => @event2 }) %>
+			  </div>
+	  </div>
+
+    <div class="yui-g">
+        <div class="yui-u first">
+          <div class="rsvp_button"><%= button_to " ", {:action => "create_rsvp_for_widget", :id => @event1, :controller => 'events'}, :confirm => "RSVP?", :class => "rsvp_button" %></div>
+        </div>
+        <div class="yui-u">
+          <div class="rsvp_button"><%= button_to "", {:action => "create_rsvp_for_widget", :id => @event2, :controller => 'events'}, :confirm => "RSVP?", :class => "rsvp_button" %></div>
+        </div>    
+    </div>           
+         
+  </div>
+</div>
+
+<div id="ft">
+  <br/>
+  <left><%= link_to("Browse More Events", events_url) %></left>
+</div>
+
+

@@ -1,0 +1,25 @@
+#yui-main
+  .yui-b
+    .box
+      %h3= :new_charity.l
+      = error_messages_for :charity
+      - form_tag charities_url, :method => "POST", :multipart =>true, :class => 'MainForm' do
+        %label= :name.l
+        = text_field :charity, :name
+        
+        %label= :contact.l
+        = text_field :contact, :email
+        
+        %label = :choose_a_logo_or_photo_for_your_charity.l
+        = file_field :portrait, :uploaded_data
+
+        %label= :charity_mission.l
+        = text_area :charity, :mission, :size => "69x10", :class => "rich_text_editor"
+
+        %label= :charity_programs.l
+        = text_area :charity, :programs, :size => "69x10", :class => "rich_text_editor"
+                
+        %p
+          = submit_tag :submit_charity.l
+
+      = link_to :back.l, new_charity_path

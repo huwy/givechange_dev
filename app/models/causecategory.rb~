@@ -1,0 +1,12 @@
+class CauseCategory < ActiveRecord::Base
+
+  has_and_belongs_to_many :charities
+  has_and_belongs_to_many :events
+  
+  def self.returnAllCauses
+    @causes = CauseCategories.find(:all)
+  end
+  
+
+
+end

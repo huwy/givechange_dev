@@ -1,0 +1,2 @@
+page.replace_html("venue_list", :partial=> 'venue', :collection => @venues)
+

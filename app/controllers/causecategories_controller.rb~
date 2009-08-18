@@ -1,0 +1,87 @@
+class CausecategoriesController < ApplicationController
+  # GET /causecategories
+  # GET /causecategories.xml
+  def index
+    @causecategories = Causecategory.find(:all)
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.xml  { render :xml => @causecategories }
+    end
+  end
+
+  # GET /causecategories/1
+  # GET /causecategories/1.xml
+  def show
+    @causecategory = Causecategory.find(params[:id])
+    if @causecategory.charities
+      @charities = @causecategory.charities
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @causecategory }
+    end
+  end
+
+  # GET /causecategories/new
+  # GET /causecategories/new.xml
+  def new
+    @causecategory = Causecategory.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @causecategory }
+    end
+  end
+
+  # GET /causecategories/1/edit
+  def edit
+    @causecategory = Causecategory.find(params[:id])
+  end
+
+  # POST /causecategories
+  # POST /causecategories.xml
+  def create
+    @causecategory = Causecategory.new(params[:causecategory])
+
+    respond_to do |format|
+      if @causecategory.save
+        flash[:notice] = 'Causecategory was successfully created.'
+        format.html { redirect_to(@causecategory) }
+        format.xml  { render :xml => @causecategory, :status => :created, :location => @causecategory }
+      else
+        format.html { render :action => "new" }
+        format.xml  { render :xml => @causecategory.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
+  # PUT /causecategories/1
+  # PUT /causecategories/1.xml
+  def update
+    @causecategory = Causecategory.find(params[:id])
+
+    respond_to do |format|
+      if @causecategory.update_attributes(params[:causecategory])
+        flash[:notice] = 'Causecategory was successfully updated.'
+        format.html { redirect_to(@causecategory) }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @causecategory.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /causecategories/1
+  # DELETE /causecategories/1.xml
+  def destroy
+    @causecategory = Causecategory.find(params[:id])
+    @causecategory.destroy
+
+    respond_to do |format|
+      format.html { redirect_to(causecategories_url) }
+      format.xml  { head :ok }
+    end
+  end
+end

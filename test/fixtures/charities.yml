@@ -1,0 +1,161 @@
+alliance_for_school_choice:
+  id:           1
+  name:         Alliance For School Choice
+  user_id:      1
+  mission:      Improves our nation's K-12 education by advancing systemic and sustainable public policy that empowers low-income parents to choose the best education for their children.
+  programs:     * Facilitating an innovative development operation to cultivate funding for effective school choice models;</br>
+    * Hosting leadership development conferences to cultivate state and national leadership on issues such as program design and implementation;</br>
+    * Hosting a series of task force summits to identify solutions to issues critical to the success of the movement. Topics for these task forces include coalition building, bill design, and accountability; </br>
+    * Hosting regular gatherings of allies, activists, scholars and philanthropists in the movement to discuss strategy and to galvanize the movement.
+  homepage_url: http://www.allianceforschoolchoice.org/
+  address:      1660 L Street, NW Suite 1000
+  city:         Washington
+  state:        D.C
+  zipcode:      20036
+  phone_number: 2022801990
+  rating_gc:    4
+  region:        0
+
+san_francisco_education_fund:
+  id:           2
+  name:         San Francisco Education Fund
+  user_id:      1
+  mission:      The San Francisco Education Fund promotes excellent and equitable outcomes for all San Francisco public school students so they can reach their full potential.
+  programs:     *  Educator Programs promote leadership, professional development, and collaboration among teachers and help to enhance and enrich their teaching experience. </br>
+    * Public Engagement Initiative encourages the community to effect change to ensure San Francisco public school students have quality teachers and supportive learning environments. </br>
+    * Peer Resources Programs explore problems facing youth today and believe youth are capable leaders who can be effective allies for their peers. </br>
+  homepage_url: http://www.sfedfund.org/index.php
+  address:      47 Kearny Street, Suite 200
+  city:         San Francisco
+  state:        CA
+  zipcode:      94108
+  phone_number: 4159122929
+  rating_gc:    4
+  region:       1
+
+national_foundation_for_advancement_in_the_arts:
+  id:           3
+  name:         National Foundation for Advancement in the Arts
+  user_id:      1
+  mission:      The mission of the National Foundation for Advancement in the Arts is to identify emerging artists and assist them at critical junctures in their educational and professional development, and to raise the appreciation for, and support of, the arts in American Society.
+  programs:     Our many innovative programs and events provide encouragement, training, and valuable career development to young artists. All of our programs are united by the shared goal of advancing today’s young artists. We offer cash awards, education, workshops, performances, exhibitions, conferences, and more. In addition, we offer programs and events for teachers, alumni, and contributors. Most of our programs and events are related to youngARTS, which is our core program.
+  homepage_url: http://www.nfaa.org
+  address:      444 Brickell Avenue, P 14
+  city:         Miami
+  state:        FL
+  zipcode:      33131
+  phone_number: 3053771140
+  rating_gc:    3
+  region:       0 
+
+san_francisco_girls_chorus:
+  id:           4
+  name:         San Francisco Girls Chorus
+  user_id:      1
+  mission:      The mission of the San Francisco Girls Chorus is to create outstanding performances featuring the unique and compelling sound of young women’s voices through an exemplary music education program.
+  programs:     .
+  homepage_url: http://www.sfgirlschorus.org
+  address:      44 Page St # 200
+  city:         San Francisco
+  state:        CA
+  zipcode:      94102
+  phone_number: 4158631752
+  rating_gc:    4
+  region:       1
+
+society_for_womens_health_research:
+  id:           5
+  name:         Society For Womens Health Research
+  user_id:      1
+  mission:      Improving women's health through advocacy, education and research by advancing the study of differences between the sexes affecting the prevention, diagnosis and treatment of disease.
+  programs:     "The Society advocates increased funding for research on women’s health; encourages the study of sex differences that may affect the prevention, diagnosis and treatment of disease; promotes the inclusion of women in medical research studies; and informs women, providers, policy makers and media about contemporary women’s health issues."
+  homepage_url: http://www.womenshealthresearch.org/site/PageServer
+  address:      1025 Connecticut Ave., NW, Suite 701
+  city:         Washington
+  state:        D.C.
+  zipcode:      20036
+  phone_number: 2022238224
+  rating_gc:    4
+  region:       0
+
+haight_ashbury_free_clinics:
+  id:           6
+  name:         Haight Ashbury Free Clinics
+  user_id:      1
+  mission:      The Mission of Haight Ashbury Free Clinics is to increase access to healthcare for all and improve the health and well being of our clients. The Clinics provides free, high quality, demystified and comprehensive health care that is culturally sensitive, non-judgmental and accessible to all in need.
+  programs:     "*Medical Clinics: Quality medical services to people in need. Now with two locations; the original Haight clinic and our new clinic in the city center corridor. Both are FQHC look-alike clinics. </br>
+*Substance Abuse Treatment Services: Internationally recognized for setting a standard of compassionate care with unparalleled success rates.</br>
+*Jail Psychiatric Services: Saving public dollars by effective intervention, recovery and return to community. </br>
+*Rock Medicine: Volunteer-staffed on-site medical service for major public events and concerts. </br>"
+  homepage_url: www.hafci.org/
+  address:      PO Box 29917
+  city:         San Francisco
+  state:        CA
+  zipcode:      94129
+  phone_number: 4157461967
+  rating_gc:    4
+  region:       1
+
+american_fisheries_society:
+  id:           7
+  name:         American Fisheries Society
+  user_id:      1
+  mission:      The mission of the American Fisheries Society is to improve the conservation and sustainability of fishery resources and aquatic ecosystems by advancing fisheries and aquatic science and promoting the development of fisheries professionals.
+  programs:     "American Fisheries Society programs include publication of four peer-reviewed scientific journals on fisheries science, aquaculture, and fisheries management; Fisheries magazine; and books on fisheries science and management. AFS also provides continuing education and certification of fisheries professional workers and organizes fisheries science seminars, workshops, and technical meetings. AFS also sponsors a summer mentoring program for high school students."
+  homepage_url: http://www.fisheries.org/afs/index.html
+  address:      47 Kearny Street, Suite 200
+  city:         San Francisco
+  state:        CA
+  zipcode:      94108
+  rating_gc:    3
+  phone_number: 4159122929
+  region:       0
+
+san_francsico_estuary_project:
+  id:           8
+  name:         San Francisco Estuary Project
+  user_id:      1
+  mission:      To restore water quality and manage the natural resources of the San Francisco Bay-Delta Estuary while maintaining the region’s economic vitality.
+  programs:     "Sea Level Rise (study and recommend actions to address impacts on wetlands and infrastructure from global warming. </br>
+Freshwater Flow (Determine amount of freshwater needed in San Francisco Bay and Bay Area streams to support aquatic species. </br>
+Land/Water Use (Guide regional agencies and local government in establishing water quality related land use and watershed goal and protection policies. </br>
+Pollutant Minimization (Encourage manufacturers to take into account full environmental life cycle of their products
+Streams/Wetlands Preservation (Provide fish and wildlife habitat and restore the natural landscape while reducing flood damage and improving water quality. </br>"
+  homepage_url: http://www.sfedfund.org/index.php
+  address:      1515 Clay Street, Suite 1400
+  city:         Oakland
+  state:        CA
+  zipcode:      94612
+  phone_number: 5106222465
+  rating_gc:    4
+  region:       1
+
+grassroots_international:
+  id:           9
+  name:         Grassroots International
+  user_id:      1
+  mission:      We work to protect food, land, water, and environmental rights through grants to community organizations worldwide and advocacy in the United States.
+  programs:     "Grassroots International's prograSociety For Women�s Health Research ms serve the most pressing needs of grassroots communities in the regions where we work. Our Brazil program supports peasants struggling to gain land and bring it into production. Our Haiti program supports peasant movements working to revert environmental degradation and provide economic opportunity, in addition to work on human rights, women's rights and alternative economic development. In Mexico, with a focus on indigenous communities, we support organizations fighting for human rights and democracy and confronting economic and social decay wrought by NAFTA. In Palestine, we support organizations working in the areas of mental and physical health, women's rights and development, human rights, worker's rights and refugee children. Our South-North Exchange Program funds collaborative efforts to confront corporate dominance. In the US, we advocate for public policies that serve the poor and disempowered, and we educate and mobilize the US public to join the struggle for justice."
+  homepage_url: http://www.grassrootsonline.org/
+  address:      179 Boylston Street, 4th floor
+  city:         Boston
+  state:        MA
+  zipcode:      02130
+  phone_number: 6175241400
+  rating_gc:    3
+  region:       0
+
+the_bay_institute:
+  id:           10
+  name:         The Bay Institute
+  user_id:      1
+  mission:      The Bay Institute uses a combination of scientific research, political advocacy, and public education to work toward the environmental restoration of the entire watershed which drains into San Francisco Bay.
+  programs:     NEED TO ADD PROGRAMS
+  homepage_url: http://www.bay.org
+  address:      695 De Long Avenue, Suite 100
+  city:         Novato
+  state:        CA
+  zipcode:      94945
+  phone_number: 4158782929
+  rating_gc:    4
+  region:       1

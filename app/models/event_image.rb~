@@ -1,0 +1,14 @@
+class EventImage < ActiveRecord::Base
+  belongs_to :attachable, :polymorphic => true  
+  has_attachment :content_type => :image,
+                 :storage => :file_system,
+                 :max_size =>3.megabytes,
+                 :resize_to => '465>',
+                 :thumbnails => { :thumb => '50x50>'},
+                 :processor => 'ImageScience'
+
+  validates_as_attachment
+  belongs_to :event
+  belongs_to :user
+ 
+end

@@ -1,0 +1,857 @@
+<!-- Some GC Notes:
+      added the js function win1() to the header
+      altered the print link to open the /widget?url=... (search for: <a href="javascript:win1()">giveChange</a>)
+      this article has no meta keywords, so we'll go by words within the <title>
+      -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+<!--                                Givechange addition                                -->
+<script type="text/javascript" language="javascript">
+function win1() {
+// TODO eventually replace http://localhost:3000/ with http://www.igivechange.org/
+	window.open("http://localhost:3000/widget?url=" + location.href, "Window", "menubar=no,width=430,height=360,toolbar=no");
+}
+</script>
+<!--                               end of Givechange Addition                          -->
+
+	
+		<title>BASKETBALL; Magic Johnson Ends His Career, Saying He Has AIDS Infection - The New York Times</title>
+						<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="WT.cg_n" content="Sports">
+<meta name="WT.z_gpt" content="Article">
+<meta name="WT.z_gpst" content="Sports Desk">
+<meta name="WT.z.gsg" content="Archive">
+<meta name="WT.z_gat" content="1987-Present">
+<meta name="WT.z_put" content="Archive">
+<meta name="WT.z_pua" content="Free">
+<meta name="WT.z_puv" content="Normal">
+<meta name="WT.z_pud" content="19911108">
+	<meta name="WT.z_gts" content="XTS">
+<meta name="WT.z_aid" content="nyta-19911108-019591">
+<meta name="WT.ti" content="Archive Article from 1991">
+<meta name="dcsuri" content="http://www.nytimes.com/archive/1991.html">
+						<link rel="stylesheet" type="text/css" href="magicEndsCareer_files/styles_002.css">
+				<!--[if IE]>
+		    <style type="text/css"> 
+		        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+		    </style>
+		<![endif]-->
+						<!--[if IE 6]>
+		    <style type="text/css"> 
+		        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
+		    </style>
+		<![endif]-->
+									<script type="text/javascript" src="magicEndsCareer_files/common.js"></script><script src="magicEndsCareer_files/preloader.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/config.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/cookie.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/console.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/urilist.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/marginfix.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><link rel="stylesheet" type="text/css" href="magicEndsCareer_files/styles.css"><style>html body {padding-top:51px;}</style>
+			<script type="text/javascript" src="magicEndsCareer_files/Tacoda_AMS_DDC_Header.js"></script>
+			<script type="text/javascript" src="magicEndsCareer_files/DropDown.js"></script>
+			<script type="text/javascript" src="magicEndsCareer_files/tooltip.js"></script>
+								            <script type="text/javascript" src="magicEndsCareer_files/articleShare.js"></script><script src="magicEndsCareer_files/prototype.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/effects.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/articleShareController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/articleShareLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/sendToPhone.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+								<script src="magicEndsCareer_files/controller_v1.js" type="text/javascript" language="javascript"></script><script src="magicEndsCareer_files/gw.js" type="text/javascript" language="javascript"></script><script src="magicEndsCareer_files/revenuescience.js" type="text/javascript" language="javascript"></script><meta content="0M6GemS05ruUDDXrmvxADeHw0qdVi8YnfXdeFz9JchiAJYOVLIKocjgsV.Ynx4rkFI" name="WT.z_nyts" id="WT.z_nyts"><meta content="101.000000000CBt030b0kDZyl1vD2X/0xB3Gh0xUMvw0hAYOg1bBIrZ@8e6a3540/83aee4e7" name="WT.z_nytd" id="WT.z_nytd"><meta content="082a38d73e2749690c47abc4" name="WT.z_rmid" id="WT.z_rmid"><meta content="query.nytimes.com" name="WT.z_ref" id="WT.z_ref"><meta content="Post 86" name="WT.z_pudr" id="WT.z_pudr"><meta content="1991" name="WT.z_pyr" id="WT.z_pyr"><script src="magicEndsCareer_files/wtinit.js" type="text/javascript" language="javascriptcontent"></script><script src="magicEndsCareer_files/wtbase.js" type="text/javascript" language="javascriptcontent"></script></head><body id="article">     <div style="position: absolute; top: 0%;" id="TP_container" class="TP_env">       <div id="TP_inner">         <div id="TP_people" class="toggleTab firstrun"><button id="TP_get_started_button" class="appButtonSmall"><span>Get Started</span></button>&nbsp;&nbsp;<a id="TP_minimize_button_guest" class="toolbar_button">No, thanks</a></div>         <div id="TP_user" class="toggleTab"><h4>Welcome to TimesPeople</h4><a id="TP_infolink" class="toolbar_button" onclick="return false">What’s this?</a></div>         <div id="TP_feed_tab" class="toggleTab" style="display: none;">           <div class="tp_tile_ad_container"></div>           <h4>Latest Activity</h4>         </div>         <div class="timespeople_panel" id="TP_feed" style="">           <div id="TP_feed_content" class="TP_feed_content"><table>    <tbody><tr>      <td class="TP_avatar_cell">        <a href="http://timespeople.nytimes.com/view/user/0"><img class="TP_avatar" src="magicEndsCareer_files/none.png" width="20" height="20"></a>      </td>      <td>        <span class="TP_story"><a href="http://timespeople.nytimes.com/view/user/0"></a>    </span>        <span class="TP_object"><a origin="tp" href="http://timespeople.nytimes.com/home/about/" title="TimesPeople Lets You Share and Discover the Best of NYTimes.com">TimesPeople Lets You Share and Discover the Best of NY...</a></span>      </td>      <td class="timestamp">2:38 am</td>    </tr>    </tbody></table></div>           <div id="TP_feed_handle">             <div class="TP_groove"></div>           </div>         </div>         <div id="TP_feed_toggle"></div>         <div style="display: none;" id="TP_spinner">           <object data="magicEndsCareer_files/spinner.swf" type="application/x-shockwave-flash" width="24" height="24">             <param value="http://graphics8.nytimes.com/images/apps/timespeople/spinner.swf" name="movie">             <param value="Transparent" name="WMode">           </object>         </div>       </div>     </div>     <div style="position: absolute; top: 30px;" id="TP_container_shadow" class="s_shadow"></div><script src="magicEndsCareer_files/392441107.js" type="text/javascript"></script>
+							<a name="top"></a>
+		<div id="shell">
+			<ul id="memberTools">
+		
+		
+	
+					<li><a href="http://www.nytimes.com/auth/login?URI=http://">Log In</a></li>
+		<li><a href="http://www.nytimes.com/gst/regi.html">Register Now</a></li>
+				
+		
+	<li id="TP_restore_button" style="display: none;"><a>TimesPeople</a></li></ul>
+
+<div class="tabsContainer">
+    <ul id="mainTabs" class="tabs">
+        <li class="first"><a href="http://www.nytimes.com/">Home Page</a></li>
+        
+        <li><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+        
+        <li><a href="http://www.nytimes.com/video">Video</a></li>
+        
+        <li><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+        
+        <li><a href="http://topics.nytimes.com/top/reference/timestopics">Times Topics</a></li>
+    </ul>
+</div>
+			<div id="page" class="tabContent active">
+				<div class="clearfix" id="masthead">
+	        				        <div id="searchWidget">
+        <div class="inlineSearchControl">
+            <form enctype="application/x-www-form-urlencoded" action="http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+                <input value="full" name="date_select" type="hidden">
+                <label for="searchQuery">Search All NYTimes.com</label>
+                <input class="text" value="" size="" name="query" id="searchQuery" type="text">
+                <input id="searchAll" name="type" value="nyt" type="hidden">
+                <input id="searchSubmit" title="Search" alt="Search" src="magicEndsCareer_files/go.gif" type="image" width="22" height="19">
+            </form>  
+        </div>
+    </div>
+    <div id="branding"><a href="http://www.nytimes.com/"><img src="magicEndsCareer_files/nytlogo152x23.gif" title="New York Times" alt="New York Times" id="NYTLogo"></a></div>
+		    	<h2>
+							<a href="http://www.nytimes.com/pages/sports/index.html">
+						Sports							</a>
+					</h2>
+	</div>
+		    	<div class="navigation tabsContainer">
+	<ul class="tabs">
+				<li id="navWorld" class="first">
+			<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+					
+		</li>
+					<li id="navUs">
+			<a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+					
+		</li>
+					<li id="navNyregion">
+			<a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+					
+		</li>
+					<li id="navBusiness">
+			<a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+					
+		</li>
+					<li id="navTechnology">
+			<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+					
+		</li>
+					<li id="navScience">
+			<a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+					
+		</li>
+					<li id="navHealth">
+			<a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+					
+		</li>
+					<li id="navSports" class="selected">
+			<a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+									<ul class="subNavigation"><li><a href="http://www.nytimes.com/pages/sports/baseball/index.html">Baseball</a></li><li><a href="http://www.nytimes.com/pages/sports/football/index.html">Pro Football</a></li><li><a href="http://www.nytimes.com/pages/sports/ncaafootball/index.html">College Football</a></li><li><a href="http://www.nytimes.com/pages/sports/basketball/index.html">Pro Basketball</a></li><li><a href="http://www.nytimes.com/pages/sports/ncaabasketball/index.html">College Basketball</a></li><li><a href="http://www.nytimes.com/pages/sports/hockey/index.html">Hockey</a></li><li><a href="http://www.nytimes.com/pages/sports/soccer/index.html">Soccer</a></li><li><a href="http://www.nytimes.com/pages/sports/golf/index.html">Golf</a></li><li><a href="http://www.nytimes.com/pages/sports/tennis/index.html">Tennis</a></li><li><a href="http://www.nytimes.com/pages/sports/other/index.html">More Sports</a></li><li><a href="http://www.nytimes.com/pages/sports/global/index.html">Global Sports</a></li></ul>	
+		</li>
+					<li id="navOpinion">
+			<a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+					
+		</li>
+					<li id="navArts">
+			<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+					
+		</li>
+					<li id="navStyle">
+			<a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+					
+		</li>
+					<li id="navTravel">
+			<a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+					
+		</li>
+					<li id="navJobs">
+			<a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+					
+		</li>
+					<li id="navRealestate">
+			<a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+					
+		</li>
+					<li id="navAutomobiles">
+			<a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+					
+		</li>
+				</ul>
+</div>
+
+		    					<div class="singleAd" id="TopAd">
+							<div class="clearfix">
+					<div class="clearfix"><script type="text/javascript" src="magicEndsCareer_files/st.js"></script><iframe marginwidth="0" marginheight="0" src="magicEndsCareer_files/iframe3.html" scrolling="no" width="728" frameborder="0" height="90"></iframe><div style="font-family: Arial; font-size: 10px; color: rgb(0, 66, 118); float: right; margin-right: 125px;"><a href="http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>	
+				</div>
+					</div>
+							<div id="main">
+					<div class="spanAB wrap closing">
+						<div class="abColumn"><!-- open abColumn -->
+							
+		<!--cur: prev:-->
+	<div class="columnGroup first">				
+			<h1 class="articleHeadline">BASKETBALL; Magic Johnson Ends His Career, Saying He Has AIDS Infection</h1>
+	<h6 class="byline">By RICHARD W. STEVENSON,</h6>
+	<h6 class="dateline">Published: Friday, November 8, 1991</h6>
+	<script type="text/javascript">
+var articleToolsShareData = {"url":"http:\/\/www.nytimes.com\/1991\/11\/08\/sports\/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html?sec=health&&n=Top%2FNews%2FHealth%2FDiseases%2C%20Conditions%2C%20and%20Health%20Topics%2FAIDS&scp=2&sq=magic%20johnson&st=cse","headline":"BASKETBALL; Magic Johnson Ends His Career, Saying He Has AIDS Infection","description":"  Magic Johnson, one of the most popular and accomplished players in basketball history, said today that he had been infected by the virus that causes AIDS and that he would retire immediately from the Los Angeles Lakers.   Speaking in composed, straightforward terms, Johnson said at a news conference at the Great Western Forum, where he played with the Lakers for 12 seasons, that he learned only the day before that he was infected with the human immunodeficiency virus.","keywords":"","section":"sports","sub_section":"sports","section_display":"Sports","sub_section_display":"Sports","byline":"By RICHARD W. STEVENSON,","pubdate":"November 8, 1991","passkey":null};
+function getShareURL() {
+    return encodeURIComponent(articleToolsShareData.url);
+}   
+function getShareHeadline() {
+    return encodeURIComponent(articleToolsShareData.headline);
+}   
+function getShareDescription() {
+    return encodeURIComponent(articleToolsShareData.description);
+}   
+function getShareKeywords() {
+    return encodeURIComponent(articleToolsShareData.keywords);
+}   
+function getShareSection() {
+    return encodeURIComponent(articleToolsShareData.section);
+}
+function getShareSubSection() {
+	return encodeURIComponent(articleToolsShareData.sub_section);
+}
+function getShareSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.section_display);
+}
+function getShareSubSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.sub_section_display);
+}
+function getShareByline() {
+    return encodeURIComponent(articleToolsShareData.byline);
+}   
+function getSharePubdate() {
+    return encodeURIComponent(articleToolsShareData.pubdate);
+}   
+function getSharePasskey() {
+    return encodeURIComponent(articleToolsShareData.passkey);
+}   
+</script>
+
+<div class="articleTools">
+    <div class="box">
+		<div class="inset">
+			<ul id="toolsList" class="toolsList wrap">
+	            	            	                                        <li class="emailNeedLogin">
+                            <a href="javascript:location='http://www.nytimes.com/auth/login?URI='+encodeURIComponent(document.location.href);" onclick="s_code_linktrack('Article-Tool-EmailSignIn');">Sign In to E-Mail</a>
+                        </li>
+                    	            	            	                <li class="print">
+	                    <a href="http://www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html?sec=health&amp;&amp;n=Top%2FNews%2FHealth%2FDiseases%2C%20Conditions%2C%20and%20Health%20Topics%2FAIDS&amp;scp=2&amp;sq=magic%20johnson&amp;st=cse&amp;pagewanted=print">Print</a>
+	                </li>
+	            									<li class="singlePage">
+						<a href="http://www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html?sec=health&amp;n=Top/News/Health/Diseases,%20Conditions,%20and%20Health%20Topics/AIDS&amp;scp=2&amp;sq=magic%20johnson&amp;st=cse&amp;pagewanted=all">Single-Page</a>
+					</li>
+													<script name="javascript">
+					function submitCCCForm(){
+						PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+						this.document.cccform.submit();
+					}
+					</script>
+					<li class="reprints">
+						<form name="cccform" action="https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon">
+							<input name="Title" value="BASKETBALL; Magic Johnson Ends His Career, Saying He Has AIDS Infection" type="hidden">
+							<input name="Author" value="By RICHARD W. STEVENSON, " type="hidden">
+							<input name="ContentID" value="019591" type="hidden">
+							<input name="FormatType" value="default" type="hidden">
+							<input name="PublicationDate" value="November 8, 1991" type="hidden">
+							<input name="PublisherName" value="The New York Times" type="hidden">
+							<input name="Publication" value="nytimes.com" type="hidden">
+							<input name="wordCount" value="12" type="hidden">
+						</form>
+						<a href="#" onclick="submitCCCForm()">Reprints</a>
+					</li>
+					        <li style="width: 168px;" id="shareMenu" class="closed"><a class="shareButton" href="#">Share</a><a style="opacity: 0;" class="hidden" href="#">Close</a><ul style="opacity: 0;" class="hidden" id="shareList"><li class="linkedin"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/linkedin.gif);" href="#">Linkedin</a></li><li class="digg"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/digg.gif);" href="#">Digg</a></li><li class="facebook"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/facebook.gif);" href="#">Facebook</a></li><li class="mixx"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/mixx.gif);" href="#">Mixx</a></li><li class="myspace"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/myspace.gif);" href="#">MySpace</a></li><li class="yahoobuzz"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/yahoobuzz.gif);" href="#">Yahoo! Buzz</a></li><li class="permalink"><a style="background-image: url(http://graphics8.nytimes.com/images/article/functions/permalink.gif);" href="#">Permalink</a></li><li id="shareMenuAd"><script src="magicEndsCareer_files/adx_remote.html"></script></li></ul></li></ul>
+	        <script type="text/javascript">
+	        writePost();
+	        </script>
+													
+											<div class="articleToolsSponsor" id="Frame4A">
+															<div class="clearfix">
+									<a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Frame4A&amp;sn2=aa2d0a79/cfa7a29a&amp;sn1=91ea2d57/c0f453b&amp;camp=foxsearch2009_emailtools_1011072c_nyt5&amp;ad=500DOS_120x60_c&amp;goto=http://www.foxsearchlight.com/500daysofsummer" target="_blank">
+<img src="magicEndsCareer_files/article-sponsor.gif" class="label" alt="Article Tools Sponsored By" width="62" border="0" height="20"><img src="magicEndsCareer_files/500days_nytimes_120x60_looping.gif" alt="" width="120" border="0" height="60"></a>	
+								</div>
+													</div>
+																	        </div>
+    </div>
+</div>
+	<div class="articleBody">
+						<p>Magic Johnson, one of the
+most popular and accomplished players in basketball history, said today
+that he had been infected by the virus that causes AIDS and that he
+would retire immediately from the Los Angeles Lakers.</p>
+			<p>Speaking
+in composed, straightforward terms, Johnson said at a news conference
+at the Great Western Forum, where he played with the Lakers for 12
+seasons, that he learned only the day before that he was infected with
+the human immunodeficiency virus.</p>
+			<p>"Because of the HIV virus I
+have obtained, I will have to retire from the Lakers today," he said.
+His doctors said that although Johnson was healthy now, continued
+athletic competition could harm his immune system. Gifted and Magnetic</p>
+			<p>A
+gifted athlete whose abilities and magnetic personality brought
+worldwide popularity and success to his team and to the National
+Basketball Association, Johnson is by far the most most famous sports
+figure to be infected by the AIDS virus. In the 1980's his team won
+five league championships, and his name and face have been used to sell
+everything from Diet Pepsi to Converse sneakers.</p>
+			<p>And because
+his fame spread through all levels of society from schoolyard courts to
+giant sports arenas, the impact of his announcement is likely to be
+felt by millions of people whose lives have not been touched by the
+disease.</p>
+			<p>In fact, Johnson said at the news conference that he
+planned to use his celebrity to help educate people about AIDS and the
+virus that causes it.</p>
+			<p>Johnson, who is 32 years old, said that
+he felt fine and that he did not have any symptoms of AIDS. Displaying
+his trademark cheerfulness and positive attitude, he said he was
+looking forward to a long life off the court.</p>
+			<p>Some AIDS
+experts said that it was difficult to determine how advanced his
+illness might, and that flu-like symptoms he had recently suffered are
+also experienced by people with the disease.</p>
+			<p>"Life is going
+to go on for me, and I'm going to be a happy man," he said. "When your
+back is against the wall, you have to come out swinging," he said. "I'm
+going to go on, going to be there, going to have fun."</p>
+			<p>Johnson
+did not say how he became infected with the virus, which is usually
+transmitted through sexual intercourse or intravenous drug use. But he
+did say that he wanted young people "to understand that safe sex is the
+way to go."</p>
+			<p>He added: "I think sometimes we think, well, only
+gay people can get it -- 'It's not going to happen to me.' And here I
+am saying that it can happen to anybody, even me, Magic Johnson."</p>
+			<p>News
+of Johnson's condition stunned other players and basketball fans around
+the country. At Madison Square Garden in New York, Pat Riley, who
+coached Johnson with the Lakers and now coaches the New York Knicks,
+asked for a moment of silence before the Knicks' game with the Orlando
+Magic and then led the players and crowd in the Lord's Prayer.
+Revolutionized Position</p>
+			<p>Johnson's announcement brings to a
+close a career that spanned two college seasons at Michigan State
+University and 12 seasons with the Lakers, who drafted him in 1979.
+During his years as a versatile point guard in Los Angeles, he helped
+revolutionize the position with uncanny passes and length-of-the-court
+drives. He had an uncanny sense of when to shoot and when to give up
+the ball. His dazzling skills earned him the nickname that for most
+fans long ago replaced his given name, Earvin.</p>
+			<p>Johnson had
+not played during the first three games of this season, complaining of
+flu-like systems that sapped his strength and caused him to losed
+weight. The Lakers' doctor, Michael Mellman, said the illness was not
+connected with the AIDS virus.</p>
+			<p>Johnson was married in
+September to Earletha (Cookie) Kelley. He said at the news conference
+today that his wife had tested negative for the AIDS virus.</p>
+			<p>"A part of my life is gone, but my wife is healthy, and that's great," he said.</p>
+			<p>He
+said he is looking forward to speaking out about AIDS and how it can be
+prevented, and his frank and immediate disclosure suggested that the
+force of his personality could be a major catalyst for AIDS awareness
+and prevention efforts.</p>
+			<p>Mellman said that Johnson should be
+"not only commended but held as a modern-day hero" for speaking
+publicly about his condition. Support From Commissioner</p>
+		</div>	</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+		<div class="articleFooter">
+			<div class="pagination">
+				<ul class="horizontalMenu">	
+						<li>1</li>
+							<li class="lastListItem">
+					<a onclick="s_code_linktrack('Article-MultiPagepageNum2');" title="Page 2" href="http://www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html?sec=health&amp;n=Top/News/Health/Diseases,%20Conditions,%20and%20Health%20Topics/AIDS&amp;scp=2&amp;sq=magic%20johnson&amp;st=cse&amp;pagewanted=2">2</a>
+				</li>
+					</ul>
+					<a class="nextPage" onclick="s_code_linktrack('Article-MultiPage-Next');" title="Next Page" href="http://www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html?sec=health&amp;n=Top/News/Health/Diseases,%20Conditions,%20and%20Health%20Topics/AIDS&amp;scp=2&amp;sq=magic%20johnson&amp;st=cse&amp;pagewanted=2">Next Page &gt;</a>
+			</div>
+		<div class="articleMeta">
+		<div class="opposingFloatControl wrap">
+		    				<div class="element1">
+					<h6 class="metaFootnote">A version of this biography appeared in print on Friday, November 8, 1991, on section A page 1  of the New York edition.</h6>
+				</div>
+										<div class="element2">
+					<p class="refer">
+						<a title="More articles in Sports" onclick="s_code_linktrack('Archived-More-sports');" href="http://www.nytimes.com/pages/sports/index.html">More Articles in Sports &gt;</a>
+					</p>
+				</div>
+					</div>
+	</div>
+</div>	</div>
+			<!--cur: prev:-->
+	<div class="columnGroup last">				
+						<div class="columnGroup" id="adxSponLink"><table style="border: 1px solid rgb(157, 163, 173); width: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="">
+<tbody><tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top"><table style="width: 100%; height: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+<tbody><tr>
+ <td style="background-color: rgb(157, 163, 173); width: 70%; height: 20px; padding-top: 2px; padding-left: 11px; padding-bottom: 2px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="70%" bgcolor="#9da3ad" height="20"><span style="font-size: 12px; font-weight: normal; color: rgb(255, 255, 255);">Ads by Google</span></td>
+<td style="padding-top: 2px; padding-bottom: 2px; width: 30%; height: 20px; background-color: rgb(157, 163, 173); font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="30%" align="right" bgcolor="#9da3ad" height="20"><span><a style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" target="popupad">what's this?</a></span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style="height: 110px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top" height="110"><table style="padding: 4px; height: 100%; width: 100%; background-color: rgb(248, 248, 249);" width="100%" bgcolor="#f8f8f9" border="0" cellpadding="4" cellspacing="0" height="100%">
+<tbody><tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw0" onfocus="ss('go to AltairePaloAlto.regishomes.com','aw0')" onmouseover="ss('go to AltairePaloAlto.regishomes.com','aw0')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw0" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BmtmLmnH5ScvzDIP2qwPMjOizCfGHoYoBqYjKlwqZydV8kMnSARABGAEgnPP4ASgDOABQuPml7gFgyfb4hsijoBmgAYnJ2fYDsgEPd3d3Lm55dGltZXMuY29tyAEB2gHyAWh0dHA6Ly93d3cubnl0aW1lcy5jb20vMTk5MS8xMS8wOC9zcG9ydHMvYmFza2V0YmFsbC1tYWdpYy1qb2huc29uLWVuZHMtaGlzLWNhcmVlci1zYXlpbmctaGUtaGFzLWFpZHMtaW5mZWN0aW9uLmh0bWw_c2VjPWhlYWx0aCYmbj1Ub3AlMkZOZXdzJTJGSGVhbHRoJTJGRGlzZWFzZXMlMkMlMjBDb25kaXRpb25zJTJDJTIwYW5kJTIwSGVhbHRoJTIwVG9waWNzJTJGQUlEUyZzY3A9MiZzcT1tYWdpYyUyMGpvaG5zb24mc3Q9Y3NlgAIBwAIBqAMB6AOIAugD8QT1AwAEAAT1AwQAQAA&amp;num=1&amp;sig=AGiWqtwo7kLbkLgCEEddUAGUcQF9a_TD0w&amp;client=ca-nytimes_article_var&amp;adurl=http://regishomes.com/altaire/" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to AltairePaloAlto.regishomes.com','aw0')" onclick="ha('aw0')" onmouseover="return ss('go to AltairePaloAlto.regishomes.com','aw0')" onmouseout="cs()">Altaire Palo Alto Condos</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BmtmLmnH5ScvzDIP2qwPMjOizCfGHoYoBqYjKlwqZydV8kMnSARABGAEgnPP4ASgDOABQuPml7gFgyfb4hsijoBmgAYnJ2fYDsgEPd3d3Lm55dGltZXMuY29tyAEB2gHyAWh0dHA6Ly93d3cubnl0aW1lcy5jb20vMTk5MS8xMS8wOC9zcG9ydHMvYmFza2V0YmFsbC1tYWdpYy1qb2huc29uLWVuZHMtaGlzLWNhcmVlci1zYXlpbmctaGUtaGFzLWFpZHMtaW5mZWN0aW9uLmh0bWw_c2VjPWhlYWx0aCYmbj1Ub3AlMkZOZXdzJTJGSGVhbHRoJTJGRGlzZWFzZXMlMkMlMjBDb25kaXRpb25zJTJDJTIwYW5kJTIwSGVhbHRoJTIwVG9waWNzJTJGQUlEUyZzY3A9MiZzcT1tYWdpYyUyMGpvaG5zb24mc3Q9Y3NlgAIBwAIBqAMB6AOIAugD8QT1AwAEAAT1AwQAQAA&amp;num=1&amp;sig=AGiWqtwo7kLbkLgCEEddUAGUcQF9a_TD0w&amp;client=ca-nytimes_article_var&amp;adurl=http://regishomes.com/altaire/" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">NEW 3 &amp; 4 Bedroom Townhomes. Pre-Completion Pricing NOW!</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BmtmLmnH5ScvzDIP2qwPMjOizCfGHoYoBqYjKlwqZydV8kMnSARABGAEgnPP4ASgDOABQuPml7gFgyfb4hsijoBmgAYnJ2fYDsgEPd3d3Lm55dGltZXMuY29tyAEB2gHyAWh0dHA6Ly93d3cubnl0aW1lcy5jb20vMTk5MS8xMS8wOC9zcG9ydHMvYmFza2V0YmFsbC1tYWdpYy1qb2huc29uLWVuZHMtaGlzLWNhcmVlci1zYXlpbmctaGUtaGFzLWFpZHMtaW5mZWN0aW9uLmh0bWw_c2VjPWhlYWx0aCYmbj1Ub3AlMkZOZXdzJTJGSGVhbHRoJTJGRGlzZWFzZXMlMkMlMjBDb25kaXRpb25zJTJDJTIwYW5kJTIwSGVhbHRoJTIwVG9waWNzJTJGQUlEUyZzY3A9MiZzcT1tYWdpYyUyMGpvaG5zb24mc3Q9Y3NlgAIBwAIBqAMB6AOIAugD8QT1AwAEAAT1AwQAQAA&amp;num=1&amp;sig=AGiWqtwo7kLbkLgCEEddUAGUcQF9a_TD0w&amp;client=ca-nytimes_article_var&amp;adurl=http://regishomes.com/altaire/" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">AltairePaloAlto.regishomes.com</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw1" onfocus="ss('go to www.HearingPlanet.com/Hearing-Aids','aw1')" onmouseover="ss('go to www.HearingPlanet.com/Hearing-Aids','aw1')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw1" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bmy-7mnH5ScvzDIP2qwPMjOizCai-8RaqwsLtCsCNtwGQ_ZcBEAIYAiCc8_gBKAM4AFDJo4Ws_f____8BYMn2-IbIo6AZoAGU5r__A7IBD3d3dy5ueXRpbWVzLmNvbcgBAdoB8gFodHRwOi8vd3d3Lm55dGltZXMuY29tLzE5OTEvMTEvMDgvc3BvcnRzL2Jhc2tldGJhbGwtbWFnaWMtam9obnNvbi1lbmRzLWhpcy1jYXJlZXItc2F5aW5nLWhlLWhhcy1haWRzLWluZmVjdGlvbi5odG1sP3NlYz1oZWFsdGgmJm49VG9wJTJGTmV3cyUyRkhlYWx0aCUyRkRpc2Vhc2VzJTJDJTIwQ29uZGl0aW9ucyUyQyUyMGFuZCUyMEhlYWx0aCUyMFRvcGljcyUyRkFJRFMmc2NwPTImc3E9bWFnaWMlMjBqb2huc29uJnN0PWNzZYACAagDAegDiALoA_EE9QMABAAE9QMEAEAA&amp;num=2&amp;sig=AGiWqtwxMo24zNRSUjCSYXG6DCugnGNi6g&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hearingplanet.com/what-you-need-to-know.php%3Fsource%3Dgoogle-ct-buying_hearing_aids%26s_kwcid%3DContentNetwork%7C2816746662" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.HearingPlanet.com/Hearing-Aids','aw1')" onclick="ha('aw1')" onmouseover="return ss('go to www.HearingPlanet.com/Hearing-Aids','aw1')" onmouseout="cs()">Buying Hearing Aids</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bmy-7mnH5ScvzDIP2qwPMjOizCai-8RaqwsLtCsCNtwGQ_ZcBEAIYAiCc8_gBKAM4AFDJo4Ws_f____8BYMn2-IbIo6AZoAGU5r__A7IBD3d3dy5ueXRpbWVzLmNvbcgBAdoB8gFodHRwOi8vd3d3Lm55dGltZXMuY29tLzE5OTEvMTEvMDgvc3BvcnRzL2Jhc2tldGJhbGwtbWFnaWMtam9obnNvbi1lbmRzLWhpcy1jYXJlZXItc2F5aW5nLWhlLWhhcy1haWRzLWluZmVjdGlvbi5odG1sP3NlYz1oZWFsdGgmJm49VG9wJTJGTmV3cyUyRkhlYWx0aCUyRkRpc2Vhc2VzJTJDJTIwQ29uZGl0aW9ucyUyQyUyMGFuZCUyMEhlYWx0aCUyMFRvcGljcyUyRkFJRFMmc2NwPTImc3E9bWFnaWMlMjBqb2huc29uJnN0PWNzZYACAagDAegDiALoA_EE9QMABAAE9QMEAEAA&amp;num=2&amp;sig=AGiWqtwxMo24zNRSUjCSYXG6DCugnGNi6g&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hearingplanet.com/what-you-need-to-know.php%3Fsource%3Dgoogle-ct-buying_hearing_aids%26s_kwcid%3DContentNetwork%7C2816746662" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">How to Buy Hearing Aids Free Tips with Our Buyer's Guide</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bmy-7mnH5ScvzDIP2qwPMjOizCai-8RaqwsLtCsCNtwGQ_ZcBEAIYAiCc8_gBKAM4AFDJo4Ws_f____8BYMn2-IbIo6AZoAGU5r__A7IBD3d3dy5ueXRpbWVzLmNvbcgBAdoB8gFodHRwOi8vd3d3Lm55dGltZXMuY29tLzE5OTEvMTEvMDgvc3BvcnRzL2Jhc2tldGJhbGwtbWFnaWMtam9obnNvbi1lbmRzLWhpcy1jYXJlZXItc2F5aW5nLWhlLWhhcy1haWRzLWluZmVjdGlvbi5odG1sP3NlYz1oZWFsdGgmJm49VG9wJTJGTmV3cyUyRkhlYWx0aCUyRkRpc2Vhc2VzJTJDJTIwQ29uZGl0aW9ucyUyQyUyMGFuZCUyMEhlYWx0aCUyMFRvcGljcyUyRkFJRFMmc2NwPTImc3E9bWFnaWMlMjBqb2huc29uJnN0PWNzZYACAagDAegDiALoA_EE9QMABAAE9QMEAEAA&amp;num=2&amp;sig=AGiWqtwxMo24zNRSUjCSYXG6DCugnGNi6g&amp;client=ca-nytimes_article_var&amp;adurl=http://www.hearingplanet.com/what-you-need-to-know.php%3Fsource%3Dgoogle-ct-buying_hearing_aids%26s_kwcid%3DContentNetwork%7C2816746662" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.HearingPlanet.com/Hearing-Aids</a></div>
+</td>
+</tr>
+<tr>
+<td style="cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); background-color: rgb(248, 248, 249);" id="taw2" onfocus="ss('go to www.AxisSanJose.com','aw2')" onmouseover="ss('go to www.AxisSanJose.com','aw2')" onmouseout="cs()" onclick="ga(this,event)" valign="middle"><div style="line-height: 14px; padding-left: 7px; padding-bottom: 5px;"><a id="aw2" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BlGRPmnH5ScvzDIP2qwPMjOizCbmHjKwBqc_Pjwv7yvbqBsCbXxADGAMgnPP4ASgDOABQkrSYzvr_____AWDJ9viGyKOgGaAB6Zqv-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaAfIBaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8xOTkxLzExLzA4L3Nwb3J0cy9iYXNrZXRiYWxsLW1hZ2ljLWpvaG5zb24tZW5kcy1oaXMtY2FyZWVyLXNheWluZy1oZS1oYXMtYWlkcy1pbmZlY3Rpb24uaHRtbD9zZWM9aGVhbHRoJiZuPVRvcCUyRk5ld3MlMkZIZWFsdGglMkZEaXNlYXNlcyUyQyUyMENvbmRpdGlvbnMlMkMlMjBhbmQlMjBIZWFsdGglMjBUb3BpY3MlMkZBSURTJnNjcD0yJnNxPW1hZ2ljJTIwam9obnNvbiZzdD1jc2WAAgHAAgGoAwHoA4gC6APxBPUDAAQABPUDBABAAA&amp;num=3&amp;sig=AGiWqtyAtiAjFBawtj5PoHSp6ReFbJIGIg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.AxisSanJose.com" target="_blank" style="font-size: 12px; color: rgb(0, 0, 102); font-weight: bold; text-decoration: underline;" onfocus="ss('go to www.AxisSanJose.com','aw2')" onclick="ha('aw2')" onmouseover="return ss('go to www.AxisSanJose.com','aw2')" onmouseout="cs()">NEW San Jose Condo</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BlGRPmnH5ScvzDIP2qwPMjOizCbmHjKwBqc_Pjwv7yvbqBsCbXxADGAMgnPP4ASgDOABQkrSYzvr_____AWDJ9viGyKOgGaAB6Zqv-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaAfIBaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8xOTkxLzExLzA4L3Nwb3J0cy9iYXNrZXRiYWxsLW1hZ2ljLWpvaG5zb24tZW5kcy1oaXMtY2FyZWVyLXNheWluZy1oZS1oYXMtYWlkcy1pbmZlY3Rpb24uaHRtbD9zZWM9aGVhbHRoJiZuPVRvcCUyRk5ld3MlMkZIZWFsdGglMkZEaXNlYXNlcyUyQyUyMENvbmRpdGlvbnMlMkMlMjBhbmQlMjBIZWFsdGglMjBUb3BpY3MlMkZBSURTJnNjcD0yJnNxPW1hZ2ljJTIwam9obnNvbiZzdD1jc2WAAgHAAgGoAwHoA4gC6APxBPUDAAQABPUDBABAAA&amp;num=3&amp;sig=AGiWqtyAtiAjFBawtj5PoHSp6ReFbJIGIg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.AxisSanJose.com" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(51, 51, 51); text-decoration: none;">Luxury Homes. Stunning Views. From the Low $300s. Register Today!</a><br>
+<a href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BlGRPmnH5ScvzDIP2qwPMjOizCbmHjKwBqc_Pjwv7yvbqBsCbXxADGAMgnPP4ASgDOABQkrSYzvr_____AWDJ9viGyKOgGaAB6Zqv-wOyAQ93d3cubnl0aW1lcy5jb23IAQHaAfIBaHR0cDovL3d3dy5ueXRpbWVzLmNvbS8xOTkxLzExLzA4L3Nwb3J0cy9iYXNrZXRiYWxsLW1hZ2ljLWpvaG5zb24tZW5kcy1oaXMtY2FyZWVyLXNheWluZy1oZS1oYXMtYWlkcy1pbmZlY3Rpb24uaHRtbD9zZWM9aGVhbHRoJiZuPVRvcCUyRk5ld3MlMkZIZWFsdGglMkZEaXNlYXNlcyUyQyUyMENvbmRpdGlvbnMlMkMlMjBhbmQlMjBIZWFsdGglMjBUb3BpY3MlMkZBSURTJnNjcD0yJnNxPW1hZ2ljJTIwam9obnNvbiZzdD1jc2WAAgHAAgGoAwHoA4gC6APxBPUDAAQABPUDBABAAA&amp;num=3&amp;sig=AGiWqtyAtiAjFBawtj5PoHSp6ReFbJIGIg&amp;client=ca-nytimes_article_var&amp;adurl=http://www.AxisSanJose.com" target="_blank" style="font-size: 10px; color: rgb(0, 0, 102); font-weight: normal; text-decoration: none;">www.AxisSanJose.com</a></div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></div>
+		<script language="JavaScript">
+		google_hints='BASKETBALL; Magic Johnson Ends His Career, Saying He Has AIDS Infection';
+					google_ad_channel='archive, archive_sports, archive_Sports';
+				</script>
+					<script language="JavaScript" type="text/javascript">
+<!--
+if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_google_ad_channel = google_ad_channel; }
+if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }
+if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }
+function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}
+function plCh(){var m=document.getElementsByTagName('meta');var x=false;var y='';var z='';for(var i in m){if(m[i].name=='WT.z.gsg'&&m[i].content=='Archive'){x=true}if(m[i].name=='WT.z_puv'){y=m[i].content}if(m[i].name=='WT.z_pud'){var t=parseInt(m[i].content.substring(0,4));if(t>=1860&&t<=1865){z=', civil_war'}}}if(x){if(y=='Normal'){return', ascii'+z}if(y=='Abstract'){return', asciiabstract'+z}}else{return''}}
+ 
+function google_ad_request_done(ads) {
+	var s = "";
+ 
+	if (ads.length == 0) {
+		return;
+	} else if (google_ad.bidtype == "CPM" && ads[0].type != 'image') {
+		google_ad_section_line_height = "22px";
+		google_ad_section_padding_left = "12px";
+		google_title_link_font_size = "18px";
+		google_ad_text_font_size = "14px";
+		google_visible_url_font_size = "14px";
+		google_target_div = 'adxSponLinkA';
+	} else if (ads[0].type != 'image') {
+		google_ad_section_line_height = "14px";
+		google_ad_section_padding_left = "7px";
+		google_title_link_font_size = "12px";
+		google_ad_text_font_size = "11px";
+		google_visible_url_font_size = "10px";
+		google_target_div = 'adxSponLink';
+	}
+	s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';
+	for (i = 0; i < ads.length; ++i) {
+		s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';
+	}
+	s += '</table>\n</td>\n</tr>\n</table>';
+	document.getElementById(google_target_div).innerHTML = s;
+	return;
+}
+if (document.getElementById("adxSponLink2")) { google_targeting = 'content'; }
+google_ad_output = 'js';
+google_max_num_ads = '3';
+google_ad_client = 'nytimes_article_var';
+google_safe = 'high';
+google_hints = nyt_google_hints;
+google_ad_channel = nyt_google_ad_channel+plCh();
+if (window.nyt_google_count) { google_skip = nyt_google_count; }
+// -->
+</script>
+<script type="text/javascript" language="JavaScript" src="magicEndsCareer_files/show_ads.js"></script><script src="magicEndsCareer_files/test_domain.js"></script><script>window.google_render_ad();</script><script language="JavaScript1.1" src="magicEndsCareer_files/ads_002"></script>
+	
+					</div>
+							</div><!-- close abColumn -->
+						<div class="cColumn">
+							<!--Google ads placeholder -->
+							<div id="adxSponLink2"></div>
+							
+		<!--cur: prev:-->
+	<div class="columnGroup first">				
+							<div class="singleAd" id="Box3">
+							<div class="clearfix">
+					<!-- ADXINFO classification="feature_squares" campaign="regilite-P4-urbanite"--><iframe title="regilite" src="magicEndsCareer_files/litesub_insert.html" marginheight="0" marginwidth="0" vspace="0" hspace="0" scrolling="no" width="336" frameborder="0" height="90"></iframe> 	
+				</div>
+					</div>
+			</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+							<div class="singleAd" id="MiddleRight">
+							<div class="clearfix">
+					
+<div class="clearfix"><script type="text/javascript" src="magicEndsCareer_files/st_002.js"></script><iframe marginwidth="0" marginheight="0" src="magicEndsCareer_files/iframe3_002.html" scrolling="no" width="300" frameborder="0" height="250"></iframe><div style="font-family: Arial; font-size: 10px; color: rgb(0, 66, 118); float: right; margin-right: 9px;"><a href="http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>	
+				</div>
+					</div>
+			</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+						</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+			<div class="singleRule">
+    <div id="mostPopWidget"> 
+                    <h4>MOST POPULAR</h4>
+                <div id="tabsContainer">
+            <ul class="tabs">
+                                    <li class="selected"><a href="#">E-Mailed</a></li>
+                                                    <li><a href="#">Blogged</a></li>
+                                                    <li><a href="#">Searched</a></li>
+                            </ul>
+        </div>
+                                    <div class="tabContent tabContentActive" id="mostEmailed">
+                    <ol>
+                                                    <li><a href="http://www.nytimes.com/2009/04/28/health/28brod.html?em" title="Click to go to this article">Personal Health: Paying a Price for Loving Red Meat</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/27/opinion/27taylor.html?em" title="Click to go to this article">Op-Ed Contributor: End the University as We Know It</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/opinion/29dowd.html?em" title="Click to go to this article">Op-Ed Columnist: Vice’s Secret Vices</a></li>
+                                                    <li><a href="http://judson.blogs.nytimes.com/2009/04/28/guest-column-lets-hear-it-for-the-bees/?em" title="Click to go to this article">Olivia Judson: Guest Column: Let’s Hear It for the Bees</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/dining/29super.html?em" title="Click to go to this article">It May Be Cheap, but It’s Also Tasty</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/opinion/29snowe.html?em" title="Click to go to this article">Op-Ed Contributor: We Didn't Have to Lose Arlen Specter</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/nyregion/29tray.html?em" title="Click to go to this article">Without Cafeteria Trays, Colleges Find Savings</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/opinion/29friedman.html?em" title="Click to go to this article">Op-Ed Columnist: A Torturous Compromise</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/05/03/magazine/03Obama-t.html?em" title="Click to go to this article">Magazine Preview: After the Great Recession</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/30/health/30flu.html?em" title="Click to go to this article">World Health Organization Raises Swine Flu Alert Level</a></li>
+                                            </ol>
+                    <a class="more" href="http://www.nytimes.com/gst/mostemailed.html">Go to Complete List »</a>
+                </div>
+                                            <div class="tabContent" id="mostBlogged">
+                    <ol>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/opinion/29snowe.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">We Didn't Have to Lose Arlen Specter</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/technology/internet/29google.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">Justice Dept. Opens Antitrust Inquiry Into Google Books Deal</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/us/politics/29bybee.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">Official Defends Signing Interrogation Memos</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/05/03/magazine/03Obama-t.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">After the Great Recession</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/opinion/29friedman.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">A Torturous Compromise</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/30/business/economy/30econ.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">U.S. Economy's Decline in Quarter Exceeds Forecast</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/world/asia/29afghan.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">U.S. Sets Fight in the Poppies to Stop Taliban</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/health/29flu.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">Borders Are Tightened as Flu Cases Rise</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/30/health/30flu.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">10 Countries Ban Pork Imports Over Swine Flu Fears</a></li>
+                                                    <li><a href="http://www.nytimes.com/2009/04/29/business/29auto.html?bl&amp;ex=1241236800&amp;en=5c2c14356d637926&amp;ei=5087" title="Click to go to this article">Creditors' Deal Could Stave Off Bankruptcy at Chrysler</a></li>
+                                            </ol>
+                    <a class="more" href="http://www.nytimes.com/gst/mostblogged.html">Go to Complete List »</a>
+                </div>
+                                            <div class="tabContent" id="mostSearched">
+                    <ol>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=swine%20flu">swine flu</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=april%201,%202009">april 1, 2009</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=obama">obama</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=china">china</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=cancer">cancer</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=education">education</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=immigration">immigration</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=krugman">krugman</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=modern%20love">modern love</a></li>
+                                                    <li><a href="http://query.nytimes.com/?se&amp;query=air%20force%20one">air force one</a></li>
+                                            </ol>
+                    <a class="more" href="http://www.nytimes.com/gst/mostsearched.html">Go to Complete List »</a>
+                </div>
+        					<!-- MostPopAd -->
+																								    </div>
+</div>
+<!-- #mostPopWidget -->
+<script type="text/javascript">
+    new Accordian('mostPopWidget');
+</script>
+	</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+						</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+					
+			<div class="bigAd" id="Box1">
+							<div class="clearfix">
+					<!-- ADXINFO classification="feature_position" campaign="NYT2009_marketingmodule"-->
+
+
+
+<!-- MARKETING MODULE -->
+  <div style="border-style: solid; border-color: rgb(51, 51, 51); border-width: 10px 1px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-family: Arial,sans-serif; text-align: left; width: 334px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+    
+  <div style="padding: 9px 14px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"> <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=e9e73c22/7b319cf6&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://nytimes.com/%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-LOGO%26WT.mc_ev=click" target="_new"><img src="magicEndsCareer_files/nyt-logo.png" alt="The New York Times" width="151" border="0" height="26"></a> 
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=5d6f9cff/de19463b&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater.nytimes.com/pages/theater/index.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-VRT%26WT.mc_ev=click" target="_new"><img src="magicEndsCareer_files/vertical_theater.gif" alt="Theater" width="145" border="0" height="23"></a> 
+    <p style="margin: 0pt; padding: 0pt; font-family: Arial,sans-serif; clear: both; text-align: right; font-weight: bold; font-size: 11px;">
+        <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=5d6f9cff/de19463b&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater.nytimes.com/pages/theater/index.html%3FWT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-URL%26WT.mc_ev=click" target="_new">nytimes.com/theater</a>
+      </p>
+    </div>  
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=b588f1fe/12f05c4c&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater2.nytimes.com/2009/03/16/theater/reviews/16blit.html%3Fex=1256097600%26en=3cd1e092ce85ad5e%26ei=5087%26WT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-PH%26WT.mc_ev=click" target="_new"><img src="magicEndsCareer_files/theater_043009.jpg" width="334" border="0" height="105"></a>
+  <div style="padding: 9px 14px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+      <h2 style="margin: 0pt; font-size: 18px;"><a style="color: rgb(47, 29, 4);" target="_new" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=b588f1fe/12f05c4c&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater2.nytimes.com/2009/03/16/theater/reviews/16blit.html%3Fex=1256097600%26en=3cd1e092ce85ad5e%26ei=5087%26WT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-HDR%26WT.mc_ev=click">Angela Lansbury in 'Blithe Spirit'</a></h2>
+      <p style="margin: 3px 0pt; padding: 0pt; font-size: 11px; font-family: Arial,sans-serif;">Also in Theater:</p>
+      <ul style="margin: 0pt; font-size: 11px;" class="refer">
+        <li style="font-size: 11px;"><a style="text-decoration: underline;" target="_new" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=b588f1fe/12f05c4c&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater2.nytimes.com/gst/theater/tdetails.html%3Fid=1194798513359%26WT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-L1%26WT.mc_ev=click">David Hyde Pierce in 'Accent on Youth'</a></li>
+        <li style="font-size: 11px;"><a style="text-decoration: underline;" target="_new" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=b588f1fe/12f05c4c&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater2.nytimes.com/2009/03/23/theater/reviews/23carn.html%3Fex=1256097600%26en=b19807823db6e44d%26ei=5087%26WT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-L2%26WT.mc_ev=click">James Gandolfini in 'God of Carnage'</a></li>
+        <li style="font-size: 11px;"><a style="text-decoration: underline;" target="_new" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Box1&amp;sn2=42d99550/91766e7&amp;sn1=b588f1fe/12f05c4c&amp;camp=NYT2009_marketingmodule&amp;ad=TH-D-I-NYT-MOD-MOD-M094-ROS-0409&amp;goto=http://theater2.nytimes.com/2009/03/27/theater/reviews/27ione.html%3Fex=1256097600%26en=a7a310ba055a0bc2%26ei=5087%26WT.mc_id=TH-D-I-NYT-MOD-MOD-M094-ROS-0409-L3%26WT.mc_ev=click">Susan Sarandon in 'Exit the King'</a></li>
+      </ul>
+    </div>
+    
+  </div>
+ <!-- /MARKETING MODULE -->
+	
+				</div>
+					</div>
+		
+
+	</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+							</div>
+			<!--cur: prev:-->
+	<div class="columnGroup">				
+							<div class="singleAd" id="Middle5">
+							<div class="clearfix">
+					<!-- ADXINFO classification="feature_position" campaign="NYT2009-Mktg-SelfService-336x79-ROS"--><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;page=www.nytimes.com/archive/article/sports&amp;pos=Middle5&amp;sn2=e9939692/9fa16cf7&amp;sn1=ff1d3d4a/f9882d83&amp;camp=NYT2009-Mktg-SelfService-336x79-ROS&amp;ad=selfservice336X79.jpg&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Fselfservice%2Findex%2Ehtml%3Futm%5Fsource%3Dnytimes%26utm%5Fmedium%3Dbanner%26utm%5Fcontent%3D336x79%26utm%5Fcampaign%3DSelfService" target="_blank"><img src="magicEndsCareer_files/336X79.jpg" border="0"></a>	
+				</div>
+					</div>
+			</div>
+			<!--cur: prev:-->
+	<div class="columnGroup last">				
+		<script type="text/javascript" language="javascript">
+function google_radlink_request_done(radlinks) {
+	var s = "";
+	if (radlinks.length == 0) {
+		return;
+	}
+	s += '\n<div id="sponsoredLinks">\n';
+	s += '\n<div id="header"><h4>Related Ads</h4><span class="whatIs"><a href="javascript:pop_me_up2(\'http://www.nytimes.com/ref/membercenter/faq/linkingqa17.html\',\'420400\',\'width=420,height=400,scrollbars=yes,toolbars=no,resizable=no\');">What are Related Ads?</a></span>\n';
+	s += '<br clear="all" /></div>';
+	s += '<div id="adContent">';
+	for (i = 0; i < radlinks.length; ++i) {
+		s += '<div class="ad">&raquo; <a href="http://query.nytimes.com/search/query?srchst=r&term=' + radlinks[i].term + '&google_ad_channel=generic' + '&google_ad_client=ca-nytimes_radlinks_topic_js&google_page_url=' + escape(window.location) + '">  ' + radlinks[i].term + '</a></div>\n';
+	}
+	s += '<br clear="all"/>\n';
+	s += '</div>\n';
+	s += '</div>\n';
+	document.write(s);
+}
+google_ad_channel= 'generic';google_ad_output = 'js';
+google_ad_client = 'ca-nytimes_radlinks_topic_js';
+google_safe = 'high';
+google_num_radlinks = '5';
+google_max_num_ads = '0';
+google_max_radlink_len = '23';
+</script>
+<script type="text/javascript" language="JavaScript" src="magicEndsCareer_files/show_ads.js"></script><script>window.google_render_ad();</script><script language="JavaScript1.1" src="magicEndsCareer_files/ads"></script>
+<div id="sponsoredLinks">
+
+<div id="header"><h4>Related Ads</h4><span class="whatIs"><a href="javascript:pop_me_up2('http://www.nytimes.com/ref/membercenter/faq/linkingqa17.html','420400','width=420,height=400,scrollbars=yes,toolbars=no,resizable=no');">What are Related Ads?</a></span>
+<br clear="all"></div><div id="adContent"><div class="ad">» <a href="http://query.nytimes.com/search/query?srchst=r&amp;term=Magic%20Johnson&amp;google_ad_channel=generic&amp;google_ad_client=ca-nytimes_radlinks_topic_js&amp;google_page_url=http%3A//www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html%3Fsec%3Dhealth%26%26n%3DTop%252FNews%252FHealth%252FDiseases%252C%2520Conditions%252C%2520and%2520Health%2520Topics%252FAIDS%26scp%3D2%26sq%3Dmagic%2520johnson%26st%3Dcse">  Magic Johnson</a></div>
+<div class="ad">» <a href="http://query.nytimes.com/search/query?srchst=r&amp;term=Basketball%20Drills&amp;google_ad_channel=generic&amp;google_ad_client=ca-nytimes_radlinks_topic_js&amp;google_page_url=http%3A//www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html%3Fsec%3Dhealth%26%26n%3DTop%252FNews%252FHealth%252FDiseases%252C%2520Conditions%252C%2520and%2520Health%2520Topics%252FAIDS%26scp%3D2%26sq%3Dmagic%2520johnson%26st%3Dcse">  Basketball Drills</a></div>
+<div class="ad">» <a href="http://query.nytimes.com/search/query?srchst=r&amp;term=Sports%20Video&amp;google_ad_channel=generic&amp;google_ad_client=ca-nytimes_radlinks_topic_js&amp;google_page_url=http%3A//www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html%3Fsec%3Dhealth%26%26n%3DTop%252FNews%252FHealth%252FDiseases%252C%2520Conditions%252C%2520and%2520Health%2520Topics%252FAIDS%26scp%3D2%26sq%3Dmagic%2520johnson%26st%3Dcse">  Sports Video</a></div>
+<div class="ad">» <a href="http://query.nytimes.com/search/query?srchst=r&amp;term=Basketball%20Video&amp;google_ad_channel=generic&amp;google_ad_client=ca-nytimes_radlinks_topic_js&amp;google_page_url=http%3A//www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html%3Fsec%3Dhealth%26%26n%3DTop%252FNews%252FHealth%252FDiseases%252C%2520Conditions%252C%2520and%2520Health%2520Topics%252FAIDS%26scp%3D2%26sq%3Dmagic%2520johnson%26st%3Dcse">  Basketball Video</a></div>
+<div class="ad">» <a href="http://query.nytimes.com/search/query?srchst=r&amp;term=Basketball%20DVD&amp;google_ad_channel=generic&amp;google_ad_client=ca-nytimes_radlinks_topic_js&amp;google_page_url=http%3A//www.nytimes.com/1991/11/08/sports/basketball-magic-johnson-ends-his-career-saying-he-has-aids-infection.html%3Fsec%3Dhealth%26%26n%3DTop%252FNews%252FHealth%252FDiseases%252C%2520Conditions%252C%2520and%2520Health%2520Topics%252FAIDS%26scp%3D2%26sq%3Dmagic%2520johnson%26st%3Dcse">  Basketball DVD</a></div>
+<br clear="all">
+</div>
+</div>
+	</div>
+								<!--Google ads placeholder -->
+							<div id="adxSponLinkA"></div>
+						</div>
+					</div><!-- close spanAB -->	
+							
+  <!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule">
+            <script language="JavaScript" type="text/javascript" src="magicEndsCareer_files/moth.js"></script><script src="magicEndsCareer_files/effect_scroll.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/mothController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/mothLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+        
+    <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="magicEndsCareer_files/moth_reverse_off.gif"></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="magicEndsCareer_files/moth_forward.gif"></span></div>
+                <h4>
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/design/index.html">Art &amp; Design »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/arts/design/30capa.html"><img src="magicEndsCareer_files/30moth_capa.jpg" alt="New Works by Old Masters of Photography" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/arts/design/30capa.html">New Works by Old Masters of Photography</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://roomfordebate.blogs.nytimes.com/2009/04/29/a-turning-point-for-voting-rights-law/"><img src="magicEndsCareer_files/30moth_rfd.jpg" alt="A Turning Point for Voting Rights Law" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://roomfordebate.blogs.nytimes.com/2009/04/29/a-turning-point-for-voting-rights-law/">A Turning Point for Voting Rights Law</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/fashion/30model.html"><img src="magicEndsCareer_files/30moth-model.jpg" alt="It’s Official: Models Look Good" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/fashion/30model.html">It’s Official: Models Look Good</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://video.nytimes.com/video/2009/04/29/opinion/1194839883099/bloggingheads-war-on-terror-over.html">"War on Terror" Over?</a></h3>
+                <p class="summary">A Bloggingheads video debate on whether America should abandon the idea of a “war on terror.”</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/garden/index.html">Home &amp; Garden »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/garden/30GARDEN.html"><img src="magicEndsCareer_files/30moth-garden.jpg" alt="Come Hither, Bumblebee, and Pollinate" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/garden/30GARDEN.html">Come Hither, Bumblebee, and Pollinate</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/arts/dance/30ball.html"><img src="magicEndsCareer_files/30moth_ball.jpg" alt="New Season, With Mr. B as Greeter" width="151" height="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/arts/dance/30ball.html">New Season, With Mr. B as Greeter</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/business/energy-environment/index.html">Energy &amp; Environment »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/indexes/2009/04/30/business/businessspecial2/index.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/29/business/energy-environment/30moth_green.jpg" alt="Special Section: Business of Green" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/indexes/2009/04/30/business/businessspecial2/index.html">Special Section: Business of Green</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/fashion/30fitness.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/29/fashion/30moth-fitness.jpg" alt="Ultimate Frisbee Takes Off" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/fashion/30fitness.html">Ultimate Frisbee Takes Off</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://egan.blogs.nytimes.com/2009/04/29/the-off-brand-presidency/">Outposts: The Off-Brand Presidency</a></h3>
+                <p class="summary">President Obama is seen as more liberal than most of the country, and hardly anyone seems to mind, Timothy Egan writes.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/garden/index.html">Home &amp; Garden »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/garden/30milan.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/29/garden/30moth-milan.jpg" alt="Milan, Stripped Down" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/garden/30milan.html">Milan, Stripped Down</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/04/30/opinion/30wolfe.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/29/opinion/30moth_opart.jpg" alt="Op-Ed: How to Prevent a Pandemic" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/04/30/opinion/30wolfe.html">Op-Ed: How to Prevent a Pandemic</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/travel/index.html">Travel »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2009/05/03/travel/03practhai.html"><span class="img" src="http://graphics8.nytimes.com/images/2009/04/30/travel/moth-prac.jpg" alt="Problems, and Deals, in Thailand" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2009/05/03/travel/03practhai.html">Problems, and Deals, in Thailand</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+				</div><!-- close main -->
+				<div id="footer">
+				<ul class="first">
+	<li class="first"><a href="http://www.nytimes.com/">Home</a></li>
+		<li>
+		<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+	</li>
+		<li>
+		<a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+	</li>
+		<li><a href="#top">Back to Top</a></li>
+</ul>		<ul>
+		<li class="first"><a href="http://www.nytimes.com/ref/membercenter/help/copyright.html">Copyright 2009</a> <a href="http://www.nytco.com/">The New York Times Company</a></li>
+		<li><a href="http://www.nytimes.com/privacy">Privacy Policy</a></li>
+		<li><a href="http://www.nytimes.com/search">Search</a></li>
+		<li><a href="http://www.nytimes.com/corrections.html">Corrections</a></li>
+		<li><a class="rssButton" href="http://www.nytimes.com/rss">RSS</a></li>
+		<li><a href="http://firstlook.nytimes.com/">First Look</a></li>
+		<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+		<li><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+		<li><a href="https://careers.nytco.com/TAM/nyt_docs/TAM/candidate.html">Work for Us</a></li>
+		<li><a href="http://www.nytimes.whsites.net/mediakit/">Advertise with Us</a></li>
+		<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+	</ul>
+</div>			</div><!-- close page -->
+		</div><!-- close shell -->	
+				<script src="magicEndsCareer_files/trackingTags_v1.js" type="text/javascript"></script><script src="magicEndsCareer_files/loader.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/builder.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/dragdrop.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/controls.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/template.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/defaultfeed.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="magicEndsCareer_files/build.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<noscript> <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1"
+src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+</noscript>
+					<img src="magicEndsCareer_files/3a057a93Q2FaQ2FKk1Q5DQ5DQ5DsVQ7CVQ5DpzvzzPqKVsQ5DQ5D.html" width="3" height="1">	
+		</body></html>

@@ -1,0 +1,44 @@
+<div id="hd">
+	<div id="imgBlock">
+		<%= image_tag("/images/widget/banner_750px.png", :border => 0) %>
+	</div>
+</div>
+
+<div id="bd">
+	<left><h1 id="bolder">Pledge Your Support</h1></left>
+	<br/>
+	
+	<p>Top Charities Supporting: </p><p id="red"><%= @chosenCause.cause %></p> <br/><br/>
+	<div class="contentBox">
+		<div class="yui-gc">
+			<div class="yui-u first">
+			  <% form_tag(:action => "secondPage") do %>
+			    <%= render(:partial => "charity", :collection => @charities)  %>
+			    <p id="supporters">Ratings powered by Independent Charities of America</p>	
+			</div>
+			<div class="yui-u">
+			    <%= render(:partial => "shared/email") %>
+					<br/>
+					<br/>
+			    <%= render(:partial => "shared/pledge") %>
+			    <br/>
+			    
+          <p class="submit"><%= submit_tag(" ") %></p>
+			    <%= hidden_field_tag('cause', @chosenCause.cause) %>
+			  <% end %>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+<div id="ft" role="contentinfo">
+	<center>
+	<br/>
+	<%= link_to("Find more charities", charities_url) %>
+	|
+	<%= link_to("Why Givechange?", "http://www.igivechange.org/about") %>
+	</center>
+</div>
+
+

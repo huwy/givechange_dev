@@ -1,0 +1,9 @@
+<%= link_to_remote "A-Z", 
+                  :url => {:action => 'update_charities_by_alpha' },
+                  :update => 'charity_list' %>   
+<%= link_to_remote "Popular", 
+                  :url => {:action => 'update_charities_by_popularity' },
+                  :update => 'charity_list' %>   
+<%= link_to_remote "Featured", 
+                  :url => {:action => 'update_charities_by_featured' },
+                  :update => 'charity_list' %>

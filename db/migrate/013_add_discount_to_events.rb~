@@ -1,0 +1,9 @@
+class AddDiscountToEvents < ActiveRecord::Migration
+  def self.up
+		add_column :events, :discount, :string, :default => " "
+  end
+
+  def self.down
+		remove_column :events, :discount
+  end
+end

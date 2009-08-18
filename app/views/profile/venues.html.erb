@@ -1,0 +1,48 @@
+<!-- Main -->
+<div id="main">
+	<div id="main-top">&nbsp;</div>
+	<div id="main-cnt">
+		<div id="maintabs">
+			<div class="cl">&nbsp;</div>
+			<ul>
+			    <li><a href="#">general</a></li>
+			    <li><a href="#">charity updates</a></li>
+			    <li><a href="#">account history</a></li>
+			    <li><a href="#">friends</a></li>
+			    <li class="active"><a href="#">venues</a></li>
+			    <li><a href="#">inbox</a></li>
+			</ul>
+			<div class="cl">&nbsp;</div>
+		</div>
+		<div class="main-padder">
+			<div class="cl">&nbsp;</div>
+			<h3 class="block-title" style="width: 100%;">Places I Like</h3>
+			<div class="main-side-a first-main-side">
+        <% if !@venues.empty? %>
+				  <div class="holder" style="height: 175px; margin-bottom: 20px;">&nbsp;</div>
+				  <%= render(:partial => 'venue', :collection => @venues) %>
+        <% else %>
+				  <%= render(:partial => 'no_venues') %>
+        <% end %>
+			</div>
+			<div class="main-side-b">
+				<!-- Find Friends -->
+				<div class="shbox peoplelikeme">
+					<div class="tb"><div class="bb"><div class="lb"><div class="rb">
+					<div class="tlc"><div class="trc"><div class="blc"><div class="brc">
+					<div class="cnt">
+						<div class="bg">
+							<h3>Featured Places Near You</h3>
+							<%= render(:partial => 'featured_venue', :collection =>@featured_venues) %> 
+						</div>
+					</div>
+					</div></div></div></div></div></div></div></div>
+				</div>
+				<!-- END Find Friends -->	
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div id="main-bot">&nbsp;</div>
+</div>
+<!-- END Main -->

@@ -1,0 +1,61 @@
+<!-- Main -->
+	<div id="main">
+		<div id="main-top">&nbsp;</div>
+		<div id="main-cnt">
+			<div id="maintabs">
+				<div class="cl">&nbsp;</div>
+				<ul>
+				    <li><%= link_to("general", profile_url(params[:id]) %></li>
+				    <li><%= link_to("charity updates", profile_nonprofit_updates_url(params[:id]) %></li>
+				    <li class="active"><%= link_to("account history", profile_account_history_url(params[:id]) %></li>
+				    <li><%= link_to("friends", profile_friends_url(params[:id]) %></li>
+				    <li><%= link_to("venues", profile_venues_url(params[:id]) %></li>
+				    <li><%= link_to("inbox", profile_inbox_url(params[:id]) %></li>
+				</ul>
+				<div class="cl">&nbsp;</div>
+			</div>
+			<div class="main-padder">
+				<div id="account">
+					<p class="line"><a href="#">Donations</a> <a href="#">Redemptions</a></p>
+					<h3 class="line">Redemptions</h3>
+					<div class="line">
+						<div class="cl">&nbsp;</div>
+						<div class="zone zone-1">
+							<p class="line">Redemption Name</p>
+							<p>Community Card</p>
+							<p>Giants Tickets</p>
+						</div>
+						<div class="zone zone-2">
+							<p class="line">Date</p>
+							<p>4/07/09</p>
+							<p>5/07/09</p>
+						</div>
+						<div class="zone zone-2 zone-3">
+							<p class="line">Points Used</p>
+							<p>60</p>
+							<p>20</p>
+						</div>
+						<div class="cl">&nbsp;</div>	
+					</div>
+					<div class="cl">&nbsp;</div>
+					<div class="total">
+						<div class="cl">&nbsp;</div>
+						<p><span>80</span>Total Points Used:</p>
+						<div class="cl">&nbsp;</div>
+						<p class="line"><span>100</span>Total Donations:</p>
+						<div class="cl">&nbsp;</div>
+						<p><span>20</span></p>
+						<div class="cl">&nbsp;</div>
+						<p class="line"><span>0</span>Carry Over Points:</p>
+						<div class="cl">&nbsp;</div>
+						<div class="cl">&nbsp;</div>
+					</div>
+					<div class="cl">&nbsp;</div>
+					<h3 class="total">Total Points Remaining:   20</h3>
+					<div class="cl">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+		<div id="main-bot">&nbsp;</div>
+	</div>
+	<!-- END Main -->
