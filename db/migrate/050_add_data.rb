@@ -106,10 +106,13 @@ class AddData < ActiveRecord::Migration
     #if it hasn't been filled in 
     if venues[0].latitude.nil?
       venues.each do |v|
-        coord = Geocoding::get("#{v.address}, #{v.city}, #{v.state}")[0].latlon
-        v.latitude = coord[0]
-        v.longitude = coord[1]
-        v.save
+        if v.latitude.nil?
+          puts "Venue #{v.name} has no locale info...Fixing that\n"
+          coord = Geocoding::get("#{v.address}, #{v.city}, #{v.state}")[0].latlon
+          v.latitude = coord[0]
+          v.longitude = coord[1]
+          v.save
+        end
       end
     end
 
@@ -117,10 +120,13 @@ class AddData < ActiveRecord::Migration
     #if it hasn't been filled in      
     if charities[0].latitude.nil?
       charities.each do |c|
-        coord = Geocoding::get("#{c.address}, #{c.city}, #{c.state}")[0].latlon
-        c.latitude = coord[0]
-        c.longitude = coord[1]
-        c.save
+        if c.latitude.nil?
+          puts "charity #{c.name} has no locale info...fixing that\n"
+          coord = Geocoding::get("#{c.address}, #{c.city}, #{c.state}")[0].latlon
+          c.latitude = coord[0]
+          c.longitude = coord[1]
+          c.save
+        end
       end
     end
 

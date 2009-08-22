@@ -1,6 +1,5 @@
 class CreateUsers < ActiveRecord::Migration
   def self.up
-    drop_table :users
     create_table :users do |t|
       #personal info
       t.column :login, :string

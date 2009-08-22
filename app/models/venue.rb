@@ -7,6 +7,8 @@ class Venue < ActiveRecord::Base
   has_many :favorite_customers, :through => :favorites, :source => :user
 
   has_enumerated :classification
+  has_enumerated :region
+
   acts_as_mappable :default_units => :miles, 
                    :default_formula => :sphere, 
                    :distance_field_name => :distance,
@@ -18,7 +20,15 @@ class Venue < ActiveRecord::Base
   validates_length_of :name, :maximum => 50
   validates_presence_of :zipcode, :with => /^\d{5}$/
   
-  before_save :generate_location_data
+  after_create :generate_location_data
+
+  def coordinates
+    if !self.latitude.nil?
+      return [self.latitude, self.longitude]
+    else
+      return []
+    end
+  end
 
   def add_event(event)
     if !self.has_event(event)
@@ -42,55 +52,6 @@ class Venue < ActiveRecord::Base
     venues
   end
 
-  #FILTER METHODS
-
-  #if you don't want to use venue_array param, use nil
-  def self.get_all_within_proximity(location, radius, venue_array)
-    #:origin can be [lat,long] or 'address', or mappable object
-    near_venues = Venue.find(:all, :origin => location, :within => radius)
-    filtered_venues = []
-    if venue_array.nil?
-      return near_venues
-    else
-      venue_array.each do |v|      
-        if near_venues.include?(v)
-          filtered_venues << v
-        end
-      end
-    end
-    filtered_venues
-  end
-
-  def self.filter_by_classification(type, venue_array)
-    #type can be the classification primary ID, or a string (corresponding with :name column)
-    if venue_array.empty?
-      return []
-    end
-    venues = []    
-    venue_array.each do |v|
-      if v.classification == classification[type]
-        venues << v
-      end
-    end
-    venues
-  end
-
-  def self.filter_by_name(name, venue_array)
-    if venue_array.nil?
-      venues = User.find(:all, :conditions => ["name like ?", "%"+name+"%"])
-      return venues
-    elsif venue_array.empty?
-      return []
-    else
-      venues = []
-      venue_array.each do |v|
-        if v.name.match(name)
-          venues << v
-        end
-      end
-      return venues
-    end
-  end
 
 protected
   

@@ -1,0 +1,39 @@
+class CreateMessages < ActiveRecord::Migration
+  def self.up
+    create_table :messages do |t|
+      t.column :sender_id, :integer
+      t.column :recipient_id, :integer
+      t.column :sender_deleted, :boolean, :default => false
+      t.column :recipient_deleted, :boolean, :default => false  
+      t.column :subject, :string
+      t.column :body, :text
+      t.column :read_at, :datetime
+      t.column :created_at, :datetime
+      t.column :updated_at, :datetime
+      
+      #coupon (original) data      
+      t.column :original, :boolean, :default => true
+      t.column :venue_id, :integer
+      t.column :cost, :integer
+      t.column :discount, :string
+
+  create_table "messages", :force => true do |t|
+    t.integer  "sender_id"
+    t.integer  "recipient_id"
+    t.boolean  "sender_deleted",    :default => false
+    t.boolean  "recipient_deleted", :default => false
+    t.string   "subject"
+    t.text     "body"
+    t.datetime "read_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+    end
+  end
+
+  def self.down
+    drop_table :coupons
+  end
+
+end

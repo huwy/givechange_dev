@@ -1,0 +1,19 @@
+class CreateRegions < ActiveRecord::Migration
+  def self.up
+    create_table :regions do |t|
+      t.column :name, :string
+    end
+
+    Region.enumeration_model_updates_permitted = true
+    Region.create(:name => 'regional')    
+    Region.create(:national => 'national')
+    Region.create(:name => 'international')               
+    Region.enumeration_model_updates_permitted = false
+  end
+
+  def self.down
+    drop_table :regions
+    remove_column :charities, :region_id
+  end
+
+end

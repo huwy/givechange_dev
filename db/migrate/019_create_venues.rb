@@ -14,6 +14,7 @@ class CreateVenues < ActiveRecord::Migration
       t.integer :zipcode
       t.float   :latitude
       t.float   :longitude
+      t.integer :region_id
       t.string  :discount, :default => "No Discount at this Time"
       t.integer  :classification_id, :integer
       t.integer :favorite_count, :default => 0

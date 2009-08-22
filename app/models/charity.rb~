@@ -26,7 +26,7 @@ class Charity < ActiveRecord::Base
                    :lat_column_name => :latitude,
                    :lng_column_name => :longitude
 
-  before_save :generate_location_data
+  after_create :generate_location_data
 
 #DONATION RELATED
   
@@ -115,53 +115,6 @@ class Charity < ActiveRecord::Base
     f.slice!(count-1)
     f
   end
-    
-#FILTER METHODS
-  
-  def self.search_by_keyword(keyword, count)
-    # get "name" matches
-    charities_filtered = Charity.find(:all, :conditions => ["name like ?", "%" + keyword + "%"])
-    # get "mission" matches
-    if charities_filtered.length < count
-      charities_filtered << Charity.find(:all, :conditions => ["mission like ?", "%" + keyword + "%"])
-      charities_filtered.flatten!
-      charities_filtered.uniq!
-    end
-    # get "programs" matches
-    if charities_filtered.length < count
-      charities_filtered << Charity.find(:all, :conditions => ["programs like ?", "%" + keyword + "%"])
-      charities_filtered.flatten!
-      charities_filtered.uniq!
-    end
-    charities_filtered.slice(0,count)
-  end
-
-  # takes as parameter cause_array (either array of causes, or array of cause id's)
-  def self.search_by_causes(cause_array)
-    filtered_charities=[]    
-    cause_array.each do |cause|
-      filtered_charities << Cause.find(cause).charities
-    end
-    filtered_charities.flatten!
-    filtered_charities.uniq!
-    filtered_charities
-  end
-
-  #if don't want to use charity_array, use nil.  scope_array should be string (names) or id's
-  def self.filter_by_scope(scope_array, charity_array)  
-    scoped_charities = []
-    scope_array.each do |s|
-      scoped_charities << Charity.find(:all, :conditions => ['scope_id = ?', Scope[s].id])
-    end
-    scoped_charities.uniq!
-    if charity_array.nil?
-      return scoped_charities
-    else
-      filtered_charities = return_array_of_similar_elements(scoped_charities, charity_array)
-    end
-    filtered_charities
-  end
-        
 
 #SORTING METHODS
 

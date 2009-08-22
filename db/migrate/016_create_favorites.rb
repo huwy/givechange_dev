@@ -1,7 +1,5 @@
 class CreateFavorites < ActiveRecord::Migration
   def self.up
-    #drop CommEng favorites table
-    drop_table :favorites
 
     create_table :favorites do |t|
       t.column :user_id, :integer

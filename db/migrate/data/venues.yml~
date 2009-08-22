@@ -1,0 +1,110 @@
+bazaar_cafe:
+  id:               1
+  name:             Bazaar Cafe
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      "With their work visas secured and their airline tickets in hand, performing arts groups from ten countries in Europe, Asia and Latin America are heading to San Francisco for the Sixth Annual San Francisco International Arts Festival, which will run from May 20-May 31. The individual artists and ensembles will join a global celebration with 14 Bay Area based companies for the 11 day Festival that will take place at venues throughout the city."
+  discount:         50% Off Coffee
+  address:          5927 California St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94121
+  
+  
+gordo_taqueria:
+  id:               2
+  name:             Gordo Taqueria
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      "The NBA and Sprite, with the help of LeBron James, are bringing the best amateur dunkers in the U.S. to the NBA All-Star Weekend 2010 in Dallas to crown a Sprite Slam Dunk Showdown champion. It’s time to put non-NBA dunkers with the skills on the big stage!</br>
+Dunkers come and show off your skills for a shot at prizes like an adidas jersey, shorts and shoes. The top dunker will receive $1,000, a Flip Video Camera and be eligible to win the Grand Prize. Second place dunker will receive $500.
+Fans, you can come to the event for free and watch the best dunkers in your city show off their skills. With music, food, games, and events, this is a great event for the entire family."
+  discount:         50% Off burrito
+  address:          2252 Clement St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94121
+  
+  
+legion_of_honor:
+  id:               3
+  name:             Legion of Honor
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      We'll be playing the hottest latin rythms that'll keep you dancing and drinking all night long.
+  discount:         50% Off admission
+  address:          100 34th Ave
+  city:             San Francisco
+  state:            CA
+  zipcode:          94121
+  
+exploratorium:
+  id:               4
+  name:             Exploratorium
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      The Beat of change is in the air! Come celebrate revival and change! 
+  discount:   50% Off admission
+  address:          13601 Lyon St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94123
+  
+club_gossip:
+  id:               5
+  name:             Club Gossip
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      "We Resist! A night of activist art and musical resistance. Come out to support Amazon Watch's 'True Cost of Chevron' campaign. The night will feature resistance art and live indie, reggae, and samba music in room 1, DJ's in room 2."
+  discount:   50% Off Bottle Service
+  address:          1190 Folsom St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94103
+  
+rudys_place:
+  id:               6
+  name:             Rudy's Place
+  created_at:       2009-05-17 18:00:00 
+  updated_at:       2009-05-17 20:00:00 
+  user_id:          1
+  description:      "The JCCSF Kosher Lunch Program provides 18,000 nutritious meals per year in a warm, welcoming environment to seniors at risk of social isolation and poor nutrition. This year, funding from the City of San Francisco has been cut by $36,000, and we need your support to save this vital program."
+  discount:   2 for 1 Beers
+  address:          784 Geary St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94101
+  
+the_triple_crown:
+  id:               7
+  name:             The Triple Crown
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      "KAMIKAZE HEART is a visually stunning, inspired fairy tale about true love.  Written and directed by Tim Barsky, Artistic Director of City Circus, KAMIKAZE HEART is a ground-breaking collaboration by an award-winning team of hip-hop music, dance, and circus artists."
+  discount:   50% Off beer
+  address:          1760 Market St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94102
+
+pt_sports_bar:
+  id:               8
+  name:             PT Sports Bar
+  created_at:       2009-05-12 20:02:41 
+  updated_at:       2009-05-12 20:02:41 
+  user_id:          1
+  description:      Come watch the Giants play the Oakland Athletics!
+  discount:   50% Off wings
+  address:          3565 Geary St
+  city:             San Francisco
+  state:            CA
+  zipcode:          94118
+
+  
+  

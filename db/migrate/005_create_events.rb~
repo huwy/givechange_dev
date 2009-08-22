@@ -18,7 +18,7 @@ class CreateEvents < ActiveRecord::Migration
 
       #stats
       t.column :buzz_count, :integer, :default => 0
-      t.column :total_rsvps, :integer, :default => 0
+      t.column :rsvp_count, :integer, :default => 0
     end
   end
 

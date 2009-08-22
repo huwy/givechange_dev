@@ -1,7 +1,5 @@
 class CreateCategories < ActiveRecord::Migration
   def self.up
-    #drop CommEng's categories table--related to forums (posts belong to categories)
-    drop_table :categories
     
     create_table :categories do |t|
       t.column :name, :string

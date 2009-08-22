@@ -9,9 +9,9 @@ class User < ActiveRecord::Base
   has_many :digs
   has_many :coupons
   has_many :favorites
-  has_many :causes, :through => :contributions
-  has_many :contributed_non_profits, :through => :contributions, :source => :charity
-  has_many :favorite_venues, :through => :favorites, :source => :venue
+  has_many :causes, :through => :contributions, :uniq => true
+  has_many :contributed_non_profits, :through => :contributions, :source => :charity, :uniq => true
+  has_many :favorite_venues, :through => :favorites, :source => :venue, :uniq => true
 
   #end GC 
 
@@ -222,7 +222,7 @@ class User < ActiveRecord::Base
       days_from_birthday= (Date.today-birthday).to_i
       age = (days_from_birthday/365).to_i
     else
-      return 0
+      return ""
     end
   age
   end

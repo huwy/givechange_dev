@@ -1,7 +1,5 @@
 class CreateEvents < ActiveRecord::Migration
   def self.up
-    drop_table :events
-
     create_table :events do |t|
       t.column :name, :string
       t.column :created_at, :datetime
