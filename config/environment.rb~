@@ -85,9 +85,9 @@ Rails::Initializer.run do |config|
   config.gem "geokit"
 
 
-if RAILS_ENV == "production" 
-  ENV['INLINEDIR'] = RAILS_ROOT + "/tmp" 
-end
+#if RAILS_ENV == "production" 
+#  ENV['INLINEDIR'] = RAILS_ROOT + "/tmp" 
+#end
 
 end
 
