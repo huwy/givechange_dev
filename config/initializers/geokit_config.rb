@@ -26,7 +26,7 @@ if defined? Geokit
 	# This is your Google Maps geocoder key. 
 	# See http://www.google.com/apis/maps/signup.html
 	# and http://www.google.com/apis/maps/documentation/#Geocoding_Examples
-	Geokit::Geocoders::google = 'REPLACE_WITH_YOUR_GOOGLE_KEY'
+	Geokit::Geocoders::google = ABQIAAAACEmRfXm3_EVEAgy23KSkIBSdu03LiM4qlErdMUV2y5VAa-18OxScVCXwd74awbzsmzqGGy0fg1SHlw
     
 	# This is your username and password for geocoder.us.
 	# To use the free service, the value can be set to nil or false.  For 
