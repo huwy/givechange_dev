@@ -3,7 +3,6 @@ class UserNotifier < ActionMailer::Base
   include ActionView::Helpers::SanitizeHelper
   extend  ActionView::Helpers::SanitizeHelper::ClassMethods # Required for rails 2.2
 
-  include BaseHelper
   ActionMailer::Base.default_url_options[:host] = APP_URL.sub('http://', '')
 
   def signup_invitation(email, user, message)
